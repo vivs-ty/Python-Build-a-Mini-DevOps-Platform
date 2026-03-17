@@ -1,1299 +1,305 @@
----
-
-#  Python for DevOps — 30 Day Challenge
----
-
-## 🟢 DAY 1 — Input, Output, Variables (6 Challenges)
-
-### 1. Write a Python script that prints a welcome message for a DevOps engineer. The message should include the current system date and time using Python’s built-in libraries.
-
----
-
-### 2. Create a program that asks the user to input their name and their current job role. The program should then display a formatted greeting message such as:
-``` "Hello <name>, you are working as a <role>. Welcome to DevOps automation." ```
-
----
-
-### 3. Write a Python script that takes two numbers as input from the user and prints their sum, difference, multiplication, and division. Handle invalid numeric inputs gracefully.
-
----
-
-### 4. Create a program that swaps two variables entered by the user without using a third variable. Print the values before and after swapping.
-
----
-
-### 5. Write a script that takes temperature in Celsius as input and converts it into Fahrenheit. Display the result with proper formatting up to 2 decimal places.
-
----
-
-### 6. Build a simple command-line calculator that asks the user to input two numbers and an operator (+, -, *, /). Based on the operator, perform the corresponding operation and print the result.
-
----
-
-## 🟢 DAY 2 — Conditional Logic (6 Challenges)
-
-### 7. Write a Python program that takes a number as input and determines whether it is even or odd. Ensure that invalid inputs are handled properly.
-
----
-
-### 8. Create a script that accepts a number and determines whether it is positive, negative, or zero. Print a clear message describing the result.
-
----
-
-### 9. Write a program that takes three numbers from the user and prints the largest among them. Do not use built-in max() function.
-
----
-
-### 10. Build a simple login system where a predefined username and password are stored in the script. Ask the user to enter credentials and validate them. Print success or failure messages accordingly.
-
----
-
-### 11. Write a Python script to check whether a given year is a leap year or not based on standard leap year rules.
-
----
-
-### 12. Create a grading system where the user enters marks (0–100), and the program assigns grades:
-
-* A: 90–100
-* B: 75–89
-* C: 50–74
-* Fail: below 50
-
----
-
-## 🟢 DAY 3 — Loops (6 Challenges)
-
-### 13. Write a Python script that prints numbers from 1 to 100 using a loop. Modify it to skip numbers divisible by 3.
-
----
-
-### 14. Create a program that generates a multiplication table for a number entered by the user, up to 10 multiples.
-
----
-
-### 15. Write a script to calculate the factorial of a number using a loop. Ensure that negative numbers are handled properly.
-
----
-
-### 16. Generate the Fibonacci sequence up to N terms, where N is provided by the user.
-
----
-
-### 17. Write a program that counts the number of digits in a given integer input by the user.
-
----
-
-### 18. Create a script that calculates the sum of all numbers between two given numbers (inclusive).
-
----
-
-## 🟢 DAY 4 — Strings (6 Challenges)
-
-### 19. Write a Python program that reverses a string entered by the user without using built-in reverse functions.
-
----
-
-### 20. Create a script to check whether a given string is a palindrome (reads same forward and backward).
-
----
-
-### 21. Write a program that counts the number of vowels and consonants in a string.
-
----
-
-### 22. Create a script that removes duplicate characters from a string while preserving the order of characters.
-
----
-
-### 23. Write a Python program that calculates the frequency of each character in a string and prints the result in dictionary format.
-
----
-
-### 24. Build a password strength checker that evaluates a password based on:
-
-* Length (minimum 8 characters)
-* Presence of uppercase letters
-* Presence of digits
-* Presence of special characters
-
----
-
-## 🟢 DAY 5 — Lists, Sets, Dictionaries (8 Challenges)
-
-### 25. Write a Python script that removes duplicate elements from a list provided by the user.
-
----
-
-### 26. Create a program that finds the second largest number in a list without using built-in sorting functions.
-
----
-
-### 27. Write a script to sort a list of numbers in ascending order without using the built-in sort() method.
-
----
-
-### 28. Create a program that merges two lists and removes duplicate values from the combined list.
-
----
-
-### 29. Write a script that counts the frequency of each element in a list and stores the result in a dictionary.
-
----
-
-### 30. Build a simple phonebook application using a dictionary where users can:
-
-* Add a contact
-* Search a contact
-* Delete a contact
-
----
-
-### 31. Write a Python program that converts a list of tuples into a dictionary.
-
----
-
-### 32. Create a script that finds the intersection and union of two sets provided by the user.
-
----
-
-
-## 🟢 DAY 6 — Functions & Error Handling (8 Challenges)
-
-### 33. Write a Python program that defines reusable functions for basic mathematical operations such as addition, subtraction, multiplication, and division. The program should call these functions based on user input and handle invalid inputs gracefully.
-
----
-
-### 34. Create a function that accepts a list of numbers and returns the maximum, minimum, and average values. Do not use built-in functions like `max()` or `min()`.
-
----
-
-### 35. Write a Python function that takes a number as input and returns its factorial using recursion. Ensure proper error handling for negative numbers.
-
----
-
-### 36. Create a function that takes a filename as input and safely reads the file content. If the file does not exist, handle the exception and print a meaningful error message instead of crashing.
-
----
-
-### 37. Write a program that asks the user for two numbers and performs division. Use exception handling to manage division by zero and invalid inputs.
-
----
-
-### 38. Define a custom exception called `InvalidAgeError`. Write a program that asks the user for their age and raises this exception if the age is below 18.
-
----
-
-### 39. Create a function that accepts variable-length arguments (`*args`) and calculates the sum and average of all numbers passed to it.
-
----
-
-### 40. Build a command-line utility that uses functions to perform different operations (e.g., add user, delete user, list users). The user should select options via menu input.
-
----
-
-## 🟡 DAY 7 — File Handling Deep Dive (8 Challenges)
-
-### 41. Write a Python script that reads a text file and prints the total number of lines, words, and characters present in the file.
-
----
-
-### 42. Create a program that reads a log file and prints only the lines that contain the word "ERROR".
-
----
-
-### 43. Write a script that copies the contents of one file into another file. Ensure that the destination file is created if it does not exist.
-
----
-
-### 44. Create a program that appends user activity logs (with timestamp) into a file every time the script is executed.
-
----
-
-### 45. Write a Python script that reads a file and counts how many times a specific word (entered by the user) appears in it.
-
----
-
-### 46. Create a script that reads a file line by line and writes only unique lines into a new file.
-
----
-
-### 47. Write a program that merges multiple text files into a single file.
-
----
-
-### 48. Build a simple log analyzer that reads a log file and categorizes entries into INFO, WARNING, and ERROR counts.
-
----
-
-## 🟡 DAY 8 — Object-Oriented Programming (8 Challenges)
-
-### 49. Create a class called `Server` with attributes such as hostname, IP address, CPU cores, and memory. Add a method to display server details.
-
----
-
-### 50. Enhance the `Server` class by adding a constructor that initializes all attributes during object creation.
-
----
-
-### 51. Create two subclasses called `LinuxServer` and `WindowsServer` that inherit from the `Server` class. Add OS-specific attributes and methods.
-
----
-
-### 52.
-
-Demonstrate method overriding by redefining a method in the child classes that behaves differently from the parent class.
-
----
-
-### 53. Implement encapsulation by making certain attributes private and providing getter and setter methods.
-
----
-
-### 54. Create a class called `UserManager` that manages a list of users with operations such as add, delete, and list users.
-
----
-
-### 55. Write a Python program to simulate a bank system using classes, where users can deposit, withdraw, and check balance.
-
----
-
-### 56. Create a class that tracks the number of objects created using a class variable and prints the count.
-
----
-
-## 🟡 DAY 9 — JSON, CSV, Config Management (8 Challenges)
-
-### 57. Write a Python script that reads a JSON configuration file and prints all key-value pairs.
-
----
-
-### 58. Modify the JSON file by updating a value and writing the updated content back to the file.
-
----
-
-### 59. Create a program that converts a CSV file into a JSON file.
-
----
-
-### 60. Write a script that reads a CSV file and calculates summary statistics such as total rows and average values for numeric columns.
-
----
-
-### 61. Build a configuration loader that reads settings from a JSON file and applies them to your program.
-
----
-
-### 62. Write a Python script that validates whether a JSON file is properly formatted. If not, display the error.
-
----
-
-### 63. Create a script that merges multiple JSON files into a single file.
-
----
-
-### 64. Build a tool that reads environment-specific configuration files (e.g., dev.json, prod.json) and loads the correct configuration based on user input.
-
----
-
-## 🟡 DAY 10 — OS Interaction & Environment (8 Challenges)
-
-### 65. Write a Python script that prints all environment variables available in the system.
-
----
-
-### 66. Create a program that reads a specific environment variable and prints its value. If it does not exist, print an appropriate message.
-
----
-
-### 67. Write a script that lists all files and directories in the current working directory.
-
----
-
-### 68. Create a program that creates a directory structure (e.g., logs/, data/, backup/) if it does not already exist.
-
----
-
-### 69. Write a Python script that deletes files older than a certain number of days from a directory.
-
----
-
-### 70. Create a disk usage analyzer that calculates the total size of files in a directory.
-
----
-
-### 71. Write a script that monitors a directory and prints a message whenever a new file is added.
-
----
-
-### 72. Build a backup automation tool that copies files from one directory to another and logs the operation.
-
-
----
-
-
-## 🟡 DAY 11 — Regular Expressions (Regex for Logs & Validation) (8 Challenges)
-
-### 73. Write a Python script that reads a text file and extracts all email addresses using regular expressions. Print the list of unique emails.
-
----
-
-### 74. Create a program that validates whether a given string is a valid IPv4 address using regex. The program should reject invalid formats like "999.300.1.1".
-
----
-
-### 75. Write a script that parses a log file and extracts all timestamps in the format `YYYY-MM-DD HH:MM:SS`.
-
----
-
-### 76. Create a program that reads a log file and extracts all IP addresses along with the number of times each IP appears.
-
----
-
-### 77. Write a Python script that identifies all URLs present in a given text file and prints them.
-
----
-
-### 78. Build a password validator using regex that enforces:
-
-* Minimum 8 characters
-* At least one uppercase letter
-* At least one number
-* At least one special character
-
----
-
-### 79. Write a script that replaces all occurrences of sensitive data (like email addresses) in a file with masked values (e.g., `user@example.com → u***@example.com`).
-
----
-
-### 80. Create a log filtering tool that uses regex patterns provided by the user to extract matching lines from a log file.
-
----
-
-## 🟡 DAY 12 — CLI Tools with `argparse` (DevOps Tooling Mindset) (8 Challenges)
-
-### 81. Write a Python script that uses `argparse` to accept a filename as an argument and prints its content.
-
----
-
-### 82. Create a CLI tool that accepts two numbers and an operation (`add`, `sub`, `mul`, `div`) as command-line arguments and performs the operation.
-
----
-
-### 83. Build a command-line log analyzer that accepts a log file path and a log level (INFO, ERROR, WARNING) as arguments and filters logs accordingly.
-
----
-
-### 84. Write a CLI tool that accepts a directory path and lists all files larger than a specified size.
-
----
-
-### 85. Create a script that takes multiple filenames as arguments and merges their contents into a single output file.
-
----
-
-### 86. Build a CLI tool with multiple subcommands such as:
-
-* `create-user`
-* `delete-user`
-* `list-users`
-
-Each subcommand should perform its respective function.
-
----
-
-### 87. Write a script that supports flags like `--verbose` and `--dry-run` to simulate execution without making actual changes.
-
----
-
-### 88. Create a CLI utility that takes a URL as input and returns the HTTP status code along with response time.
-
----
-
-## 🟡 DAY 13 — Process & System Monitoring (8 Challenges)
-
-### 89. Write a Python script that lists all running processes on the system along with their process IDs.
-
----
-
-### 90. Create a program that finds and terminates a process by its name. Handle cases where the process does not exist.
-
----
-
-### 91. Build a system monitoring tool that prints CPU and memory usage every 5 seconds.
-
----
-
-### 92. Write a script that identifies the top 5 processes consuming the most memory.
-
----
-
-### 93. Create a program that logs system performance (CPU, memory, disk usage) into a file periodically.
-
----
-
-### 94. Write a Python script that alerts the user if CPU usage exceeds a certain threshold.
-
----
-
-### 95. Build a tool that checks disk usage and sends a warning if usage exceeds 80%.
-
----
-
-### 96. Create a script that monitors a specific process and restarts it if it stops running.
-
----
-
-## 🟡 DAY 14 — Networking & API Handling (8 Challenges)
-
-### 97. Write a Python script that checks whether a given website is reachable by sending an HTTP request.
-
----
-
-### 98. Create a program that fetches data from a public API and displays selected fields in a readable format.
-
----
-
-### 99. Write a script that retrieves the HTTP status code and headers of a given URL.
-
----
-
-### 100. Build a program that downloads data from an API and saves it as a JSON file.
-
----
-
-### 101. Create a script that retries an API request up to 3 times if it fails due to network issues.
-
----
-
-### 102. Write a Python program that measures the response time of an API and logs it.
-
----
-
-### 103. Build a tool that fetches weather or system data from an API and displays it in a formatted table.
-
----
-
-### 104. Create a script that monitors an API endpoint and sends an alert if the response status is not 200.
-
----
-
-## 🟠 DAY 15 — Multithreading (Parallel DevOps Tasks) (8 Challenges)
-
-### 105. Write a Python program that runs multiple functions concurrently using threads and prints their execution order.
-
----
-
-### 106. Create a script that downloads multiple files simultaneously using multithreading.
-
----
-
-### 107. Write a program that compares execution time between single-threaded and multi-threaded approaches.
-
----
-
-### 108. Build a log processing system where multiple threads process different parts of a log file in parallel.
-
----
-
-### 109. Create a script that monitors multiple servers concurrently by pinging them in parallel threads.
-
----
-
-### 110. Write a Python program that uses a thread pool to execute tasks efficiently.
-
----
-
-### 111. Build a system that processes a queue of tasks using multiple worker threads.
-
----
-
-### 112. Create a script that performs parallel API requests and aggregates the results.
-
----
-
-
-## 🟠 DAY 16 — Multiprocessing (CPU-Level Parallelism) (8 Challenges)
-
-### 113. Write a Python program that uses the multiprocessing module to execute multiple CPU-bound tasks (e.g., calculating factorials of large numbers) in parallel. Compare the execution time with a single-threaded version.
-
----
-
-### 114. Create a script that processes a large log file by splitting it into chunks and using multiple processes to count the number of ERROR entries in parallel.
-
----
-
-### 115. Write a Python program that uses a process pool to execute a list of tasks (e.g., computing squares of numbers) and collects the results efficiently.
-
----
-
-### 116. Build a multiprocessing-based file search tool that searches for a keyword across multiple files simultaneously.
-
----
-
-### 117. Create a program that processes multiple CSV files in parallel and calculates aggregated statistics from all files.
-
----
-
-### 118. Write a script that demonstrates inter-process communication using queues, where one process produces data and another consumes it.
-
----
-
-### 119. Build a system that spawns multiple processes to simulate concurrent users accessing a system and logs their activity.
-
----
-
-### 120. Write a Python script that benchmarks the performance difference between threading and multiprocessing for CPU-intensive tasks.
-
----
-
-## 🟠 DAY 17 — Decorators (Production-Level Code Patterns) (8 Challenges)
-
-### 121. Write a Python decorator that measures and prints the execution time of any function it wraps.
-
----
-
-### 122. Create a retry decorator that retries a function up to 3 times if it raises an exception, with a delay between retries.
-
----
-
-### 123. Build a logging decorator that logs function name, arguments, and return values to a file.
-
----
-
-### 124. Write a decorator that checks if a user is authorized before executing a function (simulate role-based access).
-
----
-
-### 125. Create a decorator that caches the result of expensive function calls to improve performance.
-
----
-
-### 126. Write a decorator that limits how many times a function can be called within a specific time window (basic rate limiting).
-
----
-
-### 127. Build a decorator that validates input arguments of a function (e.g., ensuring numbers are positive).
-
----
-
-### 128. Combine multiple decorators (e.g., logging + retry + timing) on a single function and demonstrate their execution order.
-
----
-
-## 🟠 DAY 18 — Advanced File & Automation Tools (8 Challenges)
-
-### 129. Write a Python script that scans a directory and identifies duplicate files based on file content (not just name).
-
----
-
-### 130. Create a program that monitors a directory in real-time and logs file creation, deletion, and modification events.
-
----
-
-### 131. Build a file organizer tool that moves files into folders based on their file type (e.g., images/, documents/, logs/).
-
----
-
-### 132. Write a script that compresses old log files into archive files and deletes logs older than a specified number of days.
-
----
-
-### 133. Create a backup system that creates timestamped backups of a directory.
-
----
-
-### 134. Write a Python program that synchronizes two directories (like a mini rsync tool).
-
----
-
-### 135. Build a tool that watches a configuration file and reloads settings automatically when the file changes.
-
----
-
-### 136. Create a script that encrypts and decrypts files using a basic encryption method.
-
----
-
-## 🔴 DAY 19 — SSH Automation (Real DevOps Work) (8 Challenges)
-
-### 137. Write a Python script using an SSH library to connect to a remote server and execute a command.
-
----
-
-### 138. Create a program that connects to multiple servers via SSH and runs the same command on all of them.
-
----
-
-### 139. Build a tool that uploads a file to a remote server using secure file transfer.
-
----
-
-### 140. Write a script that downloads log files from a remote server and stores them locally.
-
----
-
-### 141. Create a Python program that checks disk usage on remote servers via SSH and reports the results.
-
----
-
-### 142. Build an automation tool that deploys an application on a remote server by executing a sequence of commands.
-
----
-
-### 143. Write a script that monitors a remote service and restarts it if it stops.
-
----
-
-### 144. Create a program that securely reads SSH credentials from environment variables instead of hardcoding them.
-
----
-
-## 🔴 DAY 20 — Git & Automation Workflows (8 Challenges)
-
-### 145. Write a Python script that clones a remote Git repository to your local machine.
-
----
-
-### 146. Create a program that detects changes in a repository and automatically commits them with a message.
-
----
-
-### 147. Build a tool that pushes local changes to a remote repository after committing.
-
----
-
-### 148. Write a script that checks the status of a Git repository and prints modified, added, and deleted files.
-
----
-
-### 149. Create a program that switches branches automatically based on user input.
-
----
-
-### 150. Build a script that pulls the latest changes from a remote repository and handles merge conflicts gracefully.
-
----
-
-### 151. Write a Python tool that tags a release version in Git and pushes the tag to the remote repository.
-
----
-
-### 152. Create a script that integrates Git automation into a CI-like workflow (e.g., commit → test → push).
-
-
----
-
-## 🔴 DAY 21 — Logging, Monitoring & Alerting Systems (8 Challenges)
-
-### 153. Design and implement a custom logging system that writes logs to a file with levels such as INFO, WARNING, and ERROR. Each log entry must include a timestamp and message.
-
----
-
-### 154. Enhance your logging system to support log rotation, where a new log file is created once the current file exceeds a certain size.
-
----
-
-### 155. Create a monitoring script that continuously checks CPU, memory, and disk usage and logs the data every 10 seconds.
-
----
-
-### 156. Build an alerting mechanism that sends a console alert when CPU usage exceeds a defined threshold.
-
----
-
-### 157. Extend the alerting system to send alerts via email (you may simulate sending email if needed).
-
----
-
-### 158. Write a Python script that aggregates logs from multiple files and generates a summary report.
-
----
-
-### 159. Create a tool that monitors application logs and triggers alerts when specific keywords (e.g., ERROR, FAILED) appear.
-
----
-
-### 160. Build a centralized logging simulation where logs from multiple services are collected into a single file or interface.
-
----
-
-## 🔴 DAY 22 — Docker Automation (8 Challenges)
-
-### 161. Write a Python script that runs a Docker container using system commands and verifies if it started successfully.
-
----
-
-### 162. Create a program that lists all running and stopped Docker containers.
-
----
-
-### 163. Build a script that automatically removes stopped containers and unused images to free up space.
-
----
-
-### 164. Write a Python tool that pulls a Docker image from a registry and runs it with specified parameters.
-
----
-
-### 165. Create a script that monitors running containers and reports their status (running, stopped, crashed).
-
----
-
-### 166. Build a program that reads a configuration file and starts multiple containers based on the configuration.
-
----
-
-### 167. Write a script that logs container output (logs) into a file for analysis.
-
----
-
-### 168. Create a Docker deployment automation tool that builds an image and deploys a container.
-
----
-
-## 🔴 DAY 23 — Kubernetes Automation (8 Challenges)
-
-### 169. Write a Python script that retrieves and displays the status of all pods in a Kubernetes cluster.
-
----
-
-### 170. Create a program that monitors pod health and restarts pods if they fail.
-
----
-
-### 171. Build a script that scales a deployment up or down based on user input.
-
----
-
-### 172. Write a tool that fetches logs from a specific pod and saves them locally.
-
----
-
-### 173. Create a script that checks resource usage (CPU, memory) for pods.
-
----
-
-### 174. Build a Kubernetes automation tool that deploys an application using a YAML configuration file.
-
----
-
-### 175. Write a program that deletes unused or failed pods automatically.
-
----
-
-### 176. Create a monitoring script that continuously watches cluster health and reports anomalies.
-
----
-
-## 🔴 DAY 24 — Cloud Automation (AWS-like Simulation or CLI) (8 Challenges)
-
-### 177. Write a Python script that uploads a file to cloud storage (or simulates cloud storage locally).
-
----
-
-### 178. Create a program that lists all instances/resources in a cloud environment.
-
----
-
-### 179. Build a script that starts and stops compute instances programmatically.
-
----
-
-### 180. Write a tool that monitors cloud resource usage and logs it.
-
----
-
-### 181. Create a script that automatically provisions a new instance based on predefined configurations.
-
----
-
-### 182. Build a program that deletes unused cloud resources to optimize cost.
-
----
-
-### 183. Write a Python script that tags cloud resources and filters them based on tags.
-
----
-
-### 184. Create a tool that simulates auto-scaling based on CPU usage.
-
----
-
-## 🔴 DAY 25 — CI/CD Automation (8 Challenges)
-
-### 185.
-
-Write a Python script that triggers a CI/CD pipeline via an API call.
-
----
-
-### 186. Create a program that checks the status of a running pipeline and prints progress updates.
-
----
-
-### 187. Build a script that fetches logs of a pipeline execution.
-
----
-
-### 188. Write a tool that automatically rolls back a deployment if the pipeline fails.
-
----
-
-### 189. Create a program that validates code before triggering a pipeline (simulate lint/test checks).
-
----
-
-### 190. Build a CI automation tool that performs:
-
-* Code pull
-* Test execution
-* Deployment
-
----
-
-### 191. Write a script that integrates with version control and triggers pipelines on code changes.
-
----
-
-### 192. Create a tool that sends notifications when a pipeline succeeds or fails.
-
----
-
-## 🔴 DAY 26 — Security & Secrets Management (8 Challenges)
-
-### 193. Write a Python script that encrypts and decrypts sensitive data using a secure algorithm.
-
----
-
-### 194. Create a program that securely stores passwords using hashing techniques.
-
----
-
-### 195. Build a script that reads secrets from environment variables instead of hardcoding them.
-
----
-
-### 196. Write a tool that rotates secrets periodically and updates them in your system.
-
----
-
-### 197. Create a program that scans code files for hardcoded secrets and reports them.
-
----
-
-### 198. Build a simple access control system (RBAC) where users have roles and permissions.
-
----
-
-### 199. Write a script that logs all access attempts to a secure resource.
-
----
-
-### 200. Create a compliance checker that verifies if certain security rules are followed (e.g., no plaintext passwords, proper permissions).
-
----
-
-# 🚀 FINAL CAPSTONE — Build a Mini DevOps Platform CLI (Day 27–30)
-
----
-
-# 🧠 PROJECT OVERVIEW
-
-You will build a tool like:
-
-```bash
-python devops.py deploy app1
-python devops.py monitor
-python devops.py logs app1
-python devops.py scale app1 --replicas 3
-```
-
-👉 This simulates tools like:
-
-* `kubectl`
-* `docker`
-* `terraform`
-* internal DevOps CLIs
-
----
-
-# 🏗️ PROJECT STRUCTURE (IMPORTANT)
-
-```
-devops-platform/
-│
-├── devops.py                # main CLI entry point
-├── core/
-│   ├── cli.py              # argument parsing
-│   ├── logger.py           # logging system
-│   ├── config.py           # config loader
-│
-├── modules/
-│   ├── deploy.py           # deployment logic
-│   ├── monitor.py          # monitoring system
-│   ├── logs.py             # log handling
-│   ├── scale.py            # scaling system
-│   ├── infra.py            # infra simulation
-│
-├── data/
-│   ├── services.json       # service state
-│   ├── logs/               # logs directory
-│
-└── utils/
-    ├── helpers.py
-```
-
----
-
-# 📅 DAY 27 — CLI FOUNDATION + CORE SYSTEM
-
-## 🎯 Goal: Build CLI framework + base system
-
----
-
-### 🔹 Task 1 — Create CLI Entry Point
-
-Write a script (`devops.py`) that:
-
-* Uses `argparse`
-* Supports commands:
-
-  * `deploy`
-  * `monitor`
-  * `logs`
-  * `scale`
-
-Example:
-
-```bash
-python devops.py deploy app1
-```
-
----
-
-### 🔹 Task 2 — Subcommands Implementation
-
-Implement subcommands:
-
-* `deploy <service_name>`
-* `logs <service_name>`
-* `scale <service_name> --replicas N`
-* `monitor`
-
----
-
-### 🔹 Task 3 — Config Loader
-
-Create a JSON config like:
-
-```json
-{
-  "default_replicas": 1,
-  "log_path": "./data/logs/"
-}
-```
-
-Write a module to:
-
-* Load config
-* Handle missing values safely
-
----
-
-### 🔹 Task 4 — Logging System
-
-Build custom logger:
-
-* Log format:
-
-```
-[TIMESTAMP] [LEVEL] message
-```
-
-* Save logs to:
-
-```
-data/logs/app1.log
-```
-
----
-
-### 🔹 Task 5 — Service Registry
-
-Create `services.json`:
-
-```json
-{
-  "app1": {
-    "status": "stopped",
-    "replicas": 0
-  }
-}
-```
-
-Write functions to:
-
-* Read services
-* Update services
-* Save state
-
----
-
-### 🔹 Task 6 — Error Handling
-
-Handle:
-
-* Invalid commands
-* Missing services
-* Wrong inputs
-
----
-
-# 📅 DAY 28 — INFRASTRUCTURE SIMULATION
-
-## 🎯 Goal: Simulate servers + services
-
----
-
-### 🔹 Task 7 — Service Lifecycle
-
-Implement:
-
-* start_service()
-* stop_service()
-* restart_service()
-
-Update `services.json` accordingly.
-
----
-
-### 🔹 Task 8 — Deploy Command
-
-When user runs:
-
-```bash
-python devops.py deploy app1
-```
-
-System should:
-
-* Mark service as "running"
-* Assign default replicas
-* Create log file
-
----
-
-### 🔹 Task 9 — Simulate Instances
-
-Each service has replicas:
-
-```json
-"replicas": 3
-```
-
-Simulate instances:
-
-* app1-instance-1
-* app1-instance-2
-
----
-
-### 🔹 Task 10 — Health Simulation
-
-Add random health status:
-
-* running
-* crashed
-
----
-
-### 🔹 Task 11 — Restart Failed Instances
-
-If instance is "crashed":
-
-* Automatically restart it
-
----
-
-### 🔹 Task 12 — Infra CLI Command
-
-Add:
-
-```bash
-python devops.py infra
-```
-
-Output:
-
-* All services
-* Status
-* Replicas
-
----
-
-# 📅 DAY 29 — DEPLOYMENT + SCALING SYSTEM
-
-## 🎯 Goal: Real deployment workflow
-
----
-
-### 🔹 Task 13 — Deployment Pipeline
-
-Simulate steps:
-
-1. Build
-2. Deploy
-3. Verify
-
-Print logs like:
-
-```
-Building app1...
-Deploying app1...
-Deployment successful
-```
-
----
-
-### 🔹 Task 14 — Rollback System
-
-If deployment fails:
-
-* Revert to previous state
-
----
-
-### 🔹 Task 15 — Scaling System
-
-Command:
-
-```bash
-python devops.py scale app1 --replicas 3
-```
-
-System should:
-
-* Update replicas
-* Add/remove instances
-
----
-
-### 🔹 Task 16 — Zero-Downtime Simulation
-
-When scaling:
-
-* Do not stop all instances
-* Gradually add/remove
-
----
-
-### 🔹 Task 17 — Deployment Logs
-
-Log:
-
-* Deployment time
-* Status
-* Errors
-
----
-
-### 🔹 Task 18 — Versioning System
-
-Track:
-
-```json
-"version": "v1.0"
-```
-
-On deploy:
-
-* Increment version
-
----
-
-# 📅 DAY 30 — MONITORING + ALERTING + FINAL SYSTEM
-
-## 🎯 Goal: Observability system (VERY IMPORTANT)
-
----
-
-### 🔹 Task 19 — Monitoring Command
-
-```bash
-python devops.py monitor
-```
-
-Output:
-
-* Service status
-* CPU (simulated)
-* Memory (simulated)
-
----
-
-### 🔹 Task 20 — Metrics Generator
-
-Simulate:
-
-* CPU usage (random %)
-* Memory usage
-
----
-
-### 🔹 Task 21 — Alert System
-
-Trigger alert if:
-
-* CPU > 80%
-* Service down
-
-Example:
-
-```
-ALERT: app1 CPU usage high
-```
-
----
-
-### 🔹 Task 22 — Logs Command
-
-```bash
-python devops.py logs app1
-```
-
-Display:
-
-* Last 10 log lines
-
----
-
-### 🔹 Task 23 — Centralized Logging
-
-Combine all logs:
-
-```
-data/logs/all.log
-```
-
----
-
-### 🔹 Task 24 — Final Integration
-
-Everything should work together:
-
-* deploy → updates infra
-* scale → updates instances
-* monitor → shows metrics
-* logs → shows history
-
----
-
-# 🧪 BONUS (Highly Recommended)
-
-* Add **multithreading** for monitoring
-* Add **API mode (Flask/FastAPI)**
-* Add **Docker integration (optional)**
-* Add **real system metrics (psutil)**
-
----
+# Python for DevOps: 30-Day Challenge
+
+This repository contains a simple 30-day Python for DevOps challenge.
+
+- Total days: 30
+- Total questions and tasks: 200
+- Format: small daily challenge lists
+- Focus: Python, automation, infrastructure, monitoring, CI/CD, and security
+
+## Day 1: Input, Output, and Variables
+
+1. Task 1: Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
+2. Task 2: Ask the user for their name and current role, then print a formatted greeting.
+3. Task 3: Take two numbers as input and print their sum, difference, product, and quotient.
+4. Task 4: Swap two user-provided variables without using a third variable.
+5. Task 5: Convert a temperature from Celsius to Fahrenheit and display it with two decimal places.
+6. Task 6: Build a simple command-line calculator that supports `+`, `-`, `*`, and `/`.
+
+## Day 2: Conditional Logic
+
+1. Task 7: Check whether a number is even or odd.
+2. Task 8: Check whether a number is positive, negative, or zero.
+3. Task 9: Find the largest of three numbers without using `max()`.
+4. Task 10: Build a basic login check with a predefined username and password.
+5. Task 11: Check whether a year is a leap year.
+6. Task 12: Build a grading system for marks from 0 to 100.
+
+## Day 3: Loops
+
+1. Task 13: Print numbers from 1 to 100 and skip values divisible by 3.
+2. Task 14: Generate a multiplication table for a user-provided number.
+3. Task 15: Calculate the factorial of a number using a loop.
+4. Task 16: Generate the Fibonacci sequence up to `N` terms.
+5. Task 17: Count the number of digits in an integer.
+6. Task 18: Calculate the sum of all numbers between two values, inclusive.
+
+## Day 4: Strings
+
+1. Task 19: Reverse a string without using built-in reverse helpers.
+2. Task 20: Check whether a string is a palindrome.
+3. Task 21: Count vowels and consonants in a string.
+4. Task 22: Remove duplicate characters from a string while preserving order.
+5. Task 23: Count the frequency of each character in a string.
+6. Task 24: Build a password strength checker based on length, uppercase letters, digits, and special characters.
+
+## Day 5: Lists, Sets, and Dictionaries
+
+1. Task 25: Remove duplicate elements from a list.
+2. Task 26: Find the second largest number in a list without sorting.
+3. Task 27: Sort a list in ascending order without using `sort()`.
+4. Task 28: Merge two lists and remove duplicate values.
+5. Task 29: Count the frequency of each list element and store the result in a dictionary.
+6. Task 30: Build a simple phonebook with add, search, and delete operations.
+7. Task 31: Convert a list of tuples into a dictionary.
+8. Task 32: Find the union and intersection of two sets.
+
+## Day 6: Functions and Error Handling
+
+1. Task 33: Create reusable functions for addition, subtraction, multiplication, and division.
+2. Task 34: Write a function that returns the maximum, minimum, and average of a list without using `max()` or `min()`.
+3. Task 35: Write a recursive factorial function with error handling for negative values.
+4. Task 36: Create a safe file reader that handles missing files cleanly.
+5. Task 37: Divide two numbers and handle invalid input and division by zero.
+6. Task 38: Define a custom `InvalidAgeError` and raise it when age is below 18.
+7. Task 39: Use `*args` to calculate the sum and average of values.
+8. Task 40: Build a menu-driven utility with actions like add user, delete user, and list users.
+
+## Day 7: File Handling
+
+1. Task 41: Count lines, words, and characters in a text file.
+2. Task 42: Read a log file and print only the lines that contain `ERROR`.
+3. Task 43: Copy the contents of one file into another file.
+4. Task 44: Append user activity logs with timestamps to a file.
+5. Task 45: Count how many times a specific word appears in a file.
+6. Task 46: Write only unique lines from a file into a new file.
+7. Task 47: Merge multiple text files into one file.
+8. Task 48: Build a log analyzer that counts `INFO`, `WARNING`, and `ERROR` entries.
+
+## Day 8: Object-Oriented Programming
+
+1. Task 49: Create a `Server` class with hostname, IP address, CPU cores, and memory.
+2. Task 50: Add a constructor to initialize all `Server` attributes.
+3. Task 51: Create `LinuxServer` and `WindowsServer` classes that inherit from `Server`.
+4. Task 52: Demonstrate method overriding in child classes.
+5. Task 53: Use encapsulation with private attributes and getter or setter methods.
+6. Task 54: Create a `UserManager` class with add, delete, and list operations.
+7. Task 55: Simulate a bank system with deposit, withdraw, and balance operations.
+8. Task 56: Track the number of created objects with a class variable.
+
+## Day 9: JSON, CSV, and Configuration
+
+1. Task 57: Read a JSON configuration file and print all key-value pairs.
+2. Task 58: Update a value in a JSON file and save it.
+3. Task 59: Convert a CSV file into JSON.
+4. Task 60: Read a CSV file and calculate summary statistics.
+5. Task 61: Build a configuration loader that reads settings from JSON.
+6. Task 62: Validate whether a JSON file is properly formatted.
+7. Task 63: Merge multiple JSON files into one file.
+8. Task 64: Load the correct config file based on an environment like dev or prod.
+
+## Day 10: OS Interaction and Environment
+
+1. Task 65: Print all environment variables.
+2. Task 66: Read a specific environment variable and handle missing values.
+3. Task 67: List all files and directories in the current working directory.
+4. Task 68: Create a directory structure such as `logs`, `data`, and `backup` if it does not exist.
+5. Task 69: Delete files older than a given number of days.
+6. Task 70: Calculate the total size of files in a directory.
+7. Task 71: Monitor a directory and print a message when a new file is added.
+8. Task 72: Build a backup tool that copies files and logs the operation.
+
+## Day 11: Regular Expressions
+
+1. Task 73: Extract all email addresses from a text file using regex.
+2. Task 74: Validate an IPv4 address with regex.
+3. Task 75: Extract timestamps in `YYYY-MM-DD HH:MM:SS` format from a log file.
+4. Task 76: Extract IP addresses from a log file and count their frequency.
+5. Task 77: Identify all URLs in a text file.
+6. Task 78: Build a regex-based password validator.
+7. Task 79: Mask sensitive data such as email addresses in a file.
+8. Task 80: Create a regex-based log filtering tool.
+
+## Day 12: CLI Tools with argparse
+
+1. Task 81: Use `argparse` to accept a filename and print its content.
+2. Task 82: Build a CLI calculator that accepts two numbers and an operation.
+3. Task 83: Build a CLI log analyzer that filters by log level.
+4. Task 84: List files larger than a specified size in a directory.
+5. Task 85: Merge multiple files into a single output file through CLI arguments.
+6. Task 86: Build a CLI with subcommands such as `create-user`, `delete-user`, and `list-users`.
+7. Task 87: Support flags like `--verbose` and `--dry-run`.
+8. Task 88: Accept a URL and print the HTTP status code and response time.
+
+## Day 13: Process and System Monitoring
+
+1. Task 89: List all running processes with their process IDs.
+2. Task 90: Find and terminate a process by name.
+3. Task 91: Print CPU and memory usage every 5 seconds.
+4. Task 92: Identify the top 5 memory-consuming processes.
+5. Task 93: Log CPU, memory, and disk usage into a file periodically.
+6. Task 94: Alert the user when CPU usage exceeds a threshold.
+7. Task 95: Warn when disk usage exceeds 80 percent.
+8. Task 96: Monitor a process and restart it if it stops.
+
+## Day 14: Networking and APIs
+
+1. Task 97: Check whether a website is reachable with an HTTP request.
+2. Task 98: Fetch data from a public API and display selected fields.
+3. Task 99: Retrieve the HTTP status code and headers for a URL.
+4. Task 100: Download API data and save it as JSON.
+5. Task 101: Retry an API request up to three times on network failure.
+6. Task 102: Measure API response time and log it.
+7. Task 103: Display API data in a formatted table.
+8. Task 104: Monitor an API endpoint and alert when the response is not 200.
+
+## Day 15: Multithreading
+
+1. Task 105: Run multiple functions concurrently with threads.
+2. Task 106: Download multiple files simultaneously with multithreading.
+3. Task 107: Compare execution time between single-threaded and multi-threaded code.
+4. Task 108: Process different parts of a log file in parallel threads.
+5. Task 109: Monitor multiple servers concurrently by pinging them in parallel.
+6. Task 110: Use a thread pool to execute tasks efficiently.
+7. Task 111: Process a queue of tasks with multiple worker threads.
+8. Task 112: Perform parallel API requests and aggregate the results.
+
+## Day 16: Multiprocessing
+
+1. Task 113: Use multiprocessing for CPU-bound tasks and compare runtime with a single-threaded version.
+2. Task 114: Split a large log file into chunks and count `ERROR` entries in parallel.
+3. Task 115: Use a process pool to compute values and collect results.
+4. Task 116: Search for a keyword across multiple files using multiprocessing.
+5. Task 117: Process multiple CSV files in parallel and calculate aggregated statistics.
+6. Task 118: Demonstrate inter-process communication with queues.
+7. Task 119: Simulate concurrent users with multiple processes.
+8. Task 120: Benchmark threading versus multiprocessing for CPU-intensive work.
+
+## Day 17: Decorators
+
+1. Task 121: Write a decorator that measures function execution time.
+2. Task 122: Create a retry decorator with a delay between retries.
+3. Task 123: Build a logging decorator that records function calls and results.
+4. Task 124: Add an authorization decorator for role-based access checks.
+5. Task 125: Create a caching decorator for expensive function calls.
+6. Task 126: Limit how many times a function can be called in a time window.
+7. Task 127: Validate function arguments with a decorator.
+8. Task 128: Combine multiple decorators and show their execution order.
+
+## Day 18: Advanced File Automation
+
+1. Task 129: Detect duplicate files by comparing file content.
+2. Task 130: Monitor a directory and log create, delete, and modify events.
+3. Task 131: Build a file organizer that moves files by file type.
+4. Task 132: Compress old log files and delete files older than a threshold.
+5. Task 133: Create timestamped backups of a directory.
+6. Task 134: Synchronize two directories like a small `rsync` tool.
+7. Task 135: Watch a config file and reload settings on change.
+8. Task 136: Encrypt and decrypt files with a basic encryption method.
+
+## Day 19: SSH Automation
+
+1. Task 137: Connect to a remote server over SSH and run a command.
+2. Task 138: Run the same SSH command on multiple servers.
+3. Task 139: Upload a file to a remote server securely.
+4. Task 140: Download log files from a remote server.
+5. Task 141: Check remote disk usage over SSH.
+6. Task 142: Automate an application deployment by executing remote commands.
+7. Task 143: Monitor a remote service and restart it if it stops.
+8. Task 144: Read SSH credentials from environment variables.
+
+## Day 20: Git and Automation Workflows
+
+1. Task 145: Clone a remote Git repository.
+2. Task 146: Detect repository changes and commit them automatically.
+3. Task 147: Push local changes to a remote repository.
+4. Task 148: Print the status of a Git repository.
+5. Task 149: Switch branches based on user input.
+6. Task 150: Pull the latest changes and handle merge conflicts gracefully.
+7. Task 151: Tag a release version and push the tag.
+8. Task 152: Simulate a simple workflow such as commit, test, and push.
+
+## Day 21: Logging, Monitoring, and Alerts
+
+1. Task 153: Design a custom logging system with timestamps and log levels.
+2. Task 154: Add log rotation when a file exceeds a fixed size.
+3. Task 155: Continuously log CPU, memory, and disk usage every 10 seconds.
+4. Task 156: Trigger a console alert when CPU usage exceeds a threshold.
+5. Task 157: Extend alerts to email, or simulate email delivery.
+
+## Day 22: Logs, Reports, and Container Basics
+
+1. Task 158: Aggregate logs from multiple files and generate a summary report.
+2. Task 159: Monitor application logs and trigger alerts for keywords like `ERROR` or `FAILED`.
+3. Task 160: Simulate centralized logging by collecting logs from multiple services.
+4. Task 161: Run a Docker container through Python and verify that it started successfully.
+5. Task 162: List all running and stopped Docker containers.
+
+## Day 23: Docker Automation
+
+1. Task 163: Remove stopped containers and unused images.
+2. Task 164: Pull a Docker image and run it with specified parameters.
+3. Task 165: Monitor running containers and report their status.
+4. Task 166: Read a config file and start multiple containers from it.
+5. Task 167: Save container logs into a file for analysis.
+
+## Day 24: Deployment and Kubernetes Basics
+
+1. Task 168: Build a Docker deployment automation tool that builds an image and deploys a container.
+2. Task 169: Retrieve and display the status of all Kubernetes pods.
+3. Task 170: Monitor pod health and restart failed pods.
+4. Task 171: Scale a deployment up or down based on user input.
+5. Task 172: Fetch logs from a specific pod and save them locally.
+
+## Day 25: Kubernetes Operations and Cloud Basics
+
+1. Task 173: Check CPU and memory usage for Kubernetes pods.
+2. Task 174: Deploy an application to Kubernetes from a YAML file.
+3. Task 175: Delete unused or failed pods automatically.
+4. Task 176: Watch cluster health continuously and report anomalies.
+5. Task 177: Upload a file to cloud storage, or simulate cloud storage locally.
+
+## Day 26: Cloud Automation
+
+1. Task 178: List all instances or resources in a cloud environment.
+2. Task 179: Start and stop compute instances programmatically.
+3. Task 180: Monitor cloud resource usage and log it.
+4. Task 181: Provision a new instance from predefined configuration.
+5. Task 182: Delete unused cloud resources to optimize cost.
+
+## Day 27: Cloud Tagging and CI/CD Basics
+
+1. Task 183: Tag cloud resources and filter them by tags.
+2. Task 184: Simulate auto-scaling based on CPU usage.
+3. Task 185: Trigger a CI/CD pipeline by API call.
+4. Task 186: Check the status of a running pipeline and print progress updates.
+5. Task 187: Fetch logs from a pipeline execution.
+
+## Day 28: CI/CD Automation
+
+1. Task 188: Roll back a deployment automatically when a pipeline fails.
+2. Task 189: Validate code before triggering a pipeline by simulating lint and test checks.
+3. Task 190: Build a CI automation tool that performs code pull, test execution, and deployment.
+4. Task 191: Trigger pipelines automatically on version control changes.
+5. Task 192: Send notifications when a pipeline succeeds or fails.
+
+## Day 29: Security and Secrets Management
+
+1. Task 193: Encrypt and decrypt sensitive data with a secure algorithm.
+2. Task 194: Store passwords securely with hashing.
+3. Task 195: Read secrets from environment variables instead of hardcoding them.
+4. Task 196: Rotate secrets periodically and update them in the system.
+
+## Day 30: Security Review and Compliance
+
+1. Task 197: Scan code files for hardcoded secrets and report them.
+2. Task 198: Build a simple role-based access control system.
+3. Task 199: Log all access attempts to a secure resource.
+4. Task 200: Create a compliance checker for rules such as no plaintext passwords and proper permissions.
+
+## Suggested Approach
+
+- Complete one day at a time.
+- Keep each solution in its own script or folder.
+- Add notes for what you learned each day.
+- Revisit earlier tasks and refactor them as your skills improve.
