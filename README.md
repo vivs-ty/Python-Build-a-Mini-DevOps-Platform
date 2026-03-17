@@ -512,3 +512,174 @@ Each subcommand should perform its respective function.
 
 ---
 
+
+## 🟠 DAY 16 — Multiprocessing (CPU-Level Parallelism) (8 Challenges)
+
+### 113. Write a Python program that uses the multiprocessing module to execute multiple CPU-bound tasks (e.g., calculating factorials of large numbers) in parallel. Compare the execution time with a single-threaded version.
+
+---
+
+### 114. Create a script that processes a large log file by splitting it into chunks and using multiple processes to count the number of ERROR entries in parallel.
+
+---
+
+### 115. Write a Python program that uses a process pool to execute a list of tasks (e.g., computing squares of numbers) and collects the results efficiently.
+
+---
+
+### 116. Build a multiprocessing-based file search tool that searches for a keyword across multiple files simultaneously.
+
+---
+
+### 117. Create a program that processes multiple CSV files in parallel and calculates aggregated statistics from all files.
+
+---
+
+### 118. Write a script that demonstrates inter-process communication using queues, where one process produces data and another consumes it.
+
+---
+
+### 119. Build a system that spawns multiple processes to simulate concurrent users accessing a system and logs their activity.
+
+---
+
+### 120. Write a Python script that benchmarks the performance difference between threading and multiprocessing for CPU-intensive tasks.
+
+---
+
+## 🟠 DAY 17 — Decorators (Production-Level Code Patterns) (8 Challenges)
+
+### 121. Write a Python decorator that measures and prints the execution time of any function it wraps.
+
+---
+
+### 122. Create a retry decorator that retries a function up to 3 times if it raises an exception, with a delay between retries.
+
+---
+
+### 123. Build a logging decorator that logs function name, arguments, and return values to a file.
+
+---
+
+### 124. Write a decorator that checks if a user is authorized before executing a function (simulate role-based access).
+
+---
+
+### 125. Create a decorator that caches the result of expensive function calls to improve performance.
+
+---
+
+### 126. Write a decorator that limits how many times a function can be called within a specific time window (basic rate limiting).
+
+---
+
+### 127. Build a decorator that validates input arguments of a function (e.g., ensuring numbers are positive).
+
+---
+
+### 128. Combine multiple decorators (e.g., logging + retry + timing) on a single function and demonstrate their execution order.
+
+---
+
+## 🟠 DAY 18 — Advanced File & Automation Tools (8 Challenges)
+
+### 129. Write a Python script that scans a directory and identifies duplicate files based on file content (not just name).
+
+---
+
+### 130. Create a program that monitors a directory in real-time and logs file creation, deletion, and modification events.
+
+---
+
+### 131. Build a file organizer tool that moves files into folders based on their file type (e.g., images/, documents/, logs/).
+
+---
+
+### 132. Write a script that compresses old log files into archive files and deletes logs older than a specified number of days.
+
+---
+
+### 133. Create a backup system that creates timestamped backups of a directory.
+
+---
+
+### 134. Write a Python program that synchronizes two directories (like a mini rsync tool).
+
+---
+
+### 135. Build a tool that watches a configuration file and reloads settings automatically when the file changes.
+
+---
+
+### 136. Create a script that encrypts and decrypts files using a basic encryption method.
+
+---
+
+## 🔴 DAY 19 — SSH Automation (Real DevOps Work) (8 Challenges)
+
+### 137. Write a Python script using an SSH library to connect to a remote server and execute a command.
+
+---
+
+### 138. Create a program that connects to multiple servers via SSH and runs the same command on all of them.
+
+---
+
+### 139. Build a tool that uploads a file to a remote server using secure file transfer.
+
+---
+
+### 140. Write a script that downloads log files from a remote server and stores them locally.
+
+---
+
+### 141. Create a Python program that checks disk usage on remote servers via SSH and reports the results.
+
+---
+
+### 142. Build an automation tool that deploys an application on a remote server by executing a sequence of commands.
+
+---
+
+### 143. Write a script that monitors a remote service and restarts it if it stops.
+
+---
+
+### 144. Create a program that securely reads SSH credentials from environment variables instead of hardcoding them.
+
+---
+
+## 🔴 DAY 20 — Git & Automation Workflows (8 Challenges)
+
+### 145. Write a Python script that clones a remote Git repository to your local machine.
+
+---
+
+### 146. Create a program that detects changes in a repository and automatically commits them with a message.
+
+---
+
+### 147. Build a tool that pushes local changes to a remote repository after committing.
+
+---
+
+### 148. Write a script that checks the status of a Git repository and prints modified, added, and deleted files.
+
+---
+
+### 149. Create a program that switches branches automatically based on user input.
+
+---
+
+### 150. Build a script that pulls the latest changes from a remote repository and handles merge conflicts gracefully.
+
+---
+
+### 151. Write a Python tool that tags a release version in Git and pushes the tag to the remote repository.
+
+---
+
+### 152. Create a script that integrates Git automation into a CI-like workflow (e.g., commit → test → push).
+
+
+---
