@@ -683,3 +683,214 @@ Each subcommand should perform its respective function.
 
 
 ---
+
+## 🔴 DAY 21 — Logging, Monitoring & Alerting Systems (8 Challenges)
+
+### 153. Design and implement a custom logging system that writes logs to a file with levels such as INFO, WARNING, and ERROR. Each log entry must include a timestamp and message.
+
+---
+
+### 154. Enhance your logging system to support log rotation, where a new log file is created once the current file exceeds a certain size.
+
+---
+
+### 155. Create a monitoring script that continuously checks CPU, memory, and disk usage and logs the data every 10 seconds.
+
+---
+
+### 156. Build an alerting mechanism that sends a console alert when CPU usage exceeds a defined threshold.
+
+---
+
+### 157. Extend the alerting system to send alerts via email (you may simulate sending email if needed).
+
+---
+
+### 158. Write a Python script that aggregates logs from multiple files and generates a summary report.
+
+---
+
+### 159. Create a tool that monitors application logs and triggers alerts when specific keywords (e.g., ERROR, FAILED) appear.
+
+---
+
+### 160. Build a centralized logging simulation where logs from multiple services are collected into a single file or interface.
+
+---
+
+## 🔴 DAY 22 — Docker Automation (8 Challenges)
+
+### 161. Write a Python script that runs a Docker container using system commands and verifies if it started successfully.
+
+---
+
+### 162. Create a program that lists all running and stopped Docker containers.
+
+---
+
+### 163. Build a script that automatically removes stopped containers and unused images to free up space.
+
+---
+
+### 164. Write a Python tool that pulls a Docker image from a registry and runs it with specified parameters.
+
+---
+
+### 165. Create a script that monitors running containers and reports their status (running, stopped, crashed).
+
+---
+
+### 166. Build a program that reads a configuration file and starts multiple containers based on the configuration.
+
+---
+
+### 167. Write a script that logs container output (logs) into a file for analysis.
+
+---
+
+### 168. Create a Docker deployment automation tool that builds an image and deploys a container.
+
+---
+
+## 🔴 DAY 23 — Kubernetes Automation (8 Challenges)
+
+### 169. Write a Python script that retrieves and displays the status of all pods in a Kubernetes cluster.
+
+---
+
+### 170. Create a program that monitors pod health and restarts pods if they fail.
+
+---
+
+### 171. Build a script that scales a deployment up or down based on user input.
+
+---
+
+### 172. Write a tool that fetches logs from a specific pod and saves them locally.
+
+---
+
+### 173. Create a script that checks resource usage (CPU, memory) for pods.
+
+---
+
+### 174. Build a Kubernetes automation tool that deploys an application using a YAML configuration file.
+
+---
+
+### 175. Write a program that deletes unused or failed pods automatically.
+
+---
+
+### 176. Create a monitoring script that continuously watches cluster health and reports anomalies.
+
+---
+
+## 🔴 DAY 24 — Cloud Automation (AWS-like Simulation or CLI) (8 Challenges)
+
+### 177. Write a Python script that uploads a file to cloud storage (or simulates cloud storage locally).
+
+---
+
+### 178. Create a program that lists all instances/resources in a cloud environment.
+
+---
+
+### 179. Build a script that starts and stops compute instances programmatically.
+
+---
+
+### 180. Write a tool that monitors cloud resource usage and logs it.
+
+---
+
+### 181. Create a script that automatically provisions a new instance based on predefined configurations.
+
+---
+
+### 182. Build a program that deletes unused cloud resources to optimize cost.
+
+---
+
+### 183. Write a Python script that tags cloud resources and filters them based on tags.
+
+---
+
+### 184. Create a tool that simulates auto-scaling based on CPU usage.
+
+---
+
+## 🔴 DAY 25 — CI/CD Automation (8 Challenges)
+
+### 185.
+
+Write a Python script that triggers a CI/CD pipeline via an API call.
+
+---
+
+### 186. Create a program that checks the status of a running pipeline and prints progress updates.
+
+---
+
+### 187. Build a script that fetches logs of a pipeline execution.
+
+---
+
+### 188. Write a tool that automatically rolls back a deployment if the pipeline fails.
+
+---
+
+### 189. Create a program that validates code before triggering a pipeline (simulate lint/test checks).
+
+---
+
+### 190. Build a CI automation tool that performs:
+
+* Code pull
+* Test execution
+* Deployment
+
+---
+
+### 191. Write a script that integrates with version control and triggers pipelines on code changes.
+
+---
+
+### 192. Create a tool that sends notifications when a pipeline succeeds or fails.
+
+---
+
+## 🔴 DAY 26 — Security & Secrets Management (8 Challenges)
+
+### 193. Write a Python script that encrypts and decrypts sensitive data using a secure algorithm.
+
+---
+
+### 194. Create a program that securely stores passwords using hashing techniques.
+
+---
+
+### 195. Build a script that reads secrets from environment variables instead of hardcoding them.
+
+---
+
+### 196. Write a tool that rotates secrets periodically and updates them in your system.
+
+---
+
+### 197. Create a program that scans code files for hardcoded secrets and reports them.
+
+---
+
+### 198. Build a simple access control system (RBAC) where users have roles and permissions.
+
+---
+
+### 199. Write a script that logs all access attempts to a secure resource.
+
+---
+
+### 200. Create a compliance checker that verifies if certain security rules are followed (e.g., no plaintext passwords, proper permissions).
+
+---
+
