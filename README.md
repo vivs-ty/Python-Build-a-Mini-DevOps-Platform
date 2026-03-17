@@ -156,3 +156,176 @@
 
 ---
 
+
+## 🟢 DAY 6 — Functions & Error Handling (8 Challenges)
+
+### 33. Write a Python program that defines reusable functions for basic mathematical operations such as addition, subtraction, multiplication, and division. The program should call these functions based on user input and handle invalid inputs gracefully.
+
+---
+
+### 34. Create a function that accepts a list of numbers and returns the maximum, minimum, and average values. Do not use built-in functions like `max()` or `min()`.
+
+---
+
+### 35. Write a Python function that takes a number as input and returns its factorial using recursion. Ensure proper error handling for negative numbers.
+
+---
+
+### 36. Create a function that takes a filename as input and safely reads the file content. If the file does not exist, handle the exception and print a meaningful error message instead of crashing.
+
+---
+
+### 37. Write a program that asks the user for two numbers and performs division. Use exception handling to manage division by zero and invalid inputs.
+
+---
+
+### 38. Define a custom exception called `InvalidAgeError`. Write a program that asks the user for their age and raises this exception if the age is below 18.
+
+---
+
+### 39. Create a function that accepts variable-length arguments (`*args`) and calculates the sum and average of all numbers passed to it.
+
+---
+
+### 40. Build a command-line utility that uses functions to perform different operations (e.g., add user, delete user, list users). The user should select options via menu input.
+
+---
+
+## 🟡 DAY 7 — File Handling Deep Dive (8 Challenges)
+
+### 41. Write a Python script that reads a text file and prints the total number of lines, words, and characters present in the file.
+
+---
+
+### 42. Create a program that reads a log file and prints only the lines that contain the word "ERROR".
+
+---
+
+### 43. Write a script that copies the contents of one file into another file. Ensure that the destination file is created if it does not exist.
+
+---
+
+### 44. Create a program that appends user activity logs (with timestamp) into a file every time the script is executed.
+
+---
+
+### 45. Write a Python script that reads a file and counts how many times a specific word (entered by the user) appears in it.
+
+---
+
+### 46. Create a script that reads a file line by line and writes only unique lines into a new file.
+
+---
+
+### 47. Write a program that merges multiple text files into a single file.
+
+---
+
+### 48. Build a simple log analyzer that reads a log file and categorizes entries into INFO, WARNING, and ERROR counts.
+
+---
+
+## 🟡 DAY 8 — Object-Oriented Programming (8 Challenges)
+
+### 49. Create a class called `Server` with attributes such as hostname, IP address, CPU cores, and memory. Add a method to display server details.
+
+---
+
+### 50. Enhance the `Server` class by adding a constructor that initializes all attributes during object creation.
+
+---
+
+### 51. Create two subclasses called `LinuxServer` and `WindowsServer` that inherit from the `Server` class. Add OS-specific attributes and methods.
+
+---
+
+### 52.
+
+Demonstrate method overriding by redefining a method in the child classes that behaves differently from the parent class.
+
+---
+
+### 53. Implement encapsulation by making certain attributes private and providing getter and setter methods.
+
+---
+
+### 54. Create a class called `UserManager` that manages a list of users with operations such as add, delete, and list users.
+
+---
+
+### 55. Write a Python program to simulate a bank system using classes, where users can deposit, withdraw, and check balance.
+
+---
+
+### 56. Create a class that tracks the number of objects created using a class variable and prints the count.
+
+---
+
+## 🟡 DAY 9 — JSON, CSV, Config Management (8 Challenges)
+
+### 57. Write a Python script that reads a JSON configuration file and prints all key-value pairs.
+
+---
+
+### 58. Modify the JSON file by updating a value and writing the updated content back to the file.
+
+---
+
+### 59. Create a program that converts a CSV file into a JSON file.
+
+---
+
+### 60. Write a script that reads a CSV file and calculates summary statistics such as total rows and average values for numeric columns.
+
+---
+
+### 61. Build a configuration loader that reads settings from a JSON file and applies them to your program.
+
+---
+
+### 62. Write a Python script that validates whether a JSON file is properly formatted. If not, display the error.
+
+---
+
+### 63. Create a script that merges multiple JSON files into a single file.
+
+---
+
+### 64. Build a tool that reads environment-specific configuration files (e.g., dev.json, prod.json) and loads the correct configuration based on user input.
+
+---
+
+## 🟡 DAY 10 — OS Interaction & Environment (8 Challenges)
+
+### 65. Write a Python script that prints all environment variables available in the system.
+
+---
+
+### 66. Create a program that reads a specific environment variable and prints its value. If it does not exist, print an appropriate message.
+
+---
+
+### 67. Write a script that lists all files and directories in the current working directory.
+
+---
+
+### 68. Create a program that creates a directory structure (e.g., logs/, data/, backup/) if it does not already exist.
+
+---
+
+### 69. Write a Python script that deletes files older than a certain number of days from a directory.
+
+---
+
+### 70. Create a disk usage analyzer that calculates the total size of files in a directory.
+
+---
+
+### 71. Write a script that monitors a directory and prints a message whenever a new file is added.
+
+---
+
+### 72. Build a backup automation tool that copies files from one directory to another and logs the operation.
+
+
+---
