@@ -329,3 +329,186 @@ Demonstrate method overriding by redefining a method in the child classes that b
 
 
 ---
+
+
+## 🟡 DAY 11 — Regular Expressions (Regex for Logs & Validation) (8 Challenges)
+
+### 73. Write a Python script that reads a text file and extracts all email addresses using regular expressions. Print the list of unique emails.
+
+---
+
+### 74. Create a program that validates whether a given string is a valid IPv4 address using regex. The program should reject invalid formats like "999.300.1.1".
+
+---
+
+### 75. Write a script that parses a log file and extracts all timestamps in the format `YYYY-MM-DD HH:MM:SS`.
+
+---
+
+### 76. Create a program that reads a log file and extracts all IP addresses along with the number of times each IP appears.
+
+---
+
+### 77. Write a Python script that identifies all URLs present in a given text file and prints them.
+
+---
+
+### 78. Build a password validator using regex that enforces:
+
+* Minimum 8 characters
+* At least one uppercase letter
+* At least one number
+* At least one special character
+
+---
+
+### 79. Write a script that replaces all occurrences of sensitive data (like email addresses) in a file with masked values (e.g., `user@example.com → u***@example.com`).
+
+---
+
+### 80. Create a log filtering tool that uses regex patterns provided by the user to extract matching lines from a log file.
+
+---
+
+## 🟡 DAY 12 — CLI Tools with `argparse` (DevOps Tooling Mindset) (8 Challenges)
+
+### 81. Write a Python script that uses `argparse` to accept a filename as an argument and prints its content.
+
+---
+
+### 82. Create a CLI tool that accepts two numbers and an operation (`add`, `sub`, `mul`, `div`) as command-line arguments and performs the operation.
+
+---
+
+### 83. Build a command-line log analyzer that accepts a log file path and a log level (INFO, ERROR, WARNING) as arguments and filters logs accordingly.
+
+---
+
+### 84. Write a CLI tool that accepts a directory path and lists all files larger than a specified size.
+
+---
+
+### 85. Create a script that takes multiple filenames as arguments and merges their contents into a single output file.
+
+---
+
+### 86. Build a CLI tool with multiple subcommands such as:
+
+* `create-user`
+* `delete-user`
+* `list-users`
+
+Each subcommand should perform its respective function.
+
+---
+
+### 87. Write a script that supports flags like `--verbose` and `--dry-run` to simulate execution without making actual changes.
+
+---
+
+### 88. Create a CLI utility that takes a URL as input and returns the HTTP status code along with response time.
+
+---
+
+## 🟡 DAY 13 — Process & System Monitoring (8 Challenges)
+
+### 89. Write a Python script that lists all running processes on the system along with their process IDs.
+
+---
+
+### 90. Create a program that finds and terminates a process by its name. Handle cases where the process does not exist.
+
+---
+
+### 91. Build a system monitoring tool that prints CPU and memory usage every 5 seconds.
+
+---
+
+### 92. Write a script that identifies the top 5 processes consuming the most memory.
+
+---
+
+### 93. Create a program that logs system performance (CPU, memory, disk usage) into a file periodically.
+
+---
+
+### 94. Write a Python script that alerts the user if CPU usage exceeds a certain threshold.
+
+---
+
+### 95. Build a tool that checks disk usage and sends a warning if usage exceeds 80%.
+
+---
+
+### 96. Create a script that monitors a specific process and restarts it if it stops running.
+
+---
+
+## 🟡 DAY 14 — Networking & API Handling (8 Challenges)
+
+### 97. Write a Python script that checks whether a given website is reachable by sending an HTTP request.
+
+---
+
+### 98. Create a program that fetches data from a public API and displays selected fields in a readable format.
+
+---
+
+### 99. Write a script that retrieves the HTTP status code and headers of a given URL.
+
+---
+
+### 100. Build a program that downloads data from an API and saves it as a JSON file.
+
+---
+
+### 101. Create a script that retries an API request up to 3 times if it fails due to network issues.
+
+---
+
+### 102. Write a Python program that measures the response time of an API and logs it.
+
+---
+
+### 103. Build a tool that fetches weather or system data from an API and displays it in a formatted table.
+
+---
+
+### 104. Create a script that monitors an API endpoint and sends an alert if the response status is not 200.
+
+---
+
+## 🟠 DAY 15 — Multithreading (Parallel DevOps Tasks) (8 Challenges)
+
+### 105. Write a Python program that runs multiple functions concurrently using threads and prints their execution order.
+
+---
+
+### 106. Create a script that downloads multiple files simultaneously using multithreading.
+
+---
+
+### 107. Write a program that compares execution time between single-threaded and multi-threaded approaches.
+
+---
+
+### 108. Build a log processing system where multiple threads process different parts of a log file in parallel.
+
+---
+
+### 109. Create a script that monitors multiple servers concurrently by pinging them in parallel threads.
+
+---
+
+### 110. Write a Python program that uses a thread pool to execute tasks efficiently.
+
+---
+
+### 111. Build a system that processes a queue of tasks using multiple worker threads.
+
+---
+
+### 112. Create a script that performs parallel API requests and aggregates the results.
+
+---
+
