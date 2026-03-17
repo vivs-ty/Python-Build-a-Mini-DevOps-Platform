@@ -894,3 +894,406 @@ Write a Python script that triggers a CI/CD pipeline via an API call.
 
 ---
 
+# 🚀 FINAL CAPSTONE — Build a Mini DevOps Platform CLI (Day 27–30)
+
+---
+
+# 🧠 PROJECT OVERVIEW
+
+You will build a tool like:
+
+```bash
+python devops.py deploy app1
+python devops.py monitor
+python devops.py logs app1
+python devops.py scale app1 --replicas 3
+```
+
+👉 This simulates tools like:
+
+* `kubectl`
+* `docker`
+* `terraform`
+* internal DevOps CLIs
+
+---
+
+# 🏗️ PROJECT STRUCTURE (IMPORTANT)
+
+```
+devops-platform/
+│
+├── devops.py                # main CLI entry point
+├── core/
+│   ├── cli.py              # argument parsing
+│   ├── logger.py           # logging system
+│   ├── config.py           # config loader
+│
+├── modules/
+│   ├── deploy.py           # deployment logic
+│   ├── monitor.py          # monitoring system
+│   ├── logs.py             # log handling
+│   ├── scale.py            # scaling system
+│   ├── infra.py            # infra simulation
+│
+├── data/
+│   ├── services.json       # service state
+│   ├── logs/               # logs directory
+│
+└── utils/
+    ├── helpers.py
+```
+
+---
+
+# 📅 DAY 27 — CLI FOUNDATION + CORE SYSTEM
+
+## 🎯 Goal: Build CLI framework + base system
+
+---
+
+### 🔹 Task 1 — Create CLI Entry Point
+
+Write a script (`devops.py`) that:
+
+* Uses `argparse`
+* Supports commands:
+
+  * `deploy`
+  * `monitor`
+  * `logs`
+  * `scale`
+
+Example:
+
+```bash
+python devops.py deploy app1
+```
+
+---
+
+### 🔹 Task 2 — Subcommands Implementation
+
+Implement subcommands:
+
+* `deploy <service_name>`
+* `logs <service_name>`
+* `scale <service_name> --replicas N`
+* `monitor`
+
+---
+
+### 🔹 Task 3 — Config Loader
+
+Create a JSON config like:
+
+```json
+{
+  "default_replicas": 1,
+  "log_path": "./data/logs/"
+}
+```
+
+Write a module to:
+
+* Load config
+* Handle missing values safely
+
+---
+
+### 🔹 Task 4 — Logging System
+
+Build custom logger:
+
+* Log format:
+
+```
+[TIMESTAMP] [LEVEL] message
+```
+
+* Save logs to:
+
+```
+data/logs/app1.log
+```
+
+---
+
+### 🔹 Task 5 — Service Registry
+
+Create `services.json`:
+
+```json
+{
+  "app1": {
+    "status": "stopped",
+    "replicas": 0
+  }
+}
+```
+
+Write functions to:
+
+* Read services
+* Update services
+* Save state
+
+---
+
+### 🔹 Task 6 — Error Handling
+
+Handle:
+
+* Invalid commands
+* Missing services
+* Wrong inputs
+
+---
+
+# 📅 DAY 28 — INFRASTRUCTURE SIMULATION
+
+## 🎯 Goal: Simulate servers + services
+
+---
+
+### 🔹 Task 7 — Service Lifecycle
+
+Implement:
+
+* start_service()
+* stop_service()
+* restart_service()
+
+Update `services.json` accordingly.
+
+---
+
+### 🔹 Task 8 — Deploy Command
+
+When user runs:
+
+```bash
+python devops.py deploy app1
+```
+
+System should:
+
+* Mark service as "running"
+* Assign default replicas
+* Create log file
+
+---
+
+### 🔹 Task 9 — Simulate Instances
+
+Each service has replicas:
+
+```json
+"replicas": 3
+```
+
+Simulate instances:
+
+* app1-instance-1
+* app1-instance-2
+
+---
+
+### 🔹 Task 10 — Health Simulation
+
+Add random health status:
+
+* running
+* crashed
+
+---
+
+### 🔹 Task 11 — Restart Failed Instances
+
+If instance is "crashed":
+
+* Automatically restart it
+
+---
+
+### 🔹 Task 12 — Infra CLI Command
+
+Add:
+
+```bash
+python devops.py infra
+```
+
+Output:
+
+* All services
+* Status
+* Replicas
+
+---
+
+# 📅 DAY 29 — DEPLOYMENT + SCALING SYSTEM
+
+## 🎯 Goal: Real deployment workflow
+
+---
+
+### 🔹 Task 13 — Deployment Pipeline
+
+Simulate steps:
+
+1. Build
+2. Deploy
+3. Verify
+
+Print logs like:
+
+```
+Building app1...
+Deploying app1...
+Deployment successful
+```
+
+---
+
+### 🔹 Task 14 — Rollback System
+
+If deployment fails:
+
+* Revert to previous state
+
+---
+
+### 🔹 Task 15 — Scaling System
+
+Command:
+
+```bash
+python devops.py scale app1 --replicas 3
+```
+
+System should:
+
+* Update replicas
+* Add/remove instances
+
+---
+
+### 🔹 Task 16 — Zero-Downtime Simulation
+
+When scaling:
+
+* Do not stop all instances
+* Gradually add/remove
+
+---
+
+### 🔹 Task 17 — Deployment Logs
+
+Log:
+
+* Deployment time
+* Status
+* Errors
+
+---
+
+### 🔹 Task 18 — Versioning System
+
+Track:
+
+```json
+"version": "v1.0"
+```
+
+On deploy:
+
+* Increment version
+
+---
+
+# 📅 DAY 30 — MONITORING + ALERTING + FINAL SYSTEM
+
+## 🎯 Goal: Observability system (VERY IMPORTANT)
+
+---
+
+### 🔹 Task 19 — Monitoring Command
+
+```bash
+python devops.py monitor
+```
+
+Output:
+
+* Service status
+* CPU (simulated)
+* Memory (simulated)
+
+---
+
+### 🔹 Task 20 — Metrics Generator
+
+Simulate:
+
+* CPU usage (random %)
+* Memory usage
+
+---
+
+### 🔹 Task 21 — Alert System
+
+Trigger alert if:
+
+* CPU > 80%
+* Service down
+
+Example:
+
+```
+ALERT: app1 CPU usage high
+```
+
+---
+
+### 🔹 Task 22 — Logs Command
+
+```bash
+python devops.py logs app1
+```
+
+Display:
+
+* Last 10 log lines
+
+---
+
+### 🔹 Task 23 — Centralized Logging
+
+Combine all logs:
+
+```
+data/logs/all.log
+```
+
+---
+
+### 🔹 Task 24 — Final Integration
+
+Everything should work together:
+
+* deploy → updates infra
+* scale → updates instances
+* monitor → shows metrics
+* logs → shows history
+
+---
+
+# 🧪 BONUS (Highly Recommended)
+
+* Add **multithreading** for monitoring
+* Add **API mode (Flask/FastAPI)**
+* Add **Docker integration (optional)**
+* Add **real system metrics (psutil)**
+
+---
