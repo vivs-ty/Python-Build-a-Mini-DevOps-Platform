@@ -9,7 +9,7 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 1: Input, Output, and Variables
 
-1. Task 1: Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
+1. [Task 1](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task01.py): Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
 2. Task 2: Ask the user for their name and current role, then print a formatted greeting.
 3. Task 3: Take two numbers as input and print their sum, difference, product, and quotient.
 4. Task 4: Swap two user-provided variables without using a third variable.
