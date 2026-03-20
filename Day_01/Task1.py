@@ -1,4 +1,5 @@
 # Task 1: Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
+
 from datetime import datetime, timezone
 
 Name = input("What is your Name ? ").strip()
