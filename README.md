@@ -9,21 +9,21 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 1: Input, Output, and Variables
 
-1. [Task 1](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task01.py):- Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
-2. [Task 2](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task02.py):- Ask the user for their name and current role, then print a formatted greeting.
-3. [Task 3](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task03.py):- Take two numbers as input and print their sum, difference, product, and quotient.
-4. [Task 4](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task04.py):- Swap two user-provided variables without using a third variable.
-5. [Task 5](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task05.py):- Convert a temperature from Celsius to Fahrenheit and display it with two decimal places.
-6. [Task 6](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task06.py):- Build a simple command-line calculator that supports `+`, `-`, `*`, and `/`.
+1. [Task 1](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task01.py) :- Write a Python script that prints a welcome message for a DevOps engineer and includes the current date and time.
+2. [Task 2](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task02.py) :- Ask the user for their name and current role, then print a formatted greeting.
+3. [Task 3](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task03.py) :- Take two numbers as input and print their sum, difference, product, and quotient.
+4. [Task 4](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task04.py) :- Swap two user-provided variables without using a third variable.
+5. [Task 5](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task05.py) :- Convert a temperature from Celsius to Fahrenheit and display it with two decimal places.
+6. [Task 6](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_01/Task06.py) :- Build a simple command-line calculator that supports `+`, `-`, `*`, and `/`.
 
 ## Day 2: Conditional Logic
 
-1. [Task 7](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task07.py) : Check whether a number is even or odd.
-2. [Task 8](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task08.py) : Check whether a number is positive, negative, or zero.
-3. [Task 9](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task09.py) : Find the largest of three numbers without using `max()`.
-4. [Task 10](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task10.py) : Build a basic login check with a predefined username and password.
-5. [Task 11](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task11.py) : Check whether a year is a leap year.
-6. [Task 12](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task12.py) : Build a grading system for marks from 0 to 100.
+1. [Task 7](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task07.py) :- Check whether a number is even or odd.
+2. [Task 8](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task08.py) :- Check whether a number is positive, negative, or zero.
+3. [Task 9](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task09.py) :- Find the largest of three numbers without using `max()`.
+4. [Task 10](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task10.py) :- Build a basic login check with a predefined username and password.
+5. [Task 11](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task11.py) :- Check whether a year is a leap year.
+6. [Task 12](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task12.py) :- Build a grading system for marks from 0 to 100.
 
 ## Day 3: Loops
 
