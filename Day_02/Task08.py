@@ -1,6 +1,6 @@
 # Task 8: Check whether a number is positive, negative, or zero.
 
-number = float(input("Enter a Number: ").strip())
+number = int(float(input("Enter a Number: ").strip()))
 if number > 0:
     print(f"Entered number {number} is Positive")
 elif number < 0:

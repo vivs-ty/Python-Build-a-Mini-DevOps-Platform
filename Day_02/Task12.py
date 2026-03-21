@@ -1,6 +1,6 @@
 # Task 12: Build a grading system for marks from 0 to 100.
 
-marks = float(input("Enter Your Marks in range of 0 to 100: ").strip())
+marks = int(float(input("Enter Your Marks in range of 0 to 100: ").strip()))
 if marks < 0 or marks > 100:
     print("Invalid marks entered. Please enter a value between 0 and 100.")
 elif marks >= 90:
