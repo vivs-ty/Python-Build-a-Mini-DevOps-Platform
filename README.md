@@ -18,12 +18,12 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 2: Conditional Logic
 
-1. Task 7: Check whether a number is even or odd.
-2. Task 8: Check whether a number is positive, negative, or zero.
-3. Task 9: Find the largest of three numbers without using `max()`.
-4. Task 10: Build a basic login check with a predefined username and password.
-5. Task 11: Check whether a year is a leap year.
-6. Task 12: Build a grading system for marks from 0 to 100.
+1. [Task 7](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task07.py) : Check whether a number is even or odd.
+2. [Task 8](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task08.py) : Check whether a number is positive, negative, or zero.
+3. [Task 9](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task09.py) : Find the largest of three numbers without using `max()`.
+4. [Task 10](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task10.py) : Build a basic login check with a predefined username and password.
+5. [Task 11](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task11.py) : Check whether a year is a leap year.
+6. [Task 12](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_02/Task12.py) : Build a grading system for marks from 0 to 100.
 
 ## Day 3: Loops
 
