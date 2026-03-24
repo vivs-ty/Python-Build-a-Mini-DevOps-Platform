@@ -10,5 +10,9 @@ def factorial(n):
         for i in range(2, n + 1):
             result *= i
         return result  
+
+n = int(input("Enter a number to calculate factorial: ").strip())
+print(f"Factorial of {n} is: {factorial(n)}")
+
 print(f" \n Python 30 days Series - Day 3 Task 15 \n")
 print(f" \n Have a good one! \n")

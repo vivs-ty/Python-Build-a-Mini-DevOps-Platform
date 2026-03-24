@@ -1,6 +1,6 @@
 # Task 7: Check whether a number is even or odd.
 
-number = int(float(input("Enter a Number: ").strip()))
+number = int(input("Enter a Number: ").strip())
 if number % 2 ==0 :
     print(f"Entered number {number} is Even")
 else:

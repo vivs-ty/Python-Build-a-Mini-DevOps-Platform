@@ -25,7 +25,7 @@ def calculator():
             print("Error: Division by zero is undefined.")
     elif operator == '%':
         if num2 != 0:
-            result = (num1 * 100) / num2
+            result = num1 % num2
             print(f"The result of {num1} % {num2} is: {result}")
         else:
             print("Error: Division by zero is undefined.")

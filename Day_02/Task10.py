@@ -3,13 +3,15 @@
 username = input("Enter your username: ").strip()
 password = input("Enter your password: ").strip()
 
-p_un = "admin"
-p_p = "password123"
+PREDEFINED_USERNAME = "admin"
+PREDEFINED_PASSWORD = "password123"
 
-if username == p_un and password == p_p:
+if username == PREDEFINED_USERNAME and password == PREDEFINED_PASSWORD:
     print("Login successful!")
 else:
     print("Invalid username or password.")
+
+print("Note: Hardcoded credentials are used here for learning only.")
 
 print(f" \n Python 30 days Series - Day 2 Task 10 \n")
 print(f" \n Have a good one! ")
