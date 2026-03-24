@@ -27,12 +27,12 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 3: Loops
 
-1. Task 13: Print numbers from 1 to 100 and skip values divisible by 3.
-2. Task 14: Generate a multiplication table for a user-provided number.
-3. Task 15: Calculate the factorial of a number using a loop.
-4. Task 16: Generate the Fibonacci sequence up to `N` terms.
-5. Task 17: Count the number of digits in an integer.
-6. Task 18: Calculate the sum of all numbers between two values, inclusive.
+1. [Task 13](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task13.py) :- Print numbers from 1 to 100 and skip values divisible by 3.
+2. [Task 14](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task14.py) :- Generate a multiplication table for a user-provided number.
+3. [Task 15](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task15.py) :- Calculate the factorial of a number using a loop.
+4. [Task 16](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task16.py) :- Generate the Fibonacci sequence up to `N` terms.
+5. [Task 17](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task17.py) :- Count the number of digits in an integer.
+6. [Task 18](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_03/Task18.py) :- Calculate the sum of all numbers between two values, inclusive.
 
 ## Day 4: Strings
 
