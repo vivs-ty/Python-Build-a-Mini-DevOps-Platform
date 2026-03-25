@@ -5,7 +5,7 @@ def calculator():
     print("You can perform operations: +, -, *, /, %,")
     
     num1 = float(input("Enter the first number: ").strip())
-    operator = input("Enter the operator (+, -, *, /): ").strip()
+    operator = input("Enter the operator (+, -, *, /, %): ").strip()
     num2 = float(input("Enter the second number: ").strip())
     
     if operator == '+':
@@ -25,7 +25,7 @@ def calculator():
             print("Error: Division by zero is undefined.")
     elif operator == '%':
         if num2 != 0:
-            result = num1 +num2 * 100 / 2
+            result = (num1 / num2) * 100 
             print(f"The result of {num1} % {num2} is: {result}")
         else:
             print("Error: Division by zero is undefined.")
