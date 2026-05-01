@@ -5,5 +5,6 @@ for i in range(1, 101):
         continue
     print(i)
 print(f" \n Python 30 days Series - Day 3 Task 13 \n")
+print(f" \n Day 3: Loops \n")
 print(f" \n Have a good one! \n")
 
