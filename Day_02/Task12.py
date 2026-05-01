@@ -17,4 +17,5 @@ else:
     print(f"Your marks {marks} is Grade F \n better luck next time! \n")
 
 print(f" \n Python 30 days Series - Day 2 Task 12 \n")
+print(f" \n Day 2: Conditional Logic \n")
 print(f" \n Have a good one! ")

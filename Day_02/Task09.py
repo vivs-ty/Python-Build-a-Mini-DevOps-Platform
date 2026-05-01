@@ -11,4 +11,5 @@ else:
     print(f"Entered number {number_3} is the largest")
 
 print(f" \n Python 30 days Series - Day 2 Task 9 \n")
+print(f" \n Day 2: Conditional Logic \n")
 print(f" \n Have a good one! ")
