@@ -36,12 +36,12 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 4: Strings
 
-1. Task 19: Reverse a string without using built-in reverse helpers.
-2. Task 20: Check whether a string is a palindrome.
-3. Task 21: Count vowels and consonants in a string.
-4. Task 22: Remove duplicate characters from a string while preserving order.
-5. Task 23: Count the frequency of each character in a string.
-6. Task 24: Build a password strength checker based on length, uppercase letters, digits, and special characters.
+1. [Task 19](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task19.py) :- Reverse a string without using built-in reverse helpers.
+2. [Task 20](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task20.py) :- Check whether a string is a palindrome.
+3. [Task 21](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task21.py) :- Count vowels and consonants in a string.
+4. [Task 22](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task22.py) :- Remove duplicate characters from a string while preserving order.
+5. [Task 23](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task23.py) :- Count the frequency of each character in a string.
+6. [Task 24](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_04/Task24.py) :- Build a password strength checker based on length, uppercase letters, digits, and special characters.
 
 ## Day 5: Lists, Sets, and Dictionaries
 
