@@ -45,14 +45,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 5: Lists, Sets, and Dictionaries
 
-1. Task 25: Remove duplicate elements from a list.
-2. Task 26: Find the second largest number in a list without sorting.
-3. Task 27: Sort a list in ascending order without using `sort()`.
-4. Task 28: Merge two lists and remove duplicate values.
-5. Task 29: Count the frequency of each list element and store the result in a dictionary.
-6. Task 30: Build a simple phonebook with add, search, and delete operations.
-7. Task 31: Convert a list of tuples into a dictionary.
-8. Task 32: Find the union and intersection of two sets.
+1. [Task 25](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task25.py) :- Remove duplicate elements from a list.
+2. [Task 26](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task26.py) :- Find the second largest number in a list without sorting.
+3. [Task 27](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task27.py) :- Sort a list in ascending order without using `sort()`.
+4. [Task 28](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task28.py) :- Merge two lists and remove duplicate values.
+5. [Task 29](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task29.py) :- Count the frequency of each list element and store the result in a dictionary.
+6. [Task 30](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task30.py) :- Build a simple phonebook with add, search, and delete operations.
+7. [Task 31](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task31.py) :- Convert a list of tuples into a dictionary.
+8. [Task 32](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_05/Task32.py) :- Find the union and intersection of two sets.
 
 ## Day 6: Functions and Error Handling
 
