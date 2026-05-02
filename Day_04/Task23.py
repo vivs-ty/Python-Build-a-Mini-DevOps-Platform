@@ -1,10 +1,11 @@
 # Task 23: Count the frequency of each character in a string.
 
-input_string = input("Enter a string to count character frequency: ").strip()
-frequency = {}
+from collections import Counter
 
-for char in input_string:
-    frequency[char] = frequency.get(char, 0) + 1
+input_string = input("Enter a string to count character frequency: ").strip()
+
+# Counter does all the looping and dictionary management in C under the hood
+frequency = Counter(input_string)
 
 print("Character frequencies:")
 for char, count in frequency.items():

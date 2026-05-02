@@ -1,7 +1,12 @@
 # Task 20: Check whether a string is a palindrome.
 
 val = input("Enter a string to check if it's a palindrome: ").strip()
-normalized_val = val.replace(" ", "").lower()
+
+# filter() efficiently extracts only alphanumeric characters
+cleaned_chars = list(filter(str.isalnum, val.lower()))
+normalized_val = "".join(cleaned_chars)
+
+# Slicing is the fastest way to compare in Python
 if normalized_val == normalized_val[::-1]:
     print(f"The string '{val}' is a palindrome.")
 else:

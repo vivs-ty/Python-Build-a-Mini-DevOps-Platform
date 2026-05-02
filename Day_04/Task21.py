@@ -1,15 +1,13 @@
 # Task 21: Count vowels and consonants in a string.
 
-input_string = input("Enter a string to count vowels and consonants: ").strip()
-vowels = "aeiouAEIOU"
-vowel_count = 0
-consonant_count = 0
+input_string = input("Enter a string to count vowels and consonants: ").strip().lower()
 
-for char in input_string:
-    if char in vowels:
-        vowel_count += 1
-    elif char.isalpha():
-        consonant_count += 1
+# Sets provide O(1) lightning-fast lookups
+vowels = set("aeiou")
+
+# Using generators and sum() is highly Pythonic
+vowel_count = sum(1 for char in input_string if char in vowels)
+consonant_count = sum(1 for char in input_string if char.isalpha() and char not in vowels)
 
 print(f"Vowels: {vowel_count}")
 print(f"Consonants: {consonant_count}")
