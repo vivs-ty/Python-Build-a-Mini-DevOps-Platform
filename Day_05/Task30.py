@@ -1,39 +1,32 @@
 # Task 30: Build a simple phonebook with add, search, and delete operations.
 
-phonebook = {}
-def add_contact(name, number):
-    phonebook[name] = number
-    print(f"Contact {name} added with number {number}.")
+class Phonebook:
+    def __init__(self):
+        self.contacts = {} # The dictionary is now tied to the instance
 
-def search_contact(name):
-    if name in phonebook:
-        print(f"Contact {name} found with number {phonebook[name]}.")
-    else:
-        print(f"Contact {name} not found.")
+    def add(self, name, number):
+        self.contacts[name] = number
+        print(f" Added: {name} -> {number}")
 
-def delete_contact(name):
-    if name in phonebook:
-        del phonebook[name]
-        print(f"Contact {name} deleted.")
-    else:
-        print(f"Contact {name} not found.")
-while True:
-    action = input("Choose an action: add, search, delete, or exit: ").lower()
-    if action == "add":
-        name = input("Enter contact name: ")
-        number = input("Enter contact number: ")
-        add_contact(name, number)
-    elif action == "search":
-        name = input("Enter contact name to search: ")
-        search_contact(name)
-    elif action == "delete":
-        name = input("Enter contact name to delete: ")
-        delete_contact(name)
-    elif action == "exit":
-        print("Exiting phonebook. Goodbye!")
-        break
-    else:
-        print("Invalid action. Please choose add, search, delete, or exit.")
+    def search(self, name):
+        # .get() avoids KeyError and returns a default string if not found
+        result = self.contacts.get(name, f" {name} not found.")
+        print(result)
+
+    def delete(self, name):
+        # .pop() removes the key and returns its value, or a default if missing
+        result = self.contacts.pop(name, None)
+        if result:
+            print(f" Deleted: {name}")
+        else:
+            print(f" {name} not found.")
+
+# Usage
+my_phonebook = Phonebook()
+# Example interaction (hardcoded to avoid an infinite while-loop blocking execution here)
+my_phonebook.add("Alice", "555-0100")
+my_phonebook.search("Alice")
+my_phonebook.delete("Bob")
 print(f" \n Python 30 days Series - Day 5 Task 30 \n")
 print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
 print(f" \n Have a good one! \n")

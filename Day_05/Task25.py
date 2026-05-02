@@ -1,8 +1,11 @@
 # Task 25: Remove duplicate elements from a list.
 
-input_list = input("Enter a list of elements separated by spaces: ").split()
-result = list(dict.fromkeys(input_list))
-print(f"List after removing duplicates: {result}")
+input_list = input("Enter elements separated by spaces: ").split()
+# If order MATTERS (Python 3.7+):
+ordered_result = list(dict.fromkeys(input_list))
+# If order DOES NOT matter (Faster and shows intent):
+unordered_result = list(set(input_list))
+print(f"List after removing duplicates (Ordered): {ordered_result}")
 print(f" \n Python 30 days Series - Day 5 Task 25 \n")
 print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
 print(f" \n Have a good one! \n")

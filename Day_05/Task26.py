@@ -1,14 +1,19 @@
 # Task 26: Find the second largest number in a list without sorting.
 
-input_list = list(map(int, input("Enter a list of numbers separated by spaces: ").split()))
-first_largest = second_largest = float('-inf')
+import heapq
 
-for num in input_list:
-    if num > first_largest:
-        second_largest = first_largest
-        first_largest = num
-    elif num > second_largest and num != first_largest:
-        second_largest = num
+def get_second_largest(numbers):
+    # Edge case handling: Need at least 2 unique numbers
+    unique_nums = set(numbers)
+    if len(unique_nums) < 2:
+        return None
+        
+    # heapq.nlargest is highly optimized in C for finding top K elements
+    return heapq.nlargest(2, unique_nums)[-1]
+
+# Using a list comprehension for input parsing is clean
+input_list = [int(x) for x in input("Enter numbers separated by spaces: ").split()]
+second_largest = get_second_largest(input_list)
 
 print(f"Second largest number: {second_largest}")
 print(f" \n Python 30 days Series - Day 5 Task 26 \n")
