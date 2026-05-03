@@ -1,15 +1,19 @@
 # Task 35: Write a recursive factorial function with error handling for negative values.
 
-def factorial(n):
+from functools import cache
+
+@cache # Memoization prevents redundant recursive calculations
+def factorial(n: int) -> int:
     if n < 0:
         raise ValueError("Factorial is not defined for negative numbers.")
-    elif n == 0 or n == 1:
+    if n in (0, 1):
         return 1
-    else:
-        return n * factorial(n - 1)
+    return n * factorial(n - 1)
+
 try:
-    print(factorial(5))  # Example usage
-    print(factorial(-3))  # This will raise an error
+    print(f"Factorial of 5: {factorial(5)}")
+    print(f"Factorial of 6 (instant): {factorial(6)}") # Uses cached result of 5
+    print(factorial(-3))
 except ValueError as e:
     print(e)
 print(f" \n Python 30 days Series - Day 6 Task 35 \n")
