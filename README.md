@@ -56,14 +56,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 6: Functions and Error Handling
 
-1. Task 33: Create reusable functions for addition, subtraction, multiplication, and division.
-2. Task 34: Write a function that returns the maximum, minimum, and average of a list without using `max()` or `min()`.
-3. Task 35: Write a recursive factorial function with error handling for negative values.
-4. Task 36: Create a safe file reader that handles missing files cleanly.
-5. Task 37: Divide two numbers and handle invalid input and division by zero.
-6. Task 38: Define a custom `InvalidAgeError` and raise it when age is below 18.
-7. Task 39: Use `*args` to calculate the sum and average of values.
-8. Task 40: Build a menu-driven utility with actions like add user, delete user, and list users.
+1. [Task 33](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task33.py) :- Create reusable functions for addition, subtraction, multiplication, and division.
+2. [Task 34](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task34.py) :- Write a function that returns the maximum, minimum, and average of a list without using `max()` or `min()`.
+3. [Task 35](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task35.py) :- Write a recursive factorial function with error handling for negative values.
+4. [Task 36](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task36.py) :- Create a safe file reader that handles missing files cleanly.
+5. [Task 37](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task37.py) :- Divide two numbers and handle invalid input and division by zero.
+6. [Task 38](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task38.py) :- Define a custom `InvalidAgeError` and raise it when age is below 18.
+7. [Task 39](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task39.py) :- Use `*args` to calculate the sum and average of values.
+8. [Task 40](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Tassk40.py) :- Build a menu-driven utility with actions like add user, delete user, and list users.
 
 ## Day 7: File Handling
 
