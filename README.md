@@ -67,14 +67,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 7: File Handling
 
-1. Task 41: Count lines, words, and characters in a text file.
-2. Task 42: Read a log file and print only the lines that contain `ERROR`.
-3. Task 43: Copy the contents of one file into another file.
-4. Task 44: Append user activity logs with timestamps to a file.
-5. Task 45: Count how many times a specific word appears in a file.
-6. Task 46: Write only unique lines from a file into a new file.
-7. Task 47: Merge multiple text files into one file.
-8. Task 48: Build a log analyzer that counts `INFO`, `WARNING`, and `ERROR` entries.
+1. [Task 41](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task41.py) :- Count lines, words, and characters in a text file.
+2. [Task 42](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task42.py) :- Read a log file and print only the lines that contain `ERROR`.
+3. [Task 43](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task43.py) :- Copy the contents of one file into another file.
+4. [Task 44](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task44.py) :- Append user activity logs with timestamps to a file.
+5. [Task 45](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task45.py) :- Count how many times a specific word appears in a file.
+6. [Task 46](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task46.py) :- Write only unique lines from a file into a new file.
+7. [Task 47](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task47.py) :- Merge multiple text files into one file.
+8. [Task 48](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_07/Task48.py) :- Build a log analyzer that counts `INFO`, `WARNING`, and `ERROR` entries.
 
 ## Day 8: Object-Oriented Programming
 
