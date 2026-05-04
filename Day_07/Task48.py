@@ -19,7 +19,7 @@ if Path(log_file).is_file():
                 # Add the matched word to our Counter
                 counts[match.group(1)] += 1
                 
-    print("📊 Log Analysis:")
+    print(" Log Analysis:")
     for log_level, count in counts.most_common():
         print(f"{log_level}: {count}")
 else:
