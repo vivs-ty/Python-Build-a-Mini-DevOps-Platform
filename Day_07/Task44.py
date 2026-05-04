@@ -1,12 +1,20 @@
 # Task 44: Append user activity logs with timestamps to a file.
 
-import os
-from datetime import datetime
+import logging
 
-log_file = 'user_activity.log'
+# Configures the logger to automatically add timestamps and append to the file
+logging.basicConfig(
+    filename='user_activity.log',
+    level=logging.INFO,
+    format='[%(asctime)s] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 
-with open(log_file, 'a') as file:
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    user_action = input("Enter the user action: ")
-    file.write(f"[{timestamp}] {user_action}\n")
-    
+user_action = input("Enter the user action: ").strip()
+if user_action:
+    logging.info(user_action)
+    print(" Action logged.")
+
+print(f" \n Python 30 days Series - Day 7 Task 44 \n")
+print(f" \n Day 7: File Handling \n")
+print(f" \n Have a good one! \n")

@@ -1,16 +1,21 @@
 # Task 47: Merge multiple text files into one file.
 
+import shutil
+from pathlib import Path
 
-import os
+file_names = input("Enter files to merge (space-separated): ").split()
+destination = input("Enter destination file: ").strip()
 
-num_files = int(input("Enter the number of files to merge: ")).strip()
-file_names = []
-for _ in range(num_files):
-    file_name = input("Enter the filename: ")
-    file_names.append(file_name)
-destination_file = input("Enter the destination file name: ").strip()
-with open(destination_file, "w") as dst:
-    for file_name in file_names:
-        with open(file_name, "r") as src:
-            dst.write(src.read() + "\n")
-print(f"Files {', '.join(file_names)} have been merged into {destination_file}.")
+with open(destination, "wb") as dst: # 'wb' is write-binary (faster for raw copying)
+    for name in file_names:
+        if Path(name).is_file():
+            with open(name, "rb") as src:
+                shutil.copyfileobj(src, dst) # Highly optimized stream copying
+                dst.write(b"\n") # Ensure a newline between files
+        else:
+            print(f" Skipped missing file: {name}")
+
+print(f" Merged into {destination}.")
+print(f" \n Python 30 days Series - Day 7 Task 47 \n")
+print(f" \n Day 7: File Handling \n")
+print(f" \n Have a good one! \n")
