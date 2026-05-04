@@ -1,5 +1,6 @@
 # Task 41: Count lines, words, and characters in a text file.
 
+import os
 select_file = input("Enter the filename: ")
 
 with open(select_file, "r") as file:

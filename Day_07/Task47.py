@@ -3,7 +3,7 @@
 
 import os
 
-num_files = int(input("Enter the number of files to merge: "))
+num_files = int(input("Enter the number of files to merge: ")).strip()
 file_names = []
 for _ in range(num_files):
     file_name = input("Enter the filename: ")
