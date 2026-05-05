@@ -23,3 +23,6 @@ win_node = WindowsServer("ad-primary", "192.168.1.100", "WIN-XYZ-123")
 
 print(f"Linux Node: {ubuntu_node.hostname} running {ubuntu_node.distro}")
 print(f"Windows Node: {win_node.hostname} with IP {win_node.ip_address}")
+print(f" \n Python 30 days Series - Day 8 Task 51 \n")
+print(f" \n Day 8: OOPs \n")
+print(f" \n Have a good one! \n")

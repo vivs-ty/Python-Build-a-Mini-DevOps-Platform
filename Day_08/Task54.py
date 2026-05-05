@@ -29,3 +29,6 @@ manager.add("bob")
 manager.add("bob") # Should warn
 manager.list_all()
 manager.delete("bob")
+print(f" \n Python 30 days Series - Day 8 Task 54 \n")
+print(f" \n Day 8: OOPs \n")
+print(f" \n Have a good one! \n")

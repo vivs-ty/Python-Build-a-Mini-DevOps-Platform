@@ -14,7 +14,7 @@ class BankAccount:
             self._balance += amount
             print(f" Deposited ${amount:.2f}. New balance: ${self._balance:.2f}")
         else:
-            print("❌ Deposit amount must be positive.")
+            print(" Deposit amount must be positive.")
 
     def withdraw(self, amount: float) -> None:
         if 0 < amount <= self._balance:
@@ -28,3 +28,6 @@ account = BankAccount("Sarah Jenkins", 500.00)
 account.deposit(150.00)
 account.withdraw(600.00)
 account.withdraw(100.00)
+print(f" \n Python 30 days Series - Day 8 Task 55 \n")
+print(f" \n Day 8: OOPs \n")
+print(f" \n Have a good one! \n")
