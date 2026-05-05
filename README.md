@@ -78,14 +78,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 8: Object-Oriented Programming
 
-1. Task 49: Create a `Server` class with hostname, IP address, CPU cores, and memory.
-2. Task 50: Add a constructor to initialize all `Server` attributes.
-3. Task 51: Create `LinuxServer` and `WindowsServer` classes that inherit from `Server`.
-4. Task 52: Demonstrate method overriding in child classes.
-5. Task 53: Use encapsulation with private attributes and getter or setter methods.
-6. Task 54: Create a `UserManager` class with add, delete, and list operations.
-7. Task 55: Simulate a bank system with deposit, withdraw, and balance operations.
-8. Task 56: Track the number of created objects with a class variable.
+1. [Task 49](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task49.py) :- Create a `Server` class with hostname, IP address, CPU cores, and memory.
+2. [Task 50](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task50.py) :- Add a constructor to initialize all `Server` attributes.
+3. [Task 51](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task51.py) :- Create `LinuxServer` and `WindowsServer` classes that inherit from `Server`.
+4. [Task 52](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task52.py) :- Demonstrate method overriding in child classes.
+5. [Task 53](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task53.py) :- Use encapsulation with private attributes and getter or setter methods.
+6. [Task 54](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task54.py) :- Create a `UserManager` class with add, delete, and list operations.
+7. [Task 55](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task55.py) :- Simulate a bank system with deposit, withdraw, and balance operations.
+8. [Task 56](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_08/Task56.py) :- Track the number of created objects with a class variable.
 
 ## Day 9: JSON, CSV, and Configuration
 
