@@ -24,3 +24,6 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
 Path("sample.csv").write_text("id,name,role\n1,Alice,Admin\n2,Bob,User", encoding="utf-8")
 csv_to_json("sample.csv", "sample_output.json")
 
+print(f" \n Python 30 days Series - Day 9 Task 59 \n")
+print(f" \n Day 9: JSON, CSV, and Configuration \n")
+print(f" \n Have a good one! \n")

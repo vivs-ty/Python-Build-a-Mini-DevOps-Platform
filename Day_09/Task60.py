@@ -31,3 +31,6 @@ def calculate_csv_stats(csv_path: str, column_name: str) -> None:
 Path("data.csv").write_text("user,score\nAlice,85\nBob,92\nCharlie,78\nDiana,95", encoding="utf-8")
 calculate_csv_stats("data.csv", "score")
 
+print(f" \n Python 30 days Series - Day 9 Task 60 \n")
+print(f" \n Day 9: JSON, CSV, and Configuration \n")
+print(f" \n Have a good one! \n")

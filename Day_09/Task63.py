@@ -28,3 +28,6 @@ Path("api_config.json").write_text('{"api_key": "xyz123", "timeout": 60}', encod
 
 merge_json_files("merged_config.json", "db_config.json", "api_config.json")
 
+print(f" \n Python 30 days Series - Day 9 Task 63 \n")
+print(f" \n Day 9: JSON, CSV, and Configuration \n")
+print(f" \n Have a good one! \n")
