@@ -89,14 +89,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 9: JSON, CSV, and Configuration
 
-1. Task 57: Read a JSON configuration file and print all key-value pairs.
-2. Task 58: Update a value in a JSON file and save it.
-3. Task 59: Convert a CSV file into JSON.
-4. Task 60: Read a CSV file and calculate summary statistics.
-5. Task 61: Build a configuration loader that reads settings from JSON.
-6. Task 62: Validate whether a JSON file is properly formatted.
-7. Task 63: Merge multiple JSON files into one file.
-8. Task 64: Load the correct config file based on an environment like dev or prod.
+1. [Task 57](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task57.py) :- Read a JSON configuration file and print all key-value pairs.
+2. [Task 58](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task58.py) :- Update a value in a JSON file and save it.
+3. [Task 59](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task59.py) :- Convert a CSV file into JSON.
+4. [Task 60](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task60.py) :- Read a CSV file and calculate summary statistics.
+5. [Task 61](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task61.py) :- Build a configuration loader that reads settings from JSON.
+6. [Task 62](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task62.py) :- Validate whether a JSON file is properly formatted.
+7. [Task 63](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task63.py) :- Merge multiple JSON files into one file.
+8. [Task 64](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_09/Task64.py) :- Load the correct config file based on an environment like dev or prod.
 
 ## Day 10: OS Interaction and Environment
 
