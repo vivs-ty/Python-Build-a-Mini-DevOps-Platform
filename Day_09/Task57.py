@@ -7,7 +7,7 @@ from typing import Any
 def read_config(file_path: str | Path) -> dict[str, Any] | None:
     path = Path(file_path)
     if not path.is_file():
-        print(f"❌ Error: Configuration file '{path}' not found.")
+        print(f" Error: Configuration file '{path}' not found.")
         return None
         
     try:
@@ -15,7 +15,7 @@ def read_config(file_path: str | Path) -> dict[str, Any] | None:
             data = json.load(f)
             return data
     except json.JSONDecodeError as e:
-        print(f"❌ Error: Invalid JSON format. {e}")
+        print(f" Error: Invalid JSON format. {e}")
         return None
 
 # --- Demonstration ---
@@ -24,7 +24,7 @@ dummy_config.write_text('{"host": "localhost", "port": 8080, "debug": true}', en
 
 config = read_config(dummy_config)
 if config:
-    print("⚙️ Configuration Loaded:")
+    print(" Configuration Loaded:")
     for key, value in config.items():
         print(f"  - {key}: {value}")
 
