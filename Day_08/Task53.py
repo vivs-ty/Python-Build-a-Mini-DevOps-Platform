@@ -27,4 +27,4 @@ secure_server.ip_address = "10.0.0.2" # Valid update
 secure_server.ip_address = "999.invalid.ip" # Invalid update attempt
 print(f" \n Python 30 days Series - Day 8 Task 53 \n")
 print(f" \n Day 8: OOPs \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)
