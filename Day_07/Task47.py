@@ -18,4 +18,4 @@ with open(destination, "wb") as dst: # 'wb' is write-binary (faster for raw copy
 print(f" Merged into {destination}.")
 print(f" \n Python 30 days Series - Day 7 Task 47 \n")
 print(f" \n Day 7: File Handling \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)

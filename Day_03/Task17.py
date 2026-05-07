@@ -11,4 +11,4 @@ print(f"Number of digits in {n} is: {digit_count}")
 
 print(f" \n Python 30 days Series - Day 3 Task 17 \n")
 print(f" \n Day 3: Loops \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)

@@ -15,4 +15,4 @@ my_server.ip_address = "192.168.1.10"
 print(f"Created Server: {my_server.hostname} at {my_server.ip_address}")
 print(f" \n Python 30 days Series - Day 8 Task 49 \n")
 print(f" \n Day 8: OOPs \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)

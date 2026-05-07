@@ -26,4 +26,4 @@ print(f"Database URL: {api_key}")
 
 print(f" \n Python 30 days Series - Day 10 Task 66 \n")
 print(f" \n Day 10: OS Interaction and Environment \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)

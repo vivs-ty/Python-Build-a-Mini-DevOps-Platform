@@ -18,4 +18,4 @@ except ValueError as e:
     print(e)
 print(f" \n Python 30 days Series - Day 6 Task 35 \n")
 print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)
