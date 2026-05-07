@@ -34,7 +34,7 @@ def calculator():
     
     print(f" \n Python 30 days Series - Day 1 Task 6 \n")
     print(f" \n Day 1: Input, Output, and Variables \n")
-    print(f" \n Have a good one! ")
+    print(f" \n Have a good one! " + "-"*40)
 
 
 if __name__ == "__main__":
