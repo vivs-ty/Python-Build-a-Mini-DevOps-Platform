@@ -100,14 +100,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 10: OS Interaction and Environment
 
-1. Task 65: Print all environment variables.
-2. Task 66: Read a specific environment variable and handle missing values.
-3. Task 67: List all files and directories in the current working directory.
-4. Task 68: Create a directory structure such as `logs`, `data`, and `backup` if it does not exist.
-5. Task 69: Delete files older than a given number of days.
-6. Task 70: Calculate the total size of files in a directory.
-7. Task 71: Monitor a directory and print a message when a new file is added.
-8. Task 72: Build a backup tool that copies files and logs the operation.
+1. [Task 65](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task65.py) :- Print all environment variables.
+2. [Task 66](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task66.py) :- Read a specific environment variable and handle missing values.
+3. [Task 67](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task67.py) :- List all files and directories in the current working directory.
+4. [Task 68](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task68.py) :- Create a directory structure such as `logs`, `data`, and `backup` if it does not exist.
+5. [Task 69](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task69.py) :- Delete files older than a given number of days.
+6. [Task 70](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task70.py) :- Calculate the total size of files in a directory.
+7. [Task 71](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task71.py) :- Monitor a directory and print a message when a new file is added.
+8. [Task 72](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_10/Task72.py) :- Build a backup tool that copies files and logs the operation.
 
 ## Day 11: Regular Expressions
 
