@@ -7,9 +7,9 @@ def get_config_value(key: str, default_value: str = "Unset") -> str:
     value = os.getenv(key, default_value)
     
     if value == default_value:
-        print(f"⚠️ Warning: Environment variable '{key}' not found. Using default.")
+        print(f" Warning: Environment variable '{key}' not found. Using default.")
     else:
-        print(f"✅ Found '{key}'.")
+        print(f" Found '{key}'.")
         
     return value
 
@@ -24,4 +24,6 @@ print(f"Current User: {user}")
 api_key = get_config_value("DATABASE_URL", "sqlite:///local.db")
 print(f"Database URL: {api_key}")
 
-print("\nPython 30 days Series - Day 10 Task 66\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 10 Task 66 \n")
+print(f" \n Day 10: OS Interaction and Environment \n")
+print(f" \n Have a good one! \n")

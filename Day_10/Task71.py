@@ -7,10 +7,10 @@ def monitor_directory(directory: str, poll_interval: int = 2) -> None:
     target_dir = Path(directory)
     
     if not target_dir.is_dir():
-        print(f"❌ Error: '{directory}' not found.")
+        print(f" Error: '{directory}' not found.")
         return
 
-    print(f"👀 Monitoring '{target_dir.resolve()}' for new files...")
+    print(f" Monitoring '{target_dir.resolve()}' for new files...")
     print("Press Ctrl+C to stop.\n")
 
     # Capture the initial state of the directory
@@ -25,13 +25,13 @@ def monitor_directory(directory: str, poll_interval: int = 2) -> None:
             new_files = current_files - previous_files
             
             for file in new_files:
-                print(f"✨ NEW ITEM DETECTED: {file.name}")
+                print(f" NEW ITEM DETECTED: {file.name}")
                 
             # Update the state for the next loop
             previous_files = current_files
             
     except KeyboardInterrupt:
-        print("\n🛑 Monitoring stopped by user.")
+        print("\n Monitoring stopped by user.")
 
 # --- Demonstration ---
 # Uncomment the line below to run the infinite loop. 
@@ -39,4 +39,6 @@ def monitor_directory(directory: str, poll_interval: int = 2) -> None:
 
 # monitor_directory(".", poll_interval=2)
 
-print("\nPython 30 days Series - Day 10 Task 71\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 10 Task 71 \n")
+print(f" \n Day 10: OS Interaction and Environment \n")
+print(f" \n Have a good one! \n")

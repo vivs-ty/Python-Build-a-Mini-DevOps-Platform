@@ -14,14 +14,16 @@ def setup_project_directories(base_path: str, subdirs: list[str]) -> None:
             # exist_ok=True prevents crashes if it already exists
             # parents=True creates intermediate parent folders if needed
             dir_path.mkdir(parents=True, exist_ok=True)
-            print(f"  ✅ Directory ready: {dir_path}")
+            print(f"   Directory ready: {dir_path}")
         except PermissionError:
-            print(f"  ❌ Permission denied: Cannot create {dir_path}")
+            print(f"   Permission denied: Cannot create {dir_path}")
         except Exception as e:
-            print(f"  ❌ Unexpected error creating {dir_path}: {e}")
+            print(f"   Unexpected error creating {dir_path}: {e}")
 
 # --- Demonstration ---
 folders_to_create = ["logs", "data/raw", "data/processed", "backup"]
 setup_project_directories("./my_workspace", folders_to_create)
 
-print("\nPython 30 days Series - Day 10 Task 68\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 10 Task 68 \n")
+print(f" \n Day 10: OS Interaction and Environment \n")
+print(f" \n Have a good one! \n")

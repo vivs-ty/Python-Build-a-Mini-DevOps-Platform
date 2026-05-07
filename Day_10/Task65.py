@@ -3,7 +3,7 @@
 import os
 
 def print_environment_variables() -> None:
-    print("🌐 Current Environment Variables:\n" + "="*40)
+    print(" Current Environment Variables:\n" + "="*40)
     
     # Sort keys alphabetically for readability
     for key in sorted(os.environ):
@@ -17,4 +17,7 @@ def print_environment_variables() -> None:
 # --- Demonstration ---
 print_environment_variables()
 
-print("\nPython 30 days Series - Day 10 Task 65\nHave a good one!\n" + "-"*40)
+print("Environment Variable" + "-"*40)
+print(f" \n Python 30 days Series - Day 10 Task 65 \n")
+print(f" \n Day 10: OS Interaction and Environment \n")
+print(f" \n Have a good one! \n")

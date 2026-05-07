@@ -18,7 +18,7 @@ def create_backup(source_dir: str, backup_base_dir: str) -> None:
 
     if not src.is_dir():
         logging.error(f"Source directory '{source_dir}' does not exist.")
-        print("❌ Backup failed. Check logs.")
+        print(" Backup failed. Check logs.")
         return
 
     # Create a unique timestamped folder for this specific backup run
@@ -27,17 +27,17 @@ def create_backup(source_dir: str, backup_base_dir: str) -> None:
 
     try:
         logging.info(f"Starting backup: '{src}' -> '{dest}'")
-        print(f"⏳ Copying files to {dest}...")
+        print(f" Copying files to {dest}...")
         
         # shutil.copytree copies an entire directory tree recursively
         shutil.copytree(src, dest)
         
         logging.info("Backup completed successfully.")
-        print("✅ Backup successful!")
+        print(" Backup successful!")
         
     except Exception as e:
         logging.error(f"Backup failed: {e}")
-        print("❌ Backup encountered an error. Check logs.")
+        print(" Backup encountered an error. Check logs.")
 
 # --- Demonstration ---
 # We will create a dummy source directory to back up safely
@@ -47,4 +47,6 @@ Path("my_important_data/file.txt").write_text("Crucial data here.")
 # Run the backup tool
 create_backup("my_important_data", "backup_vault")
 
-print("\nPython 30 days Series - Day 10 Task 72\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 10 Task 72 \n")
+print(f" \n Day 10: OS Interaction and Environment \n")
+print(f" \n Have a good one! \n")
