@@ -32,4 +32,4 @@ print(get_env_config())
 
 print(f" \n Python 30 days Series - Day 9 Task 64 \n")
 print(f" \n Day 9: JSON, CSV, and Configuration \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)
