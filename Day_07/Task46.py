@@ -22,4 +22,4 @@ else:
 
 print(f" \n Python 30 days Series - Day 7 Task 46 \n")
 print(f" \n Day 7: File Handling \n")
-print(f" \n Have a good one! \n")
+print(f" \n Have a good one! \n " + "-"*40)
