@@ -18,8 +18,10 @@ def extract_urls(file_path: str) -> set[str]:
             
     return urls
 
-print("🔗 Extracted URLs:")
+print(" Extracted URLs:")
 for url in extract_urls("server_logs.txt"):
     print(f" - {url}")
 
-print("\nPython 30 days Series - Day 11 Task 77\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 11 Task 77 \n")
+print(f" \n Day 11: Regular Expressions \n")
+print(f" \n Have a good one! \n " + "-"*40)

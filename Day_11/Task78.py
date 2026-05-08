@@ -25,9 +25,11 @@ def validate_password(password: str) -> bool:
 # --- Demonstration ---
 test_passwords = ["weakpass", "NoSpecial123", "Short1!", "SuperSecureP@ssw0rd!"]
 
-print("🔐 Password Validation:")
+print(" Password Validation:")
 for pwd in test_passwords:
-    status = "✅ Strong" if validate_password(pwd) else "❌ Weak  "
+    status = " Strong" if validate_password(pwd) else " Weak  "
     print(f" {status}: {pwd}")
 
-print("\nPython 30 days Series - Day 11 Task 78\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 11 Task 78 \n")
+print(f" \n Day 11: Regular Expressions \n")
+print(f" \n Have a good one! \n " + "-"*40)
