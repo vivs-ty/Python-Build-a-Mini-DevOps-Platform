@@ -120,7 +120,6 @@ This repository contains a simple 30-day Python for DevOps challenge.
 7. [Task 79](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task79.py) :-  Mask sensitive data such as email addresses in a file.
 8. [Task 80](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task80.py) :-  Create a regex-based log filtering tool.
 
-
 ## Day 12: CLI Tools with argparse
 
 1. Task 81: Use `argparse` to accept a filename and print its content.
