@@ -111,14 +111,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 11: Regular Expressions
 
-1. Task 73: Extract all email addresses from a text file using regex.
-2. Task 74: Validate an IPv4 address with regex.
-3. Task 75: Extract timestamps in `YYYY-MM-DD HH:MM:SS` format from a log file.
-4. Task 76: Extract IP addresses from a log file and count their frequency.
-5. Task 77: Identify all URLs in a text file.
-6. Task 78: Build a regex-based password validator.
-7. Task 79: Mask sensitive data such as email addresses in a file.
-8. Task 80: Create a regex-based log filtering tool.
+1. [Task 73](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task73.py) :-  Extract all email addresses from a text file using regex.
+2. [Task 74](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task74.py) :-  Validate an IPv4 address with regex.
+3. [Task 75](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task75.py) :-  Extract timestamps in `YYYY-MM-DD HH:MM:SS` format from a log file.
+4. [Task 76](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task76.py) :-  Extract IP addresses from a log file and count their frequency.
+5. [Task 77](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task77.py) :-  Identify all URLs in a text file.
+6. [Task 78](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task78.py) :-  Build a regex-based password validator.
+7. [Task 79](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task79.py) :-  Mask sensitive data such as email addresses in a file.
+8. [Task 80](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_11/Task80.py) :-  Create a regex-based log filtering tool.
 
 ## Day 12: CLI Tools with argparse
 
