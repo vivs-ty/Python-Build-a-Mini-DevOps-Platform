@@ -122,14 +122,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 12: CLI Tools with argparse
 
-1. Task 81: Use `argparse` to accept a filename and print its content.
-2. Task 82: Build a CLI calculator that accepts two numbers and an operation.
-3. Task 83: Build a CLI log analyzer that filters by log level.
-4. Task 84: List files larger than a specified size in a directory.
-5. Task 85: Merge multiple files into a single output file through CLI arguments.
-6. Task 86: Build a CLI with subcommands such as `create-user`, `delete-user`, and `list-users`.
-7. Task 87: Support flags like `--verbose` and `--dry-run`.
-8. Task 88: Accept a URL and print the HTTP status code and response time.
+1. [Task 81](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task81.py) :- Use `argparse` to accept a filename and print its content.
+2. [Task 82](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task82.py) :- Build a CLI calculator that accepts two numbers and an operation.
+3. [Task 83](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task83.py) :- Build a CLI log analyzer that filters by log level.
+4. [Task 84](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task84.py) :- List files larger than a specified size in a directory.
+5. [Task 85](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task85.py) :- Merge multiple files into a single output file through CLI arguments.
+6. [Task 86](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task86.py) :- Build a CLI with subcommands such as `create-user`, `delete-user`, and `list-users`.
+7. [Task 87](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task87.py) :- Support flags like `--verbose` and `--dry-run`.
+8. [Task 88](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_12/Task88.py) :- Accept a URL and print the HTTP status code and response time.
 
 ## Day 13: Process and System Monitoring
 
