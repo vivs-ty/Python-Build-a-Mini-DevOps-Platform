@@ -1,6 +1,5 @@
 # Task 85: Merge multiple files into a single output file through CLI arguments.
 
-# Task 85: Master Version
 import argparse
 import shutil
 from pathlib import Path
@@ -31,3 +30,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 85 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)

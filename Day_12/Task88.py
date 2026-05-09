@@ -1,6 +1,5 @@
 # Task 88: Accept a URL and print the HTTP status code and response time.
 
-# Task 88: Master Version
 import argparse
 import urllib.request
 import urllib.error
@@ -29,16 +28,19 @@ def main() -> None:
         status = e.code
         reason = e.reason
     except urllib.error.URLError as e:
-        print(f"❌ Failed to connect: {e.reason}")
+        print(f"E Failed to connect: {e.reason}")
         return
         
     duration = (time.perf_counter() - start_time) * 1000 # Convert to milliseconds
 
     # Format output
-    color_prefix = "✅" if str(status).startswith("2") else "⚠️"
+    color_prefix = "S" if str(status).startswith("2") else "W"
     print(f"{color_prefix} Status: {status} {reason}")
-    print(f"⏱️ Time:   {duration:.2f} ms")
+    print(f"⏱ Time:   {duration:.2f} ms")
 
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 88 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)

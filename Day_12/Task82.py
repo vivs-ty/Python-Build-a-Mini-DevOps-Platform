@@ -1,6 +1,5 @@
 # Task 82: Build a CLI calculator that accepts two numbers and an operation.
 
-# Task 82: Master Version
 import argparse
 import operator
 
@@ -31,10 +30,13 @@ def main() -> None:
 
     try:
         result = ops[args.operation](args.num1, args.num2)
-        print(f"🧮 Result: {result}")
+        print(f" Result: {result}")
     except ZeroDivisionError:
-        print("❌ Error: Cannot divide by zero.")
+        print(" Error: Cannot divide by zero.")
 
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 82 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)

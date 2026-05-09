@@ -1,6 +1,5 @@
 # Task 87: Support flags like --verbose and --dry-run.
 
-# Task 87: Master Version
 import argparse
 import logging
 from pathlib import Path
@@ -25,14 +24,17 @@ def main() -> None:
     logging.debug(f"Target path resolved to: {target_path.absolute()}")
 
     if args.dry_run:
-        logging.info(f"🛡️ DRY RUN: Would have deleted '{target_path.name}'")
+        logging.info(f" DRY RUN: Would have deleted '{target_path.name}'")
     else:
         if target_path.exists():
             target_path.unlink() # Actual deletion
-            logging.info(f"✅ DELETED: '{target_path.name}'")
+            logging.info(f" DELETED: '{target_path.name}'")
         else:
-            logging.error(f"❌ File '{target_path.name}' not found.")
+            logging.error(f" File '{target_path.name}' not found.")
 
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 87 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)

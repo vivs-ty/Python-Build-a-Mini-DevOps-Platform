@@ -1,7 +1,6 @@
 # Task 84: List files larger than a specified size in a directory.
 
 
-# Task 84: Master Version
 import argparse
 from pathlib import Path
 
@@ -39,3 +38,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 84 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)

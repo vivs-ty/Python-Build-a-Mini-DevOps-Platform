@@ -1,17 +1,16 @@
 # Task 86: Build a CLI with subcommands such as create-user, delete-user, and list-users.
 
-# Task 86: Master Version
 import argparse
 
 # --- Mock Business Logic Functions ---
 def create_user(args: argparse.Namespace) -> None:
-    print(f"✅ User '{args.username}' created with role: {args.role}")
+    print(f" User '{args.username}' created with role: {args.role}")
 
 def delete_user(args: argparse.Namespace) -> None:
-    print(f"🗑️ User '{args.username}' has been deleted.")
+    print(f" User '{args.username}' has been deleted.")
 
 def list_users(args: argparse.Namespace) -> None:
-    print("👥 Listing all active users... (Mock Data)")
+    print(" Listing all active users... (Mock Data)")
 
 # --- CLI Setup ---
 def main() -> None:
@@ -40,3 +39,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
+print(f" \n Python 30 days Series - Day 12 Task 86 \n")
+print(f" \n Day 12: CLI Tools with argparse \n")
+print(f" \n Have a good one! \n " + "-"*40)
