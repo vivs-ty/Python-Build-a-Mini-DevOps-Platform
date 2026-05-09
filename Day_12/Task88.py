@@ -36,7 +36,7 @@ def main() -> None:
     # Format output
     color_prefix = "S" if str(status).startswith("2") else "W"
     print(f"{color_prefix} Status: {status} {reason}")
-    print(f"⏱ Time:   {duration:.2f} ms")
+    print(f" Time:   {duration:.2f} ms")
 
 if __name__ == "__main__":
     main()
