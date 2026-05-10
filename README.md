@@ -133,14 +133,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 13: Process and System Monitoring
 
-1. Task 89: List all running processes with their process IDs.
-2. Task 90: Find and terminate a process by name.
-3. Task 91: Print CPU and memory usage every 5 seconds.
-4. Task 92: Identify the top 5 memory-consuming processes.
-5. Task 93: Log CPU, memory, and disk usage into a file periodically.
-6. Task 94: Alert the user when CPU usage exceeds a threshold.
-7. Task 95: Warn when disk usage exceeds 80 percent.
-8. Task 96: Monitor a process and restart it if it stops.
+1. [Task 89](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task89.py) : List all running processes with their process IDs.
+2. [Task 90](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task90.py) : Find and terminate a process by name.
+3. [Task 91](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task91.py) : Print CPU and memory usage every 5 seconds.
+4. [Task 92](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task92.py) : Identify the top 5 memory-consuming processes.
+5. [Task 93](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task93.py) : Log CPU, memory, and disk usage into a file periodically.
+6. [Task 94](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task94.py) : Alert the user when CPU usage exceeds a threshold.
+7. [Task 95](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task95.py) : Warn when disk usage exceeds 80 percent.
+8. [Task 96](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task96.py) : Monitor a process and restart it if it stops.
 
 ## Day 14: Networking and APIs
 
