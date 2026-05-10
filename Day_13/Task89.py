@@ -16,7 +16,7 @@ def list_processes(limit: int = 15) -> None:
             if count >= limit: # Limit output so we don't flood the console
                 break
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-            pass # Silently skip processes we don't have permission to read
+            pass  # Silently skip processes we don't have permission to read
 
 list_processes()
 print(f" \n Python 30 days Series - Day 13 Task 89\n")

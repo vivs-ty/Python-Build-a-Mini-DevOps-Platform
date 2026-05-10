@@ -16,7 +16,7 @@ def get_top_memory_processes(n: int = 5) -> None:
     # Sort by memory descending
     processes.sort(key=lambda x: x[2], reverse=True)
     
-    print(f"🏆 Top {n} Memory-Consuming Processes:")
+    print(f" Top {n} Memory-Consuming Processes:")
     print(f"{'PID':<10} | {'Memory (MB)':<15} | {'Process Name'}")
     print("-" * 50)
     
@@ -25,4 +25,7 @@ def get_top_memory_processes(n: int = 5) -> None:
         print(f"{pid:<10} | {memory_mb:<15.2f} | {name}")
 
 get_top_memory_processes()
-print("\nPython 30 days Series - Day 13 Task 92\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 13 Task 92\n")
+print(f" \n Day 13 : Process and System Monitoring \n")
+print(f" \n Have a good one! \n " + "-"*40)
+

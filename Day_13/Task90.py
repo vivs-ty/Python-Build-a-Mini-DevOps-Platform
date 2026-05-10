@@ -8,22 +8,24 @@ def terminate_process_by_name(process_name: str) -> None:
     for proc in psutil.process_iter(['pid', 'name']):
         try:
             if proc.info['name'].lower() == process_name.lower():
-                print(f"⚠️ Found '{process_name}' (PID: {proc.info['pid']}). Terminating...")
+                print(f" Found '{process_name}' (PID: {proc.info['pid']}). Terminating...")
                 proc.terminate() # Asks the process to close nicely
                 proc.wait(timeout=3) # Wait up to 3 seconds for it to close
                 killed_count += 1
                 
         except psutil.TimeoutExpired:
-            print(f"🛑 Process {proc.info['pid']} did not terminate. Forcing kill...")
+            print(f" Process {proc.info['pid']} did not terminate. Forcing kill...")
             proc.kill() # Forcefully terminates
             killed_count += 1
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
 
     if killed_count == 0:
-        print(f"❌ No process named '{process_name}' found.")
+        print(f" No process named '{process_name}' found.")
     else:
-        print(f"✅ Successfully terminated {killed_count} instance(s) of '{process_name}'.")
+        print(f" Successfully terminated {killed_count} instance(s) of '{process_name}'.")
 
 # Example: terminate_process_by_name("notepad.exe")
-print("\nPython 30 days Series - Day 13 Task 90\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 13 Task 90\n")
+print(f" \n Day 13 : Process and System Monitoring \n")
+print(f" \n Have a good one! \n " + "-"*40)
