@@ -20,14 +20,16 @@ def benchmark_endpoint(url: str) -> None:
         
         log_msg = f"Endpoint: {url} | Status: {status} | Latency: {duration_ms:.2f} ms"
         logging.info(log_msg)
-        print(f"⏱️ {log_msg}")
-        print("📝 Logged to api_latency.log")
+        print(f" {log_msg}")
+        print(" Logged to api_latency.log")
         
     except requests.exceptions.RequestException as e:
         logging.error(f"Failed to reach {url}: {e}")
-        print(f"❌ Benchmark failed: {e}")
+        print(f" Benchmark failed: {e}")
 
 # --- Demonstration ---
 benchmark_endpoint("https://api.github.com")
 
-print("\nPython 30 days Series - Day 14 Task 102\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 102\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)

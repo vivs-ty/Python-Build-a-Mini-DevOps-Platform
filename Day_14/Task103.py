@@ -23,9 +23,11 @@ def fetch_and_print_table(url: str) -> None:
             print(f"{user_id:<5} | {username:<15} | {email:<25} | {city:<15}")
             
     except requests.exceptions.RequestException as e:
-        print(f"❌ Error fetching data: {e}")
+        print(f" Error fetching data: {e}")
 
 # --- Demonstration ---
 fetch_and_print_table("https://jsonplaceholder.typicode.com/users")
 
-print("\nPython 30 days Series - Day 14 Task 103\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 103\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)

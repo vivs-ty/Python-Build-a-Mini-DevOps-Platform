@@ -17,14 +17,14 @@ def monitor_endpoint(url: str, interval_seconds: int = 5, cycles: int = 3) -> No
             response = requests.get(url, timeout=5)
             
             if response.status_code == 200:
-                print(f"✅ {time.strftime('%H:%M:%S')} - HTTP 200: OK")
+                print(f" {time.strftime('%H:%M:%S')} - HTTP 200: OK")
             else:
-                alert = f"🚨 ALERT: Unexpected Status Code {response.status_code}"
+                alert = f" ALERT: Unexpected Status Code {response.status_code}"
                 print(alert)
                 logging.warning(f"{url} returned {response.status_code}")
                 
         except requests.exceptions.RequestException as e:
-            alert = f"🚨 ALERT: Connection completely failed!"
+            alert = f" ALERT: Connection completely failed!"
             print(f"{alert} ({e})")
             logging.error(f"Failed to reach {url}: {e}")
             
@@ -34,4 +34,6 @@ def monitor_endpoint(url: str, interval_seconds: int = 5, cycles: int = 3) -> No
 # Testing on an endpoint that returns a 404 Not Found
 monitor_endpoint("https://httpstat.us/404", interval_seconds=2)
 
-print("\nPython 30 days Series - Day 14 Task 104\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 104\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)

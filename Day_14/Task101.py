@@ -22,12 +22,14 @@ def resilient_api_call(url: str) -> None:
     try:
         # We will test this on a site that intentionally times out
         response = session.get(url, timeout=3)
-        print(f"✅ Success! Status: {response.status_code}")
+        print(f" Success! Status: {response.status_code}")
     except requests.exceptions.RequestException as e:
-        print(f"❌ Request ultimately failed after retries. Error: {e}")
+        print(f" Request ultimately failed after retries. Error: {e}")
 
 # --- Demonstration ---
 # We use httpstat.us to simulate a 503 Service Unavailable error
 resilient_api_call("https://httpstat.us/503")
 
-print("\nPython 30 days Series - Day 14 Task 101\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 101\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)

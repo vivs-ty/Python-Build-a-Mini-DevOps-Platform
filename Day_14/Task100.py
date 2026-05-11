@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 def backup_api_data(api_url: str, output_file: str) -> None:
-    print(f"⬇️ Downloading data from {api_url}...")
+    print(f"⬇ Downloading data from {api_url}...")
     try:
         response = requests.get(api_url, timeout=10)
         response.raise_for_status()
@@ -17,14 +17,16 @@ def backup_api_data(api_url: str, output_file: str) -> None:
         with open(out_path, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
             
-        print(f"✅ Success! Saved {len(data)} records to '{out_path.name}'.")
+        print(f" Success! Saved {len(data)} records to '{out_path.name}'.")
         
     except requests.exceptions.RequestException as e:
-        print(f"❌ Network Error: {e}")
+        print(f" Network Error: {e}")
     except json.JSONDecodeError:
-        print("❌ Error: API did not return valid JSON.")
+        print(" Error: API did not return valid JSON.")
 
 # --- Demonstration ---
 backup_api_data("https://jsonplaceholder.typicode.com/posts", "posts_backup.json")
 
-print("\nPython 30 days Series - Day 14 Task 100\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 100\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)

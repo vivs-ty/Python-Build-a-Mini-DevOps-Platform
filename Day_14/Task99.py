@@ -6,9 +6,9 @@ def get_headers_and_status(url: str) -> None:
     try:
         response = requests.get(url, timeout=5)
         
-        print(f"🌐 URL: {url}")
-        print(f"🟢 Status Code: {response.status_code} ({response.reason})")
-        print("📋 Select Headers:")
+        print(f" URL: {url}")
+        print(f" Status Code: {response.status_code} ({response.reason})")
+        print(" Select Headers:")
         
         # Headers we specifically care about in production
         keys_to_check = ["Server", "Content-Type", "Date"]
@@ -19,9 +19,11 @@ def get_headers_and_status(url: str) -> None:
             print(f"   -> {key}: {value}")
             
     except requests.exceptions.RequestException as e:
-        print(f"❌ Failed to connect: {e}")
+        print(f" Failed to connect: {e}")
 
 # --- Demonstration ---
 get_headers_and_status("https://api.github.com")
 
-print("\nPython 30 days Series - Day 14 Task 99\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 14 Task 99\n")
+print(f" \n Day 14 : Networking and APIs \n")
+print(f" \n Have a good one! \n " + "-"*40)
