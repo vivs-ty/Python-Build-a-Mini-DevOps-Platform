@@ -133,25 +133,25 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 13: Process and System Monitoring
 
-1. [Task 89](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task89.py) : List all running processes with their process IDs.
-2. [Task 90](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task90.py) : Find and terminate a process by name.
-3. [Task 91](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task91.py) : Print CPU and memory usage every 5 seconds.
-4. [Task 92](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task92.py) : Identify the top 5 memory-consuming processes.
-5. [Task 93](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task93.py) : Log CPU, memory, and disk usage into a file periodically.
-6. [Task 94](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task94.py) : Alert the user when CPU usage exceeds a threshold.
-7. [Task 95](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task95.py) : Warn when disk usage exceeds 80 percent.
-8. [Task 96](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task96.py) : Monitor a process and restart it if it stops.
+1. [Task 89](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task89.py) :- List all running processes with their process IDs.
+2. [Task 90](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task90.py) :- Find and terminate a process by name.
+3. [Task 91](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task91.py) :- Print CPU and memory usage every 5 seconds.
+4. [Task 92](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task92.py) :- Identify the top 5 memory-consuming processes.
+5. [Task 93](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task93.py) :- Log CPU, memory, and disk usage into a file periodically.
+6. [Task 94](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task94.py) :- Alert the user when CPU usage exceeds a threshold.
+7. [Task 95](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task95.py) :- Warn when disk usage exceeds 80 percent.
+8. [Task 96](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_13/Task96.py) :- Monitor a process and restart it if it stops.
 
 ## Day 14: Networking and APIs
 
-1. Task 97: Check whether a website is reachable with an HTTP request.
-2. Task 98: Fetch data from a public API and display selected fields.
-3. Task 99: Retrieve the HTTP status code and headers for a URL.
-4. Task 100: Download API data and save it as JSON.
-5. Task 101: Retry an API request up to three times on network failure.
-6. Task 102: Measure API response time and log it.
-7. Task 103: Display API data in a formatted table.
-8. Task 104: Monitor an API endpoint and alert when the response is not 200.
+1. [Task 97](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task97.py) :- Check whether a website is reachable with an HTTP request.
+2. [Task 98](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task98.py) :- Fetch data from a public API and display selected fields.
+3. [Task 99](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task99.py) :- Retrieve the HTTP status code and headers for a URL.
+4. [Task 100](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task100.py) :- Download API data and save it as JSON.
+5. [Task 101](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task101.py) :- Retry an API request up to three times on network failure.
+6. [Task 102](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task102.py) :- Measure API response time and log it.
+7. [Task 103](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task103.py) :- Display API data in a formatted table.
+8. [Task 104](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_14/Task104.py) :- Monitor an API endpoint and alert when the response is not 200.
 
 ## Day 15: Multithreading
 
