@@ -1,6 +1,5 @@
 # Task 106: Download multiple files simultaneously with multithreading.
 
-# Task 106: Master Version
 import requests
 import concurrent.futures
 from pathlib import Path
@@ -15,9 +14,9 @@ def download_file(url: str, output_dir: Path) -> str:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         file_path.write_bytes(response.content)
-        return f"✅ Downloaded: {file_name}"
+        return f" Downloaded: {file_name}"
     except requests.RequestException as e:
-        return f"❌ Failed to download {file_name}: {e}"
+        return f" Failed to download {file_name}: {e}"
 
 def main() -> None:
     # Dummy URLs for testing (JSONPlaceholder endpoints)
@@ -32,7 +31,7 @@ def main() -> None:
     download_dir = Path("downloads")
     download_dir.mkdir(exist_ok=True)
     
-    print(f"🚀 Starting concurrent downloads of {len(urls)} files...")
+    print(f" Starting concurrent downloads of {len(urls)} files...")
     start_time = time.perf_counter()
 
     # ThreadPoolExecutor automatically manages the pool of background threads
@@ -49,4 +48,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 106\nHave a good one!\n" + "-"*40)
+
+    print(f" \n Python 30 days Series - Day 15 Task 106 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)

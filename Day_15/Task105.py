@@ -1,6 +1,5 @@
 # Task 105: Run multiple functions concurrently with threads.
 
-# Task 105: Master Version
 import threading
 import time
 import logging
@@ -36,4 +35,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 105\nHave a good one!\n" + "-"*40)
+
+    print(f" \n Python 30 days Series - Day 15 Task 105 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)

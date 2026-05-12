@@ -1,6 +1,5 @@
 # Task 110: Use a thread pool to execute tasks efficiently.
 
-# Task 110: Master Version
 import concurrent.futures
 import time
 import random
@@ -24,10 +23,13 @@ def main() -> None:
             task_id = futures[future]
             try:
                 result = future.result()
-                print(f"✅ {result}")
+                print(f" {result}")
             except Exception as e:
-                print(f"❌ Task-{task_id} generated an exception: {e}")
+                print(f" Task-{task_id} generated an exception: {e}")
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 110\nHave a good one!\n" + "-"*40)
+    
+    print(f" \n Python 30 days Series - Day 15 Task 110 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)

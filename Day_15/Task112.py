@@ -1,6 +1,5 @@
 # Task 112: Perform parallel API requests and aggregate the results.
 
-# Task 112: Master Version
 import requests
 import concurrent.futures
 import time
@@ -20,7 +19,7 @@ def main() -> None:
     user_ids = list(range(1, 11)) # Fetch users 1 through 10
     aggregated_data = []
     
-    print(f"🌐 Fetching {len(user_ids)} users from API concurrently...")
+    print(f" Fetching {len(user_ids)} users from API concurrently...")
     start = time.perf_counter()
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
@@ -29,15 +28,19 @@ def main() -> None:
             aggregated_data.append(result)
 
     # Display the aggregated report
-    print("\n📊 Aggregated Results:")
+    print("\n Aggregated Results:")
     print("-" * 40)
     for user in aggregated_data:
-        icon = "✅" if user["status"] == "Success" else "❌"
+        icon = "" if user["status"] == "Success" else ""
         print(f"{icon} ID: {user['id']:<2} | Name: {user['name']:<20}")
 
     duration = time.perf_counter() - start
-    print(f"\n⏱️ Aggregated {len(aggregated_data)} records in {duration:.2f} seconds.")
+    print(f"\n Aggregated {len(aggregated_data)} records in {duration:.2f} seconds.")
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 112\nHave a good one!\n" + "-"*40)
+
+    print(f" \n Python 30 days Series - Day 15 Task 112 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)
+    

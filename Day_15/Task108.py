@@ -1,6 +1,5 @@
 # Task 108: Process different parts of a log file in parallel threads.
 
-# Task 108: Master Version
 import concurrent.futures
 from pathlib import Path
 import re
@@ -16,7 +15,7 @@ def process_chunk(chunk: list[str]) -> int:
     return sum(1 for line in chunk if error_pattern.search(line))
 
 def main() -> None:
-    print(f"📂 Reading log file '{test_file.name}'...")
+    print(f" Reading log file '{test_file.name}'...")
     
     # Read all lines into memory (for massive files, use a file generator)
     with open(test_file, "r") as f:
@@ -28,7 +27,7 @@ def main() -> None:
     chunks = [lines[i:i + chunk_size] for i in range(0, len(lines), chunk_size)]
     
     total_errors = 0
-    print(f"🚀 Processing {len(lines)} lines across {num_chunks} parallel threads...")
+    print(f" Processing {len(lines)} lines across {num_chunks} parallel threads...")
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_chunks) as executor:
         # Submit the chunks to the threads
@@ -37,8 +36,12 @@ def main() -> None:
         # Aggregate the results
         total_errors = sum(results)
         
-    print(f"✅ Log analysis complete! Found {total_errors} total errors.")
+    print(f" Log analysis complete! Found {total_errors} total errors.")
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 108\nHave a good one!\n" + "-"*40)
+    
+    
+    print(f" \n Python 30 days Series - Day 15 Task 108 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)

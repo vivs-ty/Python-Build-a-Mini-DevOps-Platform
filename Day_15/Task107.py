@@ -1,6 +1,5 @@
 # Task 107: Compare execution time between single-threaded and multi-threaded code.
 
-# Task 107: Master Version
 import time
 import concurrent.futures
 
@@ -37,4 +36,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-    print("\nPython 30 days Series - Day 15 Task 107\nHave a good one!\n" + "-"*40)
+
+    print(f" \n Python 30 days Series - Day 15 Task 107 \n")
+    print(f" \n Day 15 : Multithreading \n")
+    print(f" \n Have a good one! \n " + "-"*40)
