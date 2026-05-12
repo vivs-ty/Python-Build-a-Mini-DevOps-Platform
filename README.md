@@ -155,14 +155,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 15: Multithreading
 
-1. Task 105: Run multiple functions concurrently with threads.
-2. Task 106: Download multiple files simultaneously with multithreading.
-3. Task 107: Compare execution time between single-threaded and multi-threaded code.
-4. Task 108: Process different parts of a log file in parallel threads.
-5. Task 109: Monitor multiple servers concurrently by pinging them in parallel.
-6. Task 110: Use a thread pool to execute tasks efficiently.
-7. Task 111: Process a queue of tasks with multiple worker threads.
-8. Task 112: Perform parallel API requests and aggregate the results.
+1. [Task 105](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task105.py) :- Run multiple functions concurrently with threads.
+2. [Task 106](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task106.py) :- Download multiple files simultaneously with multithreading.
+3. [Task 107](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task107.py) :- Compare execution time between single-threaded and multi-threaded code.
+4. [Task 108](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task108.py) :- Process different parts of a log file in parallel threads.
+5. [Task 109](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task109.py) :- Monitor multiple servers concurrently by pinging them in parallel.
+6. [Task 110](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task110.py) :- Use a thread pool to execute tasks efficiently.
+7. [Task 111](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task111.py) :- Process a queue of tasks with multiple worker threads.
+8. [Task 112](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_15/Task112.py) :- Perform parallel API requests and aggregate the results.
 
 ## Day 16: Multiprocessing
 
