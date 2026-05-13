@@ -166,14 +166,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 16: Multiprocessing
 
-1. Task 113: Use multiprocessing for CPU-bound tasks and compare runtime with a single-threaded version.
-2. Task 114: Split a large log file into chunks and count `ERROR` entries in parallel.
-3. Task 115: Use a process pool to compute values and collect results.
-4. Task 116: Search for a keyword across multiple files using multiprocessing.
-5. Task 117: Process multiple CSV files in parallel and calculate aggregated statistics.
-6. Task 118: Demonstrate inter-process communication with queues.
-7. Task 119: Simulate concurrent users with multiple processes.
-8. Task 120: Benchmark threading versus multiprocessing for CPU-intensive work.
+1. [Task 113](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task113.py) :- Use multiprocessing for CPU-bound tasks and compare runtime with a single-threaded version.
+2. [Task 114](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task114.py) :- Split a large log file into chunks and count `ERROR` entries in parallel.
+3. [Task 115](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task115.py) :- Use a process pool to compute values and collect results.
+4. [Task 116](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task116.py) :- Search for a keyword across multiple files using multiprocessing.
+5. [Task 117](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task117.py) :- Process multiple CSV files in parallel and calculate aggregated statistics.
+6. [Task 118](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task118.py) :- Demonstrate inter-process communication with queues.
+7. [Task 119](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task119.py) :- Simulate concurrent users with multiple processes.
+8. [Task 120](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_16/Task120.py) :- Benchmark threading versus multiprocessing for CPU-intensive work.
 
 ## Day 17: Decorators
 
