@@ -177,14 +177,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 17: Decorators
 
-1. Task 121: Write a decorator that measures function execution time.
-2. Task 122: Create a retry decorator with a delay between retries.
-3. Task 123: Build a logging decorator that records function calls and results.
-4. Task 124: Add an authorization decorator for role-based access checks.
-5. Task 125: Create a caching decorator for expensive function calls.
-6. Task 126: Limit how many times a function can be called in a time window.
-7. Task 127: Validate function arguments with a decorator.
-8. Task 128: Combine multiple decorators and show their execution order.
+1. [Task 121](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task121.py) :- Write a decorator that measures function execution time.
+2. [Task 122](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task122.py) :- Create a retry decorator with a delay between retries.
+3. [Task 123](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task123.py) :- Build a logging decorator that records function calls and results.
+4. [Task 124](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task124.py) :- Add an authorization decorator for role-based access checks.
+5. [Task 125](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task125.py) :- Create a caching decorator for expensive function calls.
+6. [Task 126](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task126.py) :- Limit how many times a function can be called in a time window.
+7. [Task 127](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task127.py) :- Validate function arguments with a decorator.
+8. [Task 128](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_17/Task128.py) :- Combine multiple decorators and show their execution order.
 
 ## Day 18: Advanced File Automation
 
