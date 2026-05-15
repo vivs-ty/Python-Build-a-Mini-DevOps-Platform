@@ -37,13 +37,15 @@ def find_duplicates(directory: str) -> None:
     for file_hash, files in hash_dict.items():
         if len(files) > 1:
             duplicates_found = True
-            print(f"\n⚠️ Found {len(files)} identical files:")
+            print(f"\n Found {len(files)} identical files:")
             for f in files:
                 print(f"   -> {f}")
 
     if not duplicates_found:
-        print("✅ No duplicates found.")
+        print(" No duplicates found.")
 
 # --- Demonstration ---
 find_duplicates(".")
-print("\nPython 30 days Series - Day 18 Task 129\nHave a good one!\n" + "-"*40)
+print(f" \n Python 30 days Series - Day 18 Task 129 \n")
+print(f" \n Day 18 : Advanced File Automation \n")
+print(f" \n Have a good one! \n " + "-"*40)

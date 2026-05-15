@@ -20,4 +20,7 @@ def monitor_directory(directory):
             print(f"Deleted: {file}")
             
         seen_files = current_files
-        
+
+        print(f" \n Python 30 days Series - Day 18 Task 130 \n")
+        print(f" \n Day 18 : Advanced File Automation \n")
+        print(f" \n Have a good one! \n " + "-"*40)
