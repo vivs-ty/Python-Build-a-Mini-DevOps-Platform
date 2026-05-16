@@ -188,25 +188,25 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 18: Advanced File Automation
 
-1. [Task 129](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task129.py): Detect duplicate files by comparing file content.
-2. [Task 130](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task130.py): Monitor a directory and log create, delete, and modify events.
-3. [Task 131](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task131.py): Build a file organizer that moves files by file type.
-4. [Task 132](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task132.py): Compress old log files and delete files older than a threshold.
-5. [Task 133](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task133.py): Create timestamped backups of a directory.
-6. [Task 134](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task134.py): Synchronize two directories like a small `rsync` tool.
-7. [Task 135](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task135.py): Watch a config file and reload settings on change.
-8. [Task 136](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task136.py): Encrypt and decrypt files with a basic encryption method.
+1. [Task 129](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task129.py) :- Detect duplicate files by comparing file content.
+2. [Task 130](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task130.py) :- Monitor a directory and log create, delete, and modify events.
+3. [Task 131](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task131.py) :- Build a file organizer that moves files by file type.
+4. [Task 132](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task132.py) :- Compress old log files and delete files older than a threshold.
+5. [Task 133](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task133.py) :- Create timestamped backups of a directory.
+6. [Task 134](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task134.py) :- Synchronize two directories like a small `rsync` tool.
+7. [Task 135](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task135.py) :- Watch a config file and reload settings on change.
+8. [Task 136](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_18/Task136.py) :- Encrypt and decrypt files with a basic encryption method.
 
 ## Day 19: SSH Automation
 
-1. Task 137: Connect to a remote server over SSH and run a command.
-2. Task 138: Run the same SSH command on multiple servers.
-3. Task 139: Upload a file to a remote server securely.
-4. Task 140: Download log files from a remote server.
-5. Task 141: Check remote disk usage over SSH.
-6. Task 142: Automate an application deployment by executing remote commands.
-7. Task 143: Monitor a remote service and restart it if it stops.
-8. Task 144: Read SSH credentials from environment variables.
+1. [Task 137](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task137.py) :- Connect to a remote server over SSH and run a command.
+2. [Task 138](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task138.py) :- Run the same SSH command on multiple servers.
+3. [Task 139](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task139.py) :- Upload a file to a remote server securely.
+4. [Task 140](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task140.py) :- Download log files from a remote server.
+5. [Task 141](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task141.py) :- Check remote disk usage over SSH.
+6. [Task 142](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task142.py) :- Automate an application deployment by executing remote commands.
+7. [Task 143](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task143.py) :- Monitor a remote service and restart it if it stops.
+8. [Task 144](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task144.py) :- Read SSH credentials from environment variables.
 
 ## Day 20: Git and Automation Workflows
 
