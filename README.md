@@ -199,14 +199,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 19: SSH Automation
 
-1. Task 137: Connect to a remote server over SSH and run a command.
-2. Task 138: Run the same SSH command on multiple servers.
-3. Task 139: Upload a file to a remote server securely.
-4. Task 140: Download log files from a remote server.
-5. Task 141: Check remote disk usage over SSH.
-6. Task 142: Automate an application deployment by executing remote commands.
-7. Task 143: Monitor a remote service and restart it if it stops.
-8. Task 144: Read SSH credentials from environment variables.
+1. [Task 137](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task137.py) :- Connect to a remote server over SSH and run a command.
+2. [Task 138](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task138.py) :- Run the same SSH command on multiple servers.
+3. [Task 139](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task139.py) :- Upload a file to a remote server securely.
+4. [Task 140](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task140.py) :- Download log files from a remote server.
+5. [Task 141](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task141.py) :- Check remote disk usage over SSH.
+6. [Task 142](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task142.py) :- Automate an application deployment by executing remote commands.
+7. [Task 143](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task143.py) :- Monitor a remote service and restart it if it stops.
+8. [Task 144](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_19/Task144.py) :- Read SSH credentials from environment variables.
 
 ## Day 20: Git and Automation Workflows
 
