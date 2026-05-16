@@ -32,3 +32,7 @@ def deploy_application(hostname, username, password):
         print(f"Deployment failed: {e}")
     finally:
         client.close()
+
+print(f" \n Python 30 days Series - Day 19 Task 142 \n")
+print(f" \n Day 19 : SSH Automation \n")
+print(f" \n Have a good one! \n " + "-"*40)

@@ -19,5 +19,9 @@ def download_file(hostname, username, password, remote_path, local_path):
             sftp.close()
         transport.close()
 
+print(f" \n Python 30 days Series - Day 19 Task 140 \n")
+print(f" \n Day 19 : SSH Automation \n")
+print(f" \n Have a good one! \n " + "-"*40)
+
 # Example usage:
 # download_file("192.168.1.10", "admin", "secretpass", "/var/log/syslog", "server_syslog.txt")
