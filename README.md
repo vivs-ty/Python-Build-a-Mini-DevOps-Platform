@@ -210,14 +210,14 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 20: Git and Automation Workflows
 
-1. Task 145: Clone a remote Git repository.
-2. Task 146: Detect repository changes and commit them automatically.
-3. Task 147: Push local changes to a remote repository.
-4. Task 148: Print the status of a Git repository.
-5. Task 149: Switch branches based on user input.
-6. Task 150: Pull the latest changes and handle merge conflicts gracefully.
-7. Task 151: Tag a release version and push the tag.
-8. Task 152: Simulate a simple workflow such as commit, test, and push.
+1. [Task 145](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task145.py) :- Clone a remote Git repository.
+2. [Task 146](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task146.py) :- Detect repository changes and commit them automatically.
+3. [Task 147](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task147.py) :- Push local changes to a remote repository.
+4. [Task 148](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task148.py) :- Print the status of a Git repository.
+5. [Task 149](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task149.py) :- Switch branches based on user input.
+6. [Task 150](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task150.py) :- Pull the latest changes and handle merge conflicts gracefully.
+7. [Task 151](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task151.py) :- Tag a release version and push the tag.
+8. [Task 152](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_20/Task152.py) :- Simulate a simple workflow such as commit, test, and push.
 
 ## Day 21: Logging, Monitoring, and Alerts
 
