@@ -1,0 +1,44 @@
+name: PR Status Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+    # This ensures the check runs when opened, and re-runs if they edit the description
+    types: [opened, edited, synchronize]
+
+jobs:
+  validate-context:
+    # This name MUST exactly match what you typed in the Ruleset UI
+    name: Validate PR Context
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR Description
+        # Standard conditional logic to fail if the body is blank
+        if: ${{ github.event.pull_request.body == '' }}
+        run: |
+          echo "::error::Validation Failed: Pull Request description is empty."
+          echo "Please edit your PR description to explain what this code does."
+          exit 1
+          
+      - name: Context Approved
+        if: ${{ github.event.pull_request.body != '' }}
+        run: echo "PR context is present. Proceeding."
+
+  python-validation:
+    # This name MUST exactly match what you typed in the Ruleset UI
+    name: Python Syntax Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Compile Python Files
+        run: |
+          # Checks all .py files for syntax errors without executing them
+          python -m compileall -q .
