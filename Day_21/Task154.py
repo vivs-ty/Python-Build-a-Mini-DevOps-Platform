@@ -1,23 +1,30 @@
 #  Task 154: Add log rotation when a file exceeds a fixed size.
 
 import logging
-import os
 from logging.handlers import RotatingFileHandler
 
-# Set up the rotating file handler
-log_file = "app.log"
-max_bytes = 1024 * 1024  # 1 MB
-backup_count = 5
+def setup_rotating_logger(log_file="app.log"):
+    logger = logging.getLogger("RotatingLogger")
+    logger.setLevel(logging.INFO)
 
-handler = RotatingFileHandler(log_file, maxBytes=max_bytes, backupCount=backup_count)
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
+    # Rotate file when it reaches 1MB, keep 5 backups
+    handler = RotatingFileHandler(log_file, maxBytes=1024 * 1024, backupCount=5)
+    
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    
+    logger.addHandler(handler)
+    return logger
 
-# Set up the logger
-logger = logging.getLogger(__name__)
-logger.addHandler(handler)
-logger.setLevel(logging.INFO)
 if __name__ == "__main__":
-    for i in range(10000):
+    logger = setup_rotating_logger()
+    
+    print("Writing to rotating log file...")
+    for i in range(100):
         logger.info(f"Logging message number {i}")
         
+    print("Check app.log to see the output.")
+
+print(f" \n Python 30 days Series - Day 21 : Task 154 \n")
+print(f" \n Day 21 : Logging, Monitoring, and Alerts \n")
+print(f" \n Have a good one! \n " + "-"*40)
