@@ -221,11 +221,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 21: Logging, Monitoring, and Alerts
 
-1. Task 153: Design a custom logging system with timestamps and log levels.
-2. Task 154: Add log rotation when a file exceeds a fixed size.
-3. Task 155: Continuously log CPU, memory, and disk usage every 10 seconds.
-4. Task 156: Trigger a console alert when CPU usage exceeds a threshold.
-5. Task 157: Extend alerts to email, or simulate email delivery.
+1. [Task 153](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_21/Task153.py) :- Design a custom logging system with timestamps and log levels.
+2. [Task 154](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_21/Task154.py) :- Add log rotation when a file exceeds a fixed size.
+3. [Task 155](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_21/Task155.py) :- Continuously log CPU, memory, and disk usage every 10 seconds.
+4. [Task 156](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_21/Task156.py) :- Trigger a console alert when CPU usage exceeds a threshold.
+5. [Task 157](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_21/Task157.py) :- Extend alerts to email, or simulate email delivery.
 
 ## Day 22: Logs, Reports, and Container Basics
 
