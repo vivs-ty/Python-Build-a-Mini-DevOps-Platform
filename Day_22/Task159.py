@@ -1,5 +1,7 @@
 # Task 159: Monitor application logs and trigger alerts for keywords like ERROR or FAILED.
 import time
+import os
+
 def monitor_logs(log_file, keywords):
     with open(log_file, 'r') as f:
         f.seek(0, os.SEEK_END)  # Move to the end of the file
