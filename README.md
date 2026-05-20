@@ -237,11 +237,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 23: Docker Automation
 
-1. Task 163: Remove stopped containers and unused images.
-2. Task 164: Pull a Docker image and run it with specified parameters.
-3. Task 165: Monitor running containers and report their status.
-4. Task 166: Read a config file and start multiple containers from it.
-5. Task 167: Save container logs into a file for analysis.
+1. [Task 163](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_23/Task163.py) :- Remove stopped containers and unused images.
+2. [Task 164](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_23/Task164.py) :- Pull a Docker image and run it with specified parameters.
+3. [Task 165](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_23/Task165.py) :- Monitor running containers and report their status.
+4. [Task 166](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_23/Task166.py) :- Read a config file and start multiple containers from it.
+5. [Task 167](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_23/Task167.py) :- Save container logs into a file for analysis.
 
 ## Day 24: Deployment and Kubernetes Basics
 
