@@ -1,49 +1,42 @@
 # Task 164: Pull a Docker image and run it with specified parameters.
 
-import subprocess
+import docker
+from docker.errors import DockerException
 
 def pull_and_run_docker_image(image_name, container_name, ports=None):
     try:
+        client = docker.from_env()
+        
         # Pull the Docker image
         print(f"Pulling Docker image: {image_name}")
-        pull_result = subprocess.run(['docker', 'pull', image_name], capture_output=True, text=True)
-        
-        if pull_result.returncode != 0:
-            print(f"Failed to pull image: {pull_result.stderr}")
-            return
-        
+        client.images.pull(image_name)
         print(f"Successfully pulled image: {image_name}")
-        
-        # Prepare the run command
-        run_command = ['docker', 'run', '-d', '--name', container_name]
-        
-        if ports:
-            for host_port, container_port in ports.items():
-                run_command.extend(['-p', f"{host_port}:{container_port}"])
-        
-        run_command.append(image_name)
         
         # Run the Docker container
         print(f"Running container: {container_name} from image: {image_name}")
-        run_result = subprocess.run(run_command, capture_output=True, text=True)
+        container = client.containers.run(
+            image_name,
+            name=container_name,
+            ports=ports,
+            detach=True
+        )
         
-        if run_result.returncode == 0:
-            print(f"Container '{container_name}' is running successfully.")
-        else:
-            print(f"Failed to run container: {run_result.stderr}")
+        print(f"Container '{container_name}' is running successfully with ID: {container.id}")
             
-    except FileNotFoundError:
-        print("Error: Docker is not installed or not added to your system PATH.")
+    except DockerException as e:
+        print(f"An error occurred while interacting with Docker: {e}")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    image_name = "nginx:latest"  # Example image
+    image_name = "nginx:latest"
     container_name = "my_nginx_container"
-    ports = {8080: 80}  # Map host port 8080 to container port 80
+    # In the docker library, port mapping is {'container_port/tcp': host_port}
+    ports_mapping = {'80/tcp': 8080} 
     
-    pull_and_run_docker_image(image_name, container_name, ports)
+    pull_and_run_docker_image(image_name, container_name, ports_mapping)
     
     print("\nPython 30 days Series - Day 23 : Task 164")
     print("Day 23 : Docker Automation")
     print("Have a good one!\n" + "-"*40)
+    

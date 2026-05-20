@@ -1,6 +1,7 @@
 # Task 163: Remove stopped containers and unused images.
 
-import docker from docker.errors import DockerException
+import docker
+from docker.errors import DockerException
 
 def cleanup_docker_resources():
     try:
@@ -12,7 +13,7 @@ def cleanup_docker_resources():
             print(f"Removing stopped container: {container.name} ({container.id})")
             container.remove()
         
-        # Remove unused images
+        # Remove unused images (dangling)
         unused_images = client.images.list(filters={"dangling": True})
         for image in unused_images:
             print(f"Removing unused image: {image.tags} ({image.id})")
@@ -31,3 +32,4 @@ if __name__ == "__main__":
     print("\nPython 30 days Series - Day 23 : Task 163")
     print("Day 23 : Docker Automation")
     print("Have a good one!\n" + "-"*40)
+    

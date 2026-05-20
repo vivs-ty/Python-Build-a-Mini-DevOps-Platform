@@ -1,7 +1,8 @@
 # Task 167: Save container logs into a file for analysis.
 
 import docker
-from docker.errors import DockerException
+from docker.errors import DockerException, NotFound
+
 def save_container_logs(container_name, log_file):
     try:
         client = docker.from_env()
@@ -14,7 +15,7 @@ def save_container_logs(container_name, log_file):
         
         print(f"Logs for container '{container_name}' saved to '{log_file}'.")
         
-    except docker.errors.NotFound:
+    except NotFound:
         print(f"Error: Container '{container_name}' not found.")
     except DockerException as e:
         print(f"An error occurred while interacting with Docker: {e}")
@@ -26,5 +27,5 @@ if __name__ == "__main__":
     
     print("\nPython 30 days Series - Day 23 : Task 167")
     print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)\
+    print("Have a good one!\n" + "-"*40)
     

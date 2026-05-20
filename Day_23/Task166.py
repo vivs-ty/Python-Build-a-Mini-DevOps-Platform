@@ -3,6 +3,7 @@
 import docker
 import yaml
 from docker.errors import DockerException
+
 def start_containers_from_config(config_file):
     try:
         with open(config_file, 'r') as file:
@@ -17,7 +18,13 @@ def start_containers_from_config(config_file):
             environment = container_config.get('environment', {})
             
             print(f"Starting container: {name} from image: {image}")
-            client.containers.run(image, name=name, ports=ports, environment=environment, detach=True)
+            client.containers.run(
+                image, 
+                name=name, 
+                ports=ports, 
+                environment=environment, 
+                detach=True
+            )
         
         print("All containers started successfully.")
         
@@ -31,6 +38,7 @@ def start_containers_from_config(config_file):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
+    # Ensure you create a config.yaml file before running this
     start_containers_from_config("config.yaml")
     
     print("\nPython 30 days Series - Day 23 : Task 166")
