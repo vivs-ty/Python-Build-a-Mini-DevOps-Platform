@@ -7,8 +7,7 @@ def build_docker_image(image_name, dockerfile_path):
         result = subprocess.run(
             ["docker", "build", "-t", image_name, dockerfile_path],
             check=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+            capture_output=True,
             text=True
         )
         print(f"Image '{image_name}' built successfully.")
@@ -22,3 +21,4 @@ if __name__ == "__main__":
     print("\nPython 30 days Series - Day 24 : Task 168")
     print("Day 24 : Deployment and Kubernetes Basics")
     print("Have a good one!\n" + "-"*40)
+    

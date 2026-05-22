@@ -7,8 +7,7 @@ def get_pod_status():
         result = subprocess.run(
             ["kubectl", "get", "pods"],
             check=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+            capture_output=True,
             text=True
         )
         print("Pod Status:")
