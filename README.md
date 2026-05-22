@@ -245,11 +245,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 24: Deployment and Kubernetes Basics
 
-1. Task 168: Build a Docker deployment automation tool that builds an image and deploys a container.
-2. Task 169: Retrieve and display the status of all Kubernetes pods.
-3. Task 170: Monitor pod health and restart failed pods.
-4. Task 171: Scale a deployment up or down based on user input.
-5. Task 172: Fetch logs from a specific pod and save them locally.
+1. [Task 168](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_24/Task168.py) :- Build a Docker deployment automation tool that builds an image and deploys a container.
+2. [Task 169](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_24/Task169.py) :- Retrieve and display the status of all Kubernetes pods.
+3. [Task 170](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_24/Task170.py) :- Monitor pod health and restart failed pods.
+4. [Task 171](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_24/Task171.py) :- Scale a deployment up or down based on user input.
+5. [Task 172](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_24/Task172.py) :- Fetch logs from a specific pod and save them locally.
 
 ## Day 25: Kubernetes Operations and Cloud Basics
 
