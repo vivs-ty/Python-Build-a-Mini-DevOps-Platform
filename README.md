@@ -253,11 +253,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 25: Kubernetes Operations and Cloud Basics
 
-1. Task 173: Check CPU and memory usage for Kubernetes pods.
-2. Task 174: Deploy an application to Kubernetes from a YAML file.
-3. Task 175: Delete unused or failed pods automatically.
-4. Task 176: Watch cluster health continuously and report anomalies.
-5. Task 177: Upload a file to cloud storage, or simulate cloud storage locally.
+1. [Task 173](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_25/Task173.py) :- Check CPU and memory usage for Kubernetes pods.
+2. [Task 174](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_25/Task174.py) :- Deploy an application to Kubernetes from a YAML file.
+3. [Task 175](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_25/Task175.py) :- Delete unused or failed pods automatically.
+4. [Task 176](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_25/Task176.py) :- Watch cluster health continuously and report anomalies.
+5. [Task 177](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_25/Task177.py) :- Upload a file to cloud storage, or simulate cloud storage locally.
 
 ## Day 26: Cloud Automation
 
