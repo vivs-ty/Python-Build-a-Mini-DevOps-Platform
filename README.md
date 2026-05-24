@@ -261,11 +261,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 26: Cloud Automation
 
-1. Task 178: List all instances or resources in a cloud environment.
-2. Task 179: Start and stop compute instances programmatically.
-3. Task 180: Monitor cloud resource usage and log it.
-4. Task 181: Provision a new instance from predefined configuration.
-5. Task 182: Delete unused cloud resources to optimize cost.
+1. [Task 178](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_26/Task178.py) :- List all instances or resources in a cloud environment.
+2. [Task 179](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_26/Task179.py) :- Start and stop compute instances programmatically.
+3. [Task 180](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_26/Task180.py) :- Monitor cloud resource usage and log it.
+4. [Task 181](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_26/Task181.py) :- Provision a new instance from predefined configuration.
+5. [Task 182](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_26/Task182.py) :- Delete unused cloud resources to optimize cost.
 
 ## Day 27: Cloud Tagging and CI/CD Basics
 
