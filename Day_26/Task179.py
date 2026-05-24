@@ -32,4 +32,6 @@ def toggle_ec2_instances():
 if __name__ == "__main__":
     toggle_ec2_instances()
     
- 
+    print("\nPython 30 days Series - Day 26 : Task 179")
+    print("Day 26 : Cloud Automation")
+    print("Have a good one!\n" + "-"*40)

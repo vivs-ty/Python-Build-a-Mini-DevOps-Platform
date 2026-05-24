@@ -26,4 +26,9 @@ def provision_ec2_instance():
 
 if __name__ == "__main__":
     provision_ec2_instance()
+
+    print("\nPython 30 days Series - Day 26 : Task 181")
+    print("Day 26 : Cloud Automation")
+    print("Have a good one!\n" + "-"*40)
+
     

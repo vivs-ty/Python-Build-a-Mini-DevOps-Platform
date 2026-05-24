@@ -33,4 +33,6 @@ def log_instance_states():
 if __name__ == "__main__":
     log_instance_states()
     
-    
+    print("\nPython 30 days Series - Day 26 : Task 180")
+    print("Day 26 : Cloud Automation")
+    print("Have a good one!\n" + "-"*40)

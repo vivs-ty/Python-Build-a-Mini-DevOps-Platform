@@ -28,4 +28,6 @@ def terminate_stopped_instances():
 if __name__ == "__main__":
     terminate_stopped_instances()
     
-   
+    print("\nPython 30 days Series - Day 26 : Task 182")
+    print("Day 26 : Cloud Automation")
+    print("Have a good one!\n" + "-"*40)
