@@ -269,11 +269,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 27: Cloud Tagging and CI/CD Basics
 
-1. Task 183: Tag cloud resources and filter them by tags.
-2. Task 184: Simulate auto-scaling based on CPU usage.
-3. Task 185: Trigger a CI/CD pipeline by API call.
-4. Task 186: Check the status of a running pipeline and print progress updates.
-5. Task 187: Fetch logs from a pipeline execution.
+1. [Task 183](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_27/Task183.py) :- Tag cloud resources and filter them by tags.
+2. [Task 184](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_27/Task184.py) :- Simulate auto-scaling based on CPU usage.
+3. [Task 185](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_27/Task185.py) :- Trigger a CI/CD pipeline by API call.
+4. [Task 186](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_27/Task186.py) :- Check the status of a running pipeline and print progress updates.
+5. [Task 187](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_27/Task187.py) :- Fetch logs from a pipeline execution.
 
 ## Day 28: CI/CD Automation
 
