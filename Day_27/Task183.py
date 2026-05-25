@@ -1,20 +1,38 @@
 # Task 183: Tag cloud resources and filter them by tags.
 
-import random
+import boto3
+from botocore.exceptions import ClientError
 
-# Simulate cloud resources with tags
-resources = [
-    {"id": 1, "name": "Instance-1", "tags": {"environment": "production", "team": "backend"}},
-    {"id": 2, "name": "Instance-2", "tags": {"environment": "development", "team": "frontend"}},
-    {"id": 3, "name": "Instance-3", "tags": {"environment": "production", "team": "backend"}},
-]
+def tag_and_filter_instances(instance_id, tag_key, tag_value):
+    try:
+        ec2 = boto3.client('ec2')
+        
+        # Tag the resource
+        print(f"Adding tag {tag_key}={tag_value} to instance {instance_id}...")
+        ec2.create_tags(
+            Resources=[instance_id],
+            Tags=[{'Key': tag_key, 'Value': tag_value}]
+        )
+        print("Tag added successfully.")
+        
+        # Filter resources by the newly added tag
+        print(f"\nFiltering instances by tag {tag_key}={tag_value}...")
+        response = ec2.describe_instances(
+            Filters=[{'Name': f'tag:{tag_key}', 'Values': [tag_value]}]
+        )
+        
+        for reservation in response.get('Reservations', []):
+            for instance in reservation.get('Instances', []):
+                print(f"Found Instance ID: {instance['InstanceId']}, State: {instance['State']['Name']}")
+                
+    except ClientError as e:
+        print(f"AWS Error: {e}")
 
-# Function to filter resources by tags
-def filter_resources_by_tags(resources_list, filter_tags):
-    return [resource for resource in resources_list if all(resource["tags"].get(key) == value for key, value in filter_tags.items())]
-
-# Example usage
-filtered_resources = filter_resources_by_tags(resources, {"environment": "production"})
-print("Filtered Resources:")
-for resource in filtered_resources:
-    print(f" - {resource['name']}")
+if __name__ == "__main__":
+    # Replace with your actual instance ID
+    tag_and_filter_instances("i-0123456789abcdef0", "Environment", "Production")
+    
+    print("\nPython 30 days Series - Day 27 : Task 183")
+    print("Day 27 : Cloud Tagging and CI/CD Basics")
+    print("Have a good one!\n" + "-"*40)
+    
