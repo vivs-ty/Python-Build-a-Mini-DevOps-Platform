@@ -277,11 +277,11 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 28: CI/CD Automation
 
-1. Task 188: Roll back a deployment automatically when a pipeline fails.
-2. Task 189: Validate code before triggering a pipeline by simulating lint and test checks.
-3. Task 190: Build a CI automation tool that performs code pull, test execution, and deployment.
-4. Task 191: Trigger pipelines automatically on version control changes.
-5. Task 192: Send notifications when a pipeline succeeds or fails.
+1. [Task 188](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_28/Task188.py) :- Roll back a deployment automatically when a pipeline fails.
+2. [Task 189](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_28/Task189.py) :- Validate code before triggering a pipeline by simulating lint and test checks.
+3. [Task 190](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_28/Task190.py) :- Build a CI automation tool that performs code pull, test execution, and deployment.
+4. [Task 191](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_28/Task191.py) :- Trigger pipelines automatically on version control changes.
+5. [Task 192](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_28/Task192.py) :- Send notifications when a pipeline succeeds or fails.
 
 ## Day 29: Security and Secrets Management
 
