@@ -285,10 +285,10 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 29: Security and Secrets Management
 
-1. Task 193: Encrypt and decrypt sensitive data with a secure algorithm.
-2. Task 194: Store passwords securely with hashing.
-3. Task 195: Read secrets from environment variables instead of hardcoding them.
-4. Task 196: Rotate secrets periodically and update them in the system.
+1. [Task 193](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_29/Task193.py) :- Encrypt and decrypt sensitive data with a secure algorithm.
+2. [Task 194](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_29/Task194.py) :- Store passwords securely with hashing.
+3. [Task 195](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_29/Task195.py) :- Read secrets from environment variables instead of hardcoding them.
+4. [Task 196](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_29/Task196.py) :- Rotate secrets periodically and update them in the system.
 
 ## Day 30: Security Review and Compliance
 
