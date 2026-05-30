@@ -1,48 +1,51 @@
 # Task 198: Build a simple role-based access control system.
 
-import json
-class RBAC:
+class RBACSystem:
     def __init__(self):
-        self.roles = {}
-        self.users = {}
+        self.roles = {}  # Maps role_name to a set of permissions
+        self.users = {}  # Maps username to a role_name
 
     def add_role(self, role_name, permissions):
-        self.roles[role_name] = permissions
+        self.roles[role_name] = set(permissions)
+        print(f"Role '{role_name}' created with permissions: {permissions}")
 
-    def add_user(self, username, role_name):
-        if role_name in self.roles:
-            self.users[username] = role_name
-        else:
-            print(f"Role {role_name} does not exist.")
+    def assign_user_role(self, username, role_name):
+        if role_name not in self.roles:
+            raise ValueError(f"Role '{role_name}' does not exist.")
+        self.users[username] = role_name
+        print(f"User '{username}' assigned to role '{role_name}'.")
 
-    def check_permission(self, username, permission):
+    def has_permission(self, username, permission):
         role_name = self.users.get(username)
-        if role_name:
-            return permission in self.roles.get(role_name, [])
-        return False
+        if not role_name:
+            return False
+        return permission in self.roles.get(role_name, set())
 
-    def save_to_file(self, file_path):
-        with open(file_path, 'w') as file:
-            json.dump({'roles': self.roles, 'users': self.users}, file)
-
-    def load_from_file(self, file_path):
-        with open(file_path, 'r') as file:
-            data = json.load(file)
-            self.roles = data.get('roles', {})
-            self.users = data.get('users', {})
 if __name__ == "__main__":
-    rbac = RBAC()
-    rbac.add_role('admin', ['read', 'write', 'delete'])
-    rbac.add_role('user', ['read'])
-    rbac.add_user('alice', 'admin')
-    rbac.add_user('bob', 'user')
+    access_control = RBACSystem()
 
-    print(rbac.check_permission('alice', 'delete'))  # True
-    print(rbac.check_permission('bob', 'delete'))    # False
+    # Define roles and their permissions
+    access_control.add_role("Admin", ["read", "write", "delete"])
+    access_control.add_role("Editor", ["read", "write"])
+    access_control.add_role("Viewer", ["read"])
 
-    rbac.save_to_file('rbac_data.json')
-    new_rbac = RBAC()
-    new_rbac.load_from_file('rbac_data.json')
-    print(new_rbac.check_permission('alice', 'delete'))  # True
-    print(new_rbac.check_permission('bob', 'delete'))    # False
+    # Assign users
+    print("\nAssigning users...")
+    access_control.assign_user_role("alice", "Admin")
+    access_control.assign_user_role("bob", "Viewer")
+
+    # Test access
+    print("\nTesting Access Controls:")
+    users_to_test = ["alice", "bob"]
+    action = "delete"
+
+    for user in users_to_test:
+        if access_control.has_permission(user, action):
+            print(f"GRANT: {user} is allowed to {action}.")
+        else:
+            print(f"DENY: {user} is NOT allowed to {action}.")
+
+    print("\nPython 30 days Series - Day 30 : Task 198")
+    print("Day 30 : Security Review and Compliance")
+    print("Have a good one!\n" + "-"*40)
     

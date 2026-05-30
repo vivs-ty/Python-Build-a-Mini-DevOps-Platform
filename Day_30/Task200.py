@@ -1,38 +1,52 @@
 # Task 200: Create a compliance checker for rules such as no plaintext passwords and proper permissions.
 
-import os
-import re
+def check_compliance(system_configuration):
+    violations = []
 
-def check_compliance(file_path):
-    compliance_issues = []
-    
-    # Check for plaintext passwords
-    with open(file_path, 'r') as file:
-        for line_number, line in enumerate(file, start=1):
-            if re.search(r'(password|secret|api_key|token)\s*=\s*["\'].*?["\']', line, re.IGNORECASE):
-                compliance_issues.append(f"Plaintext secret found in {file_path} at line {line_number}: {line.strip()}")
-    
-    # Check for proper permissions (example: no world-writable files)
-    if os.path.isfile(file_path) and os.stat(file_path).st_mode & 0o002:
-        compliance_issues.append(f"File {file_path} is world-writable.")
-    
-    return compliance_issues
+    print("Running compliance checks...\n")
+
+    # Rule 1: No plaintext passwords
+    for user in system_configuration.get("users", []):
+        username = user.get("username")
+        password = user.get("password", "")
+        
+        # A proper hash usually starts with specific identifiers like $2b$ (bcrypt) or $argon2
+        if not password.startswith("$"):
+            violations.append(f"COMPLIANCE FAILURE: Plaintext password detected for user '{username}'.")
+
+    # Rule 2: No overly permissive file permissions (e.g., 777 in Linux)
+    for file in system_configuration.get("files", []):
+        filename = file.get("filename")
+        permissions = file.get("permissions")
+        
+        if permissions == "777":
+            violations.append(f"COMPLIANCE FAILURE: File '{filename}' has overly permissive access ({permissions}).")
+
+    return violations
 
 if __name__ == "__main__":
-    directory_to_check = input("Enter the directory to check for compliance: ")
-    all_issues = []
-    
-    for root, dirs, files in os.walk(directory_to_check):
-        for filename in files:
-            if filename.endswith(('.py', '.js', '.java', '.cpp')):
-                file_path = os.path.join(root, filename)
-                issues = check_compliance(file_path)
-                all_issues.extend(issues)
-    
-    if all_issues:
-        print("Compliance issues found:")
-        for issue in all_issues:
-            print(issue)
+    # Mock system configuration data
+    mock_system_state = {
+        "users": [
+            {"username": "admin", "password": "$2b$12$SecureHashedPasswordStringHere"},
+            {"username": "developer", "password": "password123"}  # Violation
+        ],
+        "files": [
+            {"filename": "/etc/config", "permissions": "644"},
+            {"filename": "/var/www/html/upload", "permissions": "777"}  # Violation
+        ]
+    }
+
+    report = check_compliance(mock_system_state)
+
+    if report:
+        print("System is NON-COMPLIANT. The following issues were found:")
+        for issue in report:
+            print(f" - {issue}")
     else:
-        print("No compliance issues found.")
-        
+        print("System is COMPLIANT. No violations found.")
+
+    print("\nPython 30 days Series - Day 30 : Task 200")
+    print("Day 30 : Security Review and Compliance")
+    print("Have a good one!\n" + "-"*40)
+    

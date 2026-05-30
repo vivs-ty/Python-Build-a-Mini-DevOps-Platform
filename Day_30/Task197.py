@@ -3,20 +3,64 @@
 import os
 import re
 
-def scan_for_secrets(file_path):
-    secrets_pattern = re.compile(r'(password|secret|api_key|token)\s*=\s*["\'].*?["\']', re.IGNORECASE)
-    with open(file_path, 'r') as file:
-        for line_number, line in enumerate(file, start=1):
-            if secrets_pattern.search(line):
-                print(f"Potential secret found in {file_path} at line {line_number}: {line.strip()}")
+def scan_for_secrets(directory_path):
+    # Dictionary of regex patterns for common secrets
+    secret_patterns = {
+        "AWS Access Key": r"AKIA[0-9A-Z]{16}",
+        "Private Key": r"-----BEGIN (RSA|OPENSSH|DSA|EC|PGP) PRIVATE KEY-----",
+        "Hardcoded Password": r"(?i)(password|passwd|secret|api_key)[\s:=]+['\"][^'\"]+['\"]"
+    }
+    
+    findings = []
+    
+    for root, dirs, files in os.walk(directory_path):
+        for file in files:
+            # Skip common non-code files
+            if file.endswith((".pyc", ".png", ".jpg", ".zip")):
+                continue
+                
+            filepath = os.path.join(root, file)
+            
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    lines = f.readlines()
+                    
+                for line_num, line in enumerate(lines, start=1):
+                    for secret_type, pattern in secret_patterns.items():
+                        if re.search(pattern, line):
+                            findings.append({
+                                "file": filepath,
+                                "line": line_num,
+                                "type": secret_type,
+                                "content_preview": line.strip()[:40] + "..." 
+                            })
+            except Exception as e:
+                # Silently skip files that cannot be read as utf-8 text
+                pass
+                
+    return findings
 
-def scan_directory(directory):
-    for root, dirs, files in os.walk(directory):
-        for filename in files:
-            if filename.endswith(('.py', '.js', '.java', '.cpp')):
-                file_path = os.path.join(root, filename)
-                scan_for_secrets(file_path)
 if __name__ == "__main__":
-    directory_to_scan = input("Enter the directory to scan for hardcoded secrets: ")
-    scan_directory(directory_to_scan)
+    # Create a dummy file with a secret for demonstration
+    dummy_file = "test_config.py"
+    with open(dummy_file, "w") as f:
+        f.write("import os\nAPI_KEY = 'AKIA1234567890ABCDEF'\npassword = 'super_secret'\n")
+
+    print("Scanning directory for secrets...\n")
+    results = scan_for_secrets(".")
+    
+    if results:
+        print(f"WARNING: Found {len(results)} potential secrets:")
+        for finding in results:
+            print(f" - [{finding['type']}] in {finding['file']} at line {finding['line']}")
+    else:
+        print("Success: No hardcoded secrets found.")
+
+    # Cleanup dummy file
+    if os.path.exists(dummy_file):
+        os.remove(dummy_file)
+
+    print("\nPython 30 days Series - Day 30 : Task 197")
+    print("Day 30 : Security Review and Compliance")
+    print("Have a good one!\n" + "-"*40)
     
