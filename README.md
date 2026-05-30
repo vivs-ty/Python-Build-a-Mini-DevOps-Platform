@@ -292,10 +292,10 @@ This repository contains a simple 30-day Python for DevOps challenge.
 
 ## Day 30: Security Review and Compliance
 
-1. Task 197: Scan code files for hardcoded secrets and report them.
-2. Task 198: Build a simple role-based access control system.
-3. Task 199: Log all access attempts to a secure resource.
-4. Task 200: Create a compliance checker for rules such as no plaintext passwords and proper permissions.
+1. [Task 197](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_30/Task197.py) :- Scan code files for hardcoded secrets and report them.
+2. [Task 198](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_30/Task198.py) :- Build a simple role-based access control system.
+3. [Task 199](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_30/Task199.py) :- Log all access attempts to a secure resource.
+4. [Task 200](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_30/Task200.py) :- Create a compliance checker for rules such as no plaintext passwords and proper permissions.
 
 ## Suggested Approach
 
