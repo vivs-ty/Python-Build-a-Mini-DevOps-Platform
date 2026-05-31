@@ -18,9 +18,9 @@ def check_disk_usage(hostname, username, password):
     finally:
         client.close()
 
-print(f" \n Python 30 days Series - Day 19 Task 141 \n")
-print(f" \n Day 19 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 19 Task 141 \n"                                               )
+print(" \n Day 19 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)
 
 # Example usage:
 # check_disk_usage("192.168.1.10", "admin", "secretpass")

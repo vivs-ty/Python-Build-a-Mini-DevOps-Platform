@@ -8,6 +8,6 @@ def calculate_sum_and_average(*args: float) -> tuple[float, float]:
 
 total, avg = calculate_sum_and_average(1, 2, 3, 4, 5)
 print(f"Sum: {total}, Average: {avg}")
-print(f" \n Python 30 days Series - Day 6 Task 39 \n")
-print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 6 Task 39 \n"                                             )
+print(" \n Day 6: Functions and Error Handling \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -10,6 +10,6 @@ elif number_2 >= number_1 and number_2 >= number_3:
 else:
     print(f"Entered number {number_3} is the largest")
 
-print(f" \n Python 30 days Series - Day 2 Task 9 \n")
-print(f" \n Day 2: Conditional Logic \n")
-print(f" \n Have a good one! \n  " + "-"*40)
+print(" \n Python 30 days Series - Day 2 Task 9 \n"                                            )
+print(" \n Day 2: Conditional Logic \n"                                )
+print(" \n Have a good one! \n  "                           + "-"*40)

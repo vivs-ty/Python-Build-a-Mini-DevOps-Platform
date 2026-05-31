@@ -37,6 +37,6 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-print(f" \n Python 30 days Series - Day 12 Task 82 \n")
-print(f" \n Day 12: CLI Tools with argparse \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 12 Task 82 \n"                                              )
+print(" \n Day 12: CLI Tools with argparse \n"                                       )
+print(" \n Have a good one! \n "                          + "-"*40)

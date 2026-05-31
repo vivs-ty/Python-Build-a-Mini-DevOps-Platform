@@ -15,7 +15,7 @@ def watch_config(filepath):
             print("Config file changed! Reloading settings...")
             # You would put your file reading logic here
             last_modified = current_modified
-        print(f" \n Python 30 days Series - Day 18 Task 135 \n")
-        print(f" \n Day 18 : Advanced File Automation \n")
-        print(f" \n Have a good one! \n " + "-"*40)
+        print(" \n Python 30 days Series - Day 18 Task 135 \n"                                               )
+        print(" \n Day 18 : Advanced File Automation \n"                                         )
+        print(" \n Have a good one! \n "                          + "-"*40)
         

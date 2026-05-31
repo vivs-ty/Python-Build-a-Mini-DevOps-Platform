@@ -26,6 +26,6 @@ def fetch_and_display_users(api_url: str) -> None:
 # We use JSONPlaceholder, a free fake API for testing
 fetch_and_display_users("https://jsonplaceholder.typicode.com/users")
 
-print(f" \n Python 30 days Series - Day 14 Task 98\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 98\n"                                             )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

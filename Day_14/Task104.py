@@ -24,7 +24,7 @@ def monitor_endpoint(url: str, interval_seconds: int = 5, cycles: int = 3) -> No
                 logging.warning(f"{url} returned {response.status_code}")
                 
         except requests.exceptions.RequestException as e:
-            alert = f" ALERT: Connection completely failed!"
+            alert = " ALERT: Connection completely failed!"                                      
             print(f"{alert} ({e})")
             logging.error(f"Failed to reach {url}: {e}")
             
@@ -34,6 +34,6 @@ def monitor_endpoint(url: str, interval_seconds: int = 5, cycles: int = 3) -> No
 # Testing on an endpoint that returns a 404 Not Found
 monitor_endpoint("https://httpstat.us/404", interval_seconds=2)
 
-print(f" \n Python 30 days Series - Day 14 Task 104\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 104\n"                                              )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

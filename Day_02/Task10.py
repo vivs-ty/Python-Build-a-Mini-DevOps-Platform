@@ -13,6 +13,6 @@ else:
 
 print("Note: Hardcoded credentials are used here for learning only.")
 
-print(f" \n Python 30 days Series - Day 2 Task 10 \n")
-print(f" \n Day 2: Conditional Logic \n")
-print(f" \n Have a good one! \n  " + "-"*40)
+print(" \n Python 30 days Series - Day 2 Task 10 \n"                                             )
+print(" \n Day 2: Conditional Logic \n"                                )
+print(" \n Have a good one! \n  "                           + "-"*40)

@@ -19,6 +19,6 @@ stats = calculate_stats([3, 1, 4, 1, 5, 9])
 if stats:
     mx, mn, avg = stats
     print(f"Max: {mx}, Min: {mn}, Average: {avg:.2f}")
-print(f" \n Python 30 days Series - Day 6 Task 34 \n")
-print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 6 Task 34 \n"                                             )
+print(" \n Day 6: Functions and Error Handling \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -23,6 +23,6 @@ def validate_json(file_path: str) -> bool:
 Path("bad_syntax.json").write_text('{"name": "Alice", "role": Admin}', encoding="utf-8") # Missing quotes around Admin
 validate_json("bad_syntax.json")
 
-print(f" \n Python 30 days Series - Day 9 Task 62 \n")
-print(f" \n Day 9: JSON, CSV, and Configuration \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 9 Task 62 \n"                                             )
+print(" \n Day 9: JSON, CSV, and Configuration \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

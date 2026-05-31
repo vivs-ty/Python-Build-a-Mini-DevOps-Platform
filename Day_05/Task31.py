@@ -8,6 +8,6 @@ try:
     print(f"Converted dictionary: {result_dict}")
 except ValueError:
     print("Invalid format. Please ensure pairs are formatted as 'key,value'.")
-print(f" \n Python 30 days Series - Day 5 Task 31 \n")
-print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 5 Task 31 \n"                                             )
+print(" \n Day 5: Lists, Sets, and Dictionaries \n"                                            )
+print(" \n Have a good one! \n "                          + "-"*40)

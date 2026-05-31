@@ -2,10 +2,11 @@
 
 class UserManager:
     def __init__(self):
-        self.users = set() 
+        self.users = set()
 
     def add(self):
-        if user := input("Enter user name: ").strip(): 
+        user = input("Enter user name: ").strip()
+        if user:
             self.users.add(user)
             print(f"User added: {user}")
 
@@ -25,15 +26,19 @@ manager = UserManager()
 menu = "\nMenu:\n1. Add\n2. Delete\n3. List\n4. Exit\nChoice: "
 
 while True:
-    match input(menu).strip(): # Structural Pattern Matching
-        case "1": manager.add()
-        case "2": manager.delete()
-        case "3": manager.list_all()
-        case "4": 
-            print("Exiting...")
-            break
-        case _: 
-            print("Invalid choice.")
-print(f" \n Python 30 days Series - Day 6 Task 40 \n")
-print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+    choice = input(menu).strip()
+    if choice == "1":
+        manager.add()
+    elif choice == "2":
+        manager.delete()
+    elif choice == "3":
+        manager.list_all()
+    elif choice == "4":
+        print("Exiting...")
+        break
+    else:
+        print("Invalid choice.")
+
+print(" \n Python 30 days Series - Day 6 Task 40 \n"                                             )
+print(" \n Day 6: Functions and Error Handling \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

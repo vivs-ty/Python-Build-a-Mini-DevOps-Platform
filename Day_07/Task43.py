@@ -13,6 +13,6 @@ if Path(src).is_file():
 else:
     print(" Source file does not exist.")
 
-print(f" \n Python 30 days Series - Day 7 Task 43 \n")
-print(f" \n Day 7: File Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 7 Task 43 \n"                                             )
+print(" \n Day 7: File Handling \n"                            )
+print(" \n Have a good one! \n "                          + "-"*40)

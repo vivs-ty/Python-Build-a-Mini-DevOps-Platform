@@ -26,6 +26,6 @@ if __name__ == "__main__":
     log.error("This is an error message.")
     log.debug("This is a debug message.")
 
-print(f" \n Python 30 days Series - Day 21 : Task 153 \n")
-print(f" \n Day 21 : Logging, Monitoring, and Alerts \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 21 : Task 153 \n"                                                 )
+print(" \n Day 21 : Logging, Monitoring, and Alerts \n"                                                )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -34,6 +34,6 @@ print("\n Filtering for 'alice' activity:")
 for match in log_tool.filter_logs(r'alice\.smith'):
     print(f" -> {match}")
 
-print(f" \n Python 30 days Series - Day 11 Task 80 \n")
-print(f" \n Day 11: Regular Expressions \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 11 Task 80 \n"                                              )
+print(" \n Day 11: Regular Expressions \n"                                   )
+print(" \n Have a good one! \n "                          + "-"*40)

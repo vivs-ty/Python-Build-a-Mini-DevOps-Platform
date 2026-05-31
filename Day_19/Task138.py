@@ -18,9 +18,9 @@ def run_on_multiple_servers(servers, username, password, command):
         finally:
             client.close()
 
-print(f" \n Python 30 days Series - Day 19 Task 138 \n")
-print(f" \n Day 19 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 19 Task 138 \n"                                               )
+print(" \n Day 19 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)
 
 # Example usage:
 # server_list = ["10.0.0.1", "10.0.0.2", "10.0.0.3"]

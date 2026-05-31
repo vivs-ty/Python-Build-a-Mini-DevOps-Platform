@@ -24,6 +24,6 @@ if __name__ == "__main__":
     version_tag = input("Enter the version tag to create and push: ").strip()
     tag_and_push(version_tag)
 
-print(f" \n Python 30 days Series - Day 20 Task 151 \n")
-print(f" \n Day 20 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 20 Task 151 \n"                                               )
+print(" \n Day 20 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)

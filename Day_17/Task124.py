@@ -43,6 +43,6 @@ try:
 except PermissionError as e:
     print(f" Caught Error: {e}")
 
-print(f" \n Python 30 days Series - Day 17 Task 124 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 124 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)

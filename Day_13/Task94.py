@@ -23,6 +23,6 @@ def check_cpu_usage(threshold: float = 80.0) -> None:
 # I am passing a low threshold (5.0%) just so you can see the alert trigger when you test it!
 check_cpu_usage(threshold=5.0) 
 
-print(f" \n Python 30 days Series - Day 13 Task 94\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 94\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

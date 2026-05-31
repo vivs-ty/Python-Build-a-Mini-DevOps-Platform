@@ -18,6 +18,6 @@ def safe_divide(a: float, b: float) -> float | None:
 print(f"Valid Division (10 / 2): {safe_divide(10, 2)}")
 print(f"Zero Division (10 / 0): {safe_divide(10, 0)}")    # Safely logs the error
 print(f"Type Error Division (10 / 'a'): {safe_divide(10, 'a')}")
-print(f" \n Python 30 days Series - Day 6 Task 37 \n")
-print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 6 Task 37 \n"                                             )
+print(" \n Day 6: Functions and Error Handling \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

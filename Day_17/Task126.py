@@ -36,6 +36,6 @@ for i in range(4):
     except PermissionError as e:
         print(f"Call {i+1} Blocked: {e}")
 
-print(f" \n Python 30 days Series - Day 17 Task 126 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 126 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)

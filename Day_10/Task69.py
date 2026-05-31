@@ -36,6 +36,6 @@ def cleanup_old_files(directory: str, days_old: int, dry_run: bool = True) -> No
 # We will use dry_run=True so it doesn't accidentally delete your hard work!
 cleanup_old_files(".", days_old=30, dry_run=True)
 
-print(f" \n Python 30 days Series - Day 10 Task 69 \n")
-print(f" \n Day 10: OS Interaction and Environment \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 10 Task 69 \n"                                              )
+print(" \n Day 10: OS Interaction and Environment \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

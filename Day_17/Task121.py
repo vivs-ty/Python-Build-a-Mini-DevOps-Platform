@@ -23,6 +23,6 @@ def heavy_computation(n: int) -> int:
 print(f"Result: {heavy_computation(10_000_000)}")
 print(f"Function Name: {heavy_computation.__name__}") # Without @wraps, this would print 'wrapper'
 
-print(f" \n Python 30 days Series - Day 17 Task 121 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 121 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -25,6 +25,6 @@ if __name__ == "__main__":
         
     print("Check app.log to see the output.")
 
-print(f" \n Python 30 days Series - Day 21 : Task 154 \n")
-print(f" \n Day 21 : Logging, Monitoring, and Alerts \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 21 : Task 154 \n"                                                 )
+print(" \n Day 21 : Logging, Monitoring, and Alerts \n"                                                )
+print(" \n Have a good one! \n "                          + "-"*40)

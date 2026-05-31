@@ -30,6 +30,6 @@ app_config = ConfigLoader("dummy_config.json")
 print(f"Host: {app_config.get('host', '127.0.0.1')}") # Fetches existing key
 print(f"Timeout: {app_config.get('timeout', 30)}")    # Falls back to default '30'
 
-print(f" \n Python 30 days Series - Day 9 Task 61 \n")
-print(f" \n Day 9: JSON, CSV, and Configuration \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 9 Task 61 \n"                                             )
+print(" \n Day 9: JSON, CSV, and Configuration \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)

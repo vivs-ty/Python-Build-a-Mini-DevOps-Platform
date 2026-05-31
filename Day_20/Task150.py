@@ -19,6 +19,6 @@ def pull_with_conflict_handling(remote="origin", branch="main"):
 if __name__ == "__main__":
     pull_with_conflict_handling()
 
-print(f" \n Python 30 days Series - Day 20 Task 150 \n")
-print(f" \n Day 20 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 20 Task 150 \n"                                               )
+print(" \n Day 20 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)

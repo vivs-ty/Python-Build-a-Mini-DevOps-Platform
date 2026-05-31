@@ -25,20 +25,20 @@ def main() -> None:
     start = time.perf_counter()
     results_seq = [count_primes(t) for t in tasks]
     duration_seq = time.perf_counter() - start
-    print(f"   -> Took {duration_seq:.2f} seconds.")
+    print(f"   -> Took {duration_seq:.2f} seconds for {len(results_seq)} tasks.")
 
     print("\n Running with Multiprocessing (Multi-Core)...")
     start = time.perf_counter()
     with concurrent.futures.ProcessPoolExecutor() as executor:
         results_multi = list(executor.map(count_primes, tasks))
     duration_multi = time.perf_counter() - start
-    print(f"   -> Took {duration_multi:.2f} seconds.")
+    print(f"   -> Took {duration_multi:.2f} seconds for {len(results_multi)} tasks.")
     
     print(f"\n Multiprocessing was {duration_seq / duration_multi:.1f}x faster!")
 
 # MUST use this guard for multiprocessing!
 if __name__ == "__main__":
     main()
-    print(f" \n Python 30 days Series - Day 16 Task 113 \n")
-    print(f" \n Day 16 : Multiprocessing \n")
-    print(f" \n Have a good one! \n " + "-"*40)
+    print(" \n Python 30 days Series - Day 16 Task 113 \n"                                               )
+    print(" \n Day 16 : Multiprocessing \n"                                )
+    print(" \n Have a good one! \n "                          + "-"*40)

@@ -63,7 +63,7 @@ This repository contains a simple 30-day Python for DevOps challenge.
 5. [Task 37](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task37.py) :- Divide two numbers and handle invalid input and division by zero.
 6. [Task 38](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task38.py) :- Define a custom `InvalidAgeError` and raise it when age is below 18.
 7. [Task 39](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task39.py) :- Use `*args` to calculate the sum and average of values.
-8. [Task 40](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Tassk40.py) :- Build a menu-driven utility with actions like add user, delete user, and list users.
+8. [Task 40](https://github.com/vivs-ty/Python-Build-a-Mini-DevOps-Platform/blob/main/Day_06/Task40.py) :- Build a menu-driven utility with actions like add user, delete user, and list users.
 
 ## Day 7: File Handling
 

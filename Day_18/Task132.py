@@ -16,7 +16,7 @@ def compress_old_logs(directory, days_old=7):
                     zipf.write(filepath, file)
                     os.remove(filepath)
                     print(f"Archived and deleted: {file}")
-    print(f" \n Python 30 days Series - Day 18 Task 132 \n")
-    print(f" \n Day 18 : Advanced File Automation \n")
-    print(f" \n Have a good one! \n " + "-"*40)
+    print(" \n Python 30 days Series - Day 18 Task 132 \n"                                               )
+    print(" \n Day 18 : Advanced File Automation \n"                                         )
+    print(" \n Have a good one! \n "                          + "-"*40)
     

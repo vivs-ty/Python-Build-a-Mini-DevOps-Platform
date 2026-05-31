@@ -24,6 +24,6 @@ def mask_emails_in_file(input_file: str, output_file: str) -> None:
     print(Path(output_file).read_text()[:250] + "...\n") # Print a snippet
 
 mask_emails_in_file("server_logs.txt", "masked_logs.txt")
-print(f" \n Python 30 days Series - Day 11 Task 79 \n")
-print(f" \n Day 11: Regular Expressions \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 11 Task 79 \n"                                              )
+print(" \n Day 11: Regular Expressions \n"                                   )
+print(" \n Have a good one! \n "                          + "-"*40)

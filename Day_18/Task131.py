@@ -16,6 +16,6 @@ def organize_files(directory):
                 
             shutil.move(filepath, os.path.join(target_folder, file))
             print(f"Moved {file} to {extension} folder")
-    print(f" \n Python 30 days Series - Day 18 Task 131 \n")
-    print(f" \n Day 18 : Advanced File Automation \n")
-    print(f" \n Have a good one! \n " + "-"*40)
+    print(" \n Python 30 days Series - Day 18 Task 131 \n"                                               )
+    print(" \n Day 18 : Advanced File Automation \n"                                         )
+    print(" \n Have a good one! \n "                          + "-"*40)

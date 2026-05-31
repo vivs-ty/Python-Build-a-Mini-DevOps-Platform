@@ -1,6 +1,5 @@
 # Task 192: Send notifications when a pipeline succeeds or fails.
 
-import time
 import requests
 
 def send_webhook_notification(webhook_url, status, pipeline_name):

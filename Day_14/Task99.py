@@ -24,6 +24,6 @@ def get_headers_and_status(url: str) -> None:
 # --- Demonstration ---
 get_headers_and_status("https://api.github.com")
 
-print(f" \n Python 30 days Series - Day 14 Task 99\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 99\n"                                             )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)
