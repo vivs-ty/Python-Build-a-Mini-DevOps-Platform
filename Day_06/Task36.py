@@ -14,6 +14,6 @@ def safe_file_reader(file_name: str) -> None:
         print(f"An unexpected error occurred: {e}")
 
 safe_file_reader('non_existing_file.txt')
-print(f" \n Python 30 days Series - Day 6 Task 36 \n")
-print(f" \n Day 6: Functions and Error Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 6 Task 36 \n"                                             )
+print(" \n Day 6: Functions and Error Handling \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)
