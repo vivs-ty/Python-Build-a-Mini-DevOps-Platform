@@ -30,6 +30,6 @@ def resilient_api_call(url: str) -> None:
 # We use httpstat.us to simulate a 503 Service Unavailable error
 resilient_api_call("https://httpstat.us/503")
 
-print(f" \n Python 30 days Series - Day 14 Task 101\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 101\n"                                              )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

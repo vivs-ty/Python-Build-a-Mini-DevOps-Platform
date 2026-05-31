@@ -28,6 +28,6 @@ def fetch_and_print_table(url: str) -> None:
 # --- Demonstration ---
 fetch_and_print_table("https://jsonplaceholder.typicode.com/users")
 
-print(f" \n Python 30 days Series - Day 14 Task 103\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 103\n"                                              )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -21,6 +21,6 @@ def is_reachable(url: str, timeout: int = 5) -> bool:
 is_reachable("https://www.google.com")
 is_reachable("https://this-site-is-fake-and-will-fail.com")
 
-print(f" \n Python 30 days Series - Day 14 Task 97\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 97\n"                                             )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

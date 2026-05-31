@@ -30,6 +30,6 @@ def benchmark_endpoint(url: str) -> None:
 # --- Demonstration ---
 benchmark_endpoint("https://api.github.com")
 
-print(f" \n Python 30 days Series - Day 14 Task 102\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 102\n"                                              )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)

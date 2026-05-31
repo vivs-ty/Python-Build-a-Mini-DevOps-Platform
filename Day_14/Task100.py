@@ -27,6 +27,6 @@ def backup_api_data(api_url: str, output_file: str) -> None:
 # --- Demonstration ---
 backup_api_data("https://jsonplaceholder.typicode.com/posts", "posts_backup.json")
 
-print(f" \n Python 30 days Series - Day 14 Task 100\n")
-print(f" \n Day 14 : Networking and APIs \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 14 Task 100\n"                                              )
+print(" \n Day 14 : Networking and APIs \n"                                    )
+print(" \n Have a good one! \n "                          + "-"*40)
