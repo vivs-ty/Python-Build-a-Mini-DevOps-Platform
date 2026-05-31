@@ -24,6 +24,6 @@ def auto_commit(commit_message="Automatic commit"):
 if __name__ == "__main__":
     auto_commit()
 
-print(f" \n Python 30 days Series - Day 20 Task 146 \n")
-print(f" \n Day 20 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 20 Task 146 \n"                                               )
+print(" \n Day 20 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)

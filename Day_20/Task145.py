@@ -23,6 +23,6 @@ if __name__ == "__main__":
 # Example usage:
 # clone_repository("https://github.com/user/repo.git", "my_folder")
 
-print(f" \n Python 30 days Series - Day 20 Task 145 \n")
-print(f" \n Day 20 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 20 Task 145 \n"                                               )
+print(" \n Day 20 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)
