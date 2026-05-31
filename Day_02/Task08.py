@@ -8,6 +8,6 @@ elif number < 0:
 else:
     print(f"Entered number {number} is Zero")
 
-print(f" \n Python 30 days Series - Day 2 Task 8 \n")
-print(f" \n Day 2: Conditional Logic \n")
-print(f" \n Have a good one! \n  " + "-"*40)
+print(" \n Python 30 days Series - Day 2 Task 8 \n"                                            )
+print(" \n Day 2: Conditional Logic \n"                                )
+print(" \n Have a good one! \n  "                           + "-"*40)
