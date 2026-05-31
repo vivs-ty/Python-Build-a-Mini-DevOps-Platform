@@ -28,6 +28,6 @@ def update_json_key(file_path: str, key: str, new_value: Any) -> None:
 # Uses the dummy file from Task 57
 update_json_key("dummy_config.json", "port", 9000)
 
-print(f" \n Python 30 days Series - Day 9 Task 58 \n")
-print(f" \n Day 9: JSON, CSV, and Configuration \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 9 Task 58 \n"                                             )
+print(" \n Day 9: JSON, CSV, and Configuration \n"                                           )
+print(" \n Have a good one! \n "                          + "-"*40)
