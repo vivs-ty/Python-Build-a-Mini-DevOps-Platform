@@ -25,6 +25,6 @@ if Path(log_file).is_file():
 else:
     print(" File not found.")
 
-print(f" \n Python 30 days Series - Day 7 Task 48 \n")
-print(f" \n Day 7: File Handling \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 7 Task 48 \n"                                             )
+print(" \n Day 7: File Handling \n"                            )
+print(" \n Have a good one! \n "                          + "-"*40)
