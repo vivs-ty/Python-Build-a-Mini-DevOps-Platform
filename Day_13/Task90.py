@@ -26,6 +26,6 @@ def terminate_process_by_name(process_name: str) -> None:
         print(f" Successfully terminated {killed_count} instance(s) of '{process_name}'.")
 
 # Example: terminate_process_by_name("notepad.exe")
-print(f" \n Python 30 days Series - Day 13 Task 90\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 90\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

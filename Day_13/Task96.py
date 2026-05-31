@@ -31,6 +31,6 @@ def keep_alive(command: list[str], check_interval: int = 3) -> None:
 # keep_alive(["ping", "8.8.8.8"]) # Windows
 # keep_alive(["ping", "-c", "4", "8.8.8.8"]) # Mac/Linux
 
-print(f" \n Python 30 days Series - Day 13 Task 96\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 96\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

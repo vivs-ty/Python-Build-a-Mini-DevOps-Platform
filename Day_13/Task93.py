@@ -25,6 +25,6 @@ def log_system_usage(cycles: int = 2) -> None:
         print(f"Logged: {log_message}")
 
 log_system_usage()
-print(f" \n Python 30 days Series - Day 13 Task 93\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 93\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

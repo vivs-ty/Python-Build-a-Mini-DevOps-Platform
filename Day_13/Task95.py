@@ -29,6 +29,6 @@ def check_disk_usage(threshold: float = 80.0, path: str = '/') -> None:
 # Checking the root directory ('/' works on Mac/Linux. On Windows, use 'C:\\')
 check_disk_usage(threshold=80.0)
 
-print(f" \n Python 30 days Series - Day 13 Task 95\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 95\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)

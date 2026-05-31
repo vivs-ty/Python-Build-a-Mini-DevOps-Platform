@@ -25,7 +25,7 @@ def get_top_memory_processes(n: int = 5) -> None:
         print(f"{pid:<10} | {memory_mb:<15.2f} | {name}")
 
 get_top_memory_processes()
-print(f" \n Python 30 days Series - Day 13 Task 92\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 92\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)
 

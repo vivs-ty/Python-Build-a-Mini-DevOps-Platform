@@ -19,6 +19,6 @@ def list_processes(limit: int = 15) -> None:
             pass  # Silently skip processes we don't have permission to read
 
 list_processes()
-print(f" \n Python 30 days Series - Day 13 Task 89\n")
-print(f" \n Day 13 : Process and System Monitoring \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 13 Task 89\n"                                             )
+print(" \n Day 13 : Process and System Monitoring \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)
