@@ -31,6 +31,6 @@ def list_directory_contents(target_dir: str = ".") -> None:
 # --- Demonstration ---
 list_directory_contents()
 
-print(f" \n Python 30 days Series - Day 10 Task 67 \n")
-print(f" \n Day 10: OS Interaction and Environment \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 10 Task 67 \n"                                              )
+print(" \n Day 10: OS Interaction and Environment \n"                                              )
+print(" \n Have a good one! \n "                          + "-"*40)
