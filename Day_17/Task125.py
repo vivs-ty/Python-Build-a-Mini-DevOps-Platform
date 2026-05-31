@@ -32,6 +32,6 @@ def expensive_calculation(x: int, y: int) -> int:
 print(expensive_calculation(5, 10)) # Takes 1 second
 print(expensive_calculation(5, 10)) # Returns instantly!
 
-print(f" \n Python 30 days Series - Day 17 Task 125 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 125 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)

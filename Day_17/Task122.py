@@ -38,6 +38,6 @@ try:
 except ConnectionError:
     print(" Ultimate failure.")
 
-print(f" \n Python 30 days Series - Day 17 Task 122 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 122 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)

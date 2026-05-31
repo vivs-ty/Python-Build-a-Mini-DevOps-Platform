@@ -39,6 +39,6 @@ def process_payment(amount: int):
 print("Starting process:\n")
 process_payment(500)
 
-print(f" \n Python 30 days Series - Day 17 Task 128 \n")
-print(f" \n Day 17 : Decorators \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 17 Task 128 \n"                                               )
+print(" \n Day 17 : Decorators \n"                           )
+print(" \n Have a good one! \n "                          + "-"*40)
