@@ -42,6 +42,6 @@ if __name__ == "__main__":
     main()
     
     
-    print(f" \n Python 30 days Series - Day 15 Task 108 \n")
-    print(f" \n Day 15 : Multithreading \n")
-    print(f" \n Have a good one! \n " + "-"*40)
+    print(" \n Python 30 days Series - Day 15 Task 108 \n"                                               )
+    print(" \n Day 15 : Multithreading \n"                               )
+    print(" \n Have a good one! \n "                          + "-"*40)
