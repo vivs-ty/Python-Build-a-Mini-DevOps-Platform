@@ -16,6 +16,6 @@ input_list = [int(x) for x in input("Enter numbers separated by spaces: ").split
 second_largest = get_second_largest(input_list)
 
 print(f"Second largest number: {second_largest}")
-print(f" \n Python 30 days Series - Day 5 Task 26 \n")
-print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 5 Task 26 \n"                                             )
+print(" \n Day 5: Lists, Sets, and Dictionaries \n"                                            )
+print(" \n Have a good one! \n "                          + "-"*40)

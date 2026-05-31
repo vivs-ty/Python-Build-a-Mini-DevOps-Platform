@@ -11,6 +11,6 @@ sym_diff = set1 ^ set2       # Elements in either set, but not both
 
 print(f"Union (Merged without duplicates): {list(union)}")
 print(f"Intersection: {list(intersection)}")
-print(f" \n Python 30 days Series - Day 5 Task 32 \n")
-print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 5 Task 32 \n"                                             )
+print(" \n Day 5: Lists, Sets, and Dictionaries \n"                                            )
+print(" \n Have a good one! \n "                          + "-"*40)

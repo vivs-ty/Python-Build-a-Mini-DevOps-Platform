@@ -14,6 +14,6 @@ def quicksort(arr):
 
 input_list = [int(x) for x in input("Enter numbers separated by spaces: ").split()]
 print(f"Sorted list: {quicksort(input_list)}")
-print(f" \n Python 30 days Series - Day 5 Task 27 \n")
-print(f" \n Day 5: Lists, Sets, and Dictionaries \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 5 Task 27 \n"                                             )
+print(" \n Day 5: Lists, Sets, and Dictionaries \n"                                            )
+print(" \n Have a good one! \n "                          + "-"*40)
