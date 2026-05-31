@@ -24,6 +24,6 @@ def count_ips_in_log(file_path: str) -> None:
         print(f" - {ip}: {count} occurrences")
 
 count_ips_in_log("server_logs.txt")
-print(f" \n Python 30 days Series - Day 11 Task 76 \n")
-print(f" \n Day 11: Regular Expressions \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 11 Task 76 \n"                                              )
+print(" \n Day 11: Regular Expressions \n"                                   )
+print(" \n Have a good one! \n "                          + "-"*40)

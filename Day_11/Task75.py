@@ -21,6 +21,6 @@ print(" Extracted Timestamps:")
 for ts in extract_timestamps("server_logs.txt"):
     print(f" - {ts}")
 
-print(f" \n Python 30 days Series - Day 11 Task 75 \n")
-print(f" \n Day 11: Regular Expressions \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 11 Task 75 \n"                                              )
+print(" \n Day 11: Regular Expressions \n"                                   )
+print(" \n Have a good one! \n "                          + "-"*40)
