@@ -12,6 +12,6 @@ else:
         sequence.append(next_term)
     print(f"Fibonacci sequence of {n} terms: {sequence[:n]}")
 
-print(f" \n Python 30 days Series - Day 3 Task 16 \n")
-print(f" \n Day 3: Loops \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 3 Task 16 \n"                                             )
+print(" \n Day 3: Loops \n"                    )
+print(" \n Have a good one! \n "                          + "-"*40)

@@ -11,6 +11,6 @@ for i in range(start, end + 1):
 
 print(f"Sum between {start} and {end} is: {total_sum}")
 
-print(f" \n Python 30 days Series - Day 3 Task 18 \n") 
-print(f" \n Day 3: Loops \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 3 Task 18 \n"                                             ) 
+print(" \n Day 3: Loops \n"                    )
+print(" \n Have a good one! \n "                          + "-"*40)

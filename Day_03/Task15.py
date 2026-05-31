@@ -9,6 +9,6 @@ else:
         factorial_value *= i
     print(f"Factorial of {n} is: {factorial_value}")
 
-print(f" \n Python 30 days Series - Day 3 Task 15 \n")
-print(f" \n Day 3: Loops \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 3 Task 15 \n"                                             )
+print(" \n Day 3: Loops \n"                    )
+print(" \n Have a good one! \n "                          + "-"*40)
