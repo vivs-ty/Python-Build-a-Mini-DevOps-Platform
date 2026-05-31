@@ -1,6 +1,5 @@
 # Task 190: Build a CI automation tool that performs code pull, test execution, and deployment.
 
-import time
 import subprocess
 
 def run_command(command, step_name):

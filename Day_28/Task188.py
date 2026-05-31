@@ -1,7 +1,5 @@
 # Task 188: Roll back a deployment automatically when a pipeline fails.
 
-import time
-import subprocess
 
 def deploy_application(version):
     print(f"Attempting to deploy version: {version}...")
