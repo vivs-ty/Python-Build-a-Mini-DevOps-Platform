@@ -11,6 +11,6 @@ consonant_count = sum(1 for char in input_string if char.isalpha() and char not 
 
 print(f"Vowels: {vowel_count}")
 print(f"Consonants: {consonant_count}")
-print(f" \n Python 30 days Series - Day 4 Task 21 \n")
-print(f" \n Day 4: Strings \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 4 Task 21 \n"                                             )
+print(" \n Day 4: Strings \n"                      )
+print(" \n Have a good one! \n "                          + "-"*40)
