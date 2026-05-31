@@ -30,9 +30,9 @@ def connect_with_env_vars():
     finally:
         client.close()
 
-print(f" \n Python 30 days Series - Day 19 Task 144 \n")
-print(f" \n Day 19 : SSH Automation \n")
-print(f" \n Have a good one! \n " + "-"*40)
+print(" \n Python 30 days Series - Day 19 Task 144 \n"                                               )
+print(" \n Day 19 : SSH Automation \n"                               )
+print(" \n Have a good one! \n "                          + "-"*40)
 
 # To use this, you must set the environment variables in your terminal first:
 # export SSH_HOST="192.168.1.10"
