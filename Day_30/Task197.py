@@ -34,7 +34,7 @@ def scan_for_secrets(directory_path):
                                 "type": secret_type,
                                 "content_preview": line.strip()[:40] + "..." 
                             })
-            except Exception as e:
+            except Exception:
                 # Silently skip files that cannot be read as utf-8 text
                 pass
                 
