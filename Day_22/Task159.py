@@ -7,9 +7,8 @@ def monitor_logs(log_file, keywords):
     if not os.path.exists(log_file):
         print(f"Log file {log_file} does not exist.")
         return
-
-    try:
-        with open(log_file, 'r') as f:
+        try:
+          with open(log_file, 'r') as f:
             f.seek(0, os.SEEK_END)  # Move to the end of the file
             
             while True:
