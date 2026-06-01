@@ -39,19 +39,12 @@ def simulate_auto_scaling(min_instances=1, max_instances=5, scale_up_threshold=8
             
             print("-" * 50)
             time.sleep(2)
-            
+             
     except KeyboardInterrupt:
         print("\nSimulation stopped by user.")
 
 if __name__ == "__main__":
     simulate_auto_scaling(iterations=5)
-    
-    print(" \n Python 30 days Series - Day 27 : Task 184 \n")
-    print(" \n Day 27: Cloud Tagging and CI/CD Basics \n")
-    print(" \n Have a good one! " + "-"*40)
-
-if __name__ == "__main__":
-    simulate_auto_scaling()
     
     print("\nPython 30 days Series - Day 27 : Task 184")
     print("Day 27 : Cloud Tagging and CI/CD Basics")

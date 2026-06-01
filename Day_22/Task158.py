@@ -18,7 +18,7 @@ def aggregate_logs(log_files, keywords=None):
                 for keyword in keywords:
                     if keyword in line:
                         log_summary[keyword] += 1
-                    
+                        
     return log_summary
 
 if __name__ == "__main__":
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     for key, count in summary.items():
         print(f"{key}: {count}")
         
-    print(" \n Python 30 days Series - Day 22 : Task 158 \n")
-    print(" \n Day 22: Logs, Reports, and Container Basics \n")
-    print(" \n Have a good one! " + "-"*40)
+    print("\nPython 30 days Series - Day 22 : Task 158")
+    print("Day 22 : Logs, Reports, and Container Basics")
+    print("Have a good one!\n" + "-"*40)
     
