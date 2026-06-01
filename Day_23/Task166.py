@@ -1,4 +1,6 @@
 # Task 166: Read a config file and start multiple containers from it.
+#
+# Required dependencies: pip install docker pyyaml
 
 import docker
 import yaml
@@ -41,7 +43,7 @@ if __name__ == "__main__":
     # Ensure you create a config.yaml file before running this
     start_containers_from_config("config.yaml")
     
-    print("\nPython 30 days Series - Day 23 : Task 166")
-    print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 23 : Task 166 \n")
+    print(" \n Day 23: Docker Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     

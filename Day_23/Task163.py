@@ -1,4 +1,6 @@
 # Task 163: Remove stopped containers and unused images.
+# 
+# Required dependencies: pip install docker
 
 import docker
 from docker.errors import DockerException
@@ -29,7 +31,7 @@ def cleanup_docker_resources():
 if __name__ == "__main__":
     cleanup_docker_resources()
     
-    print("\nPython 30 days Series - Day 23 : Task 163")
-    print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 23 : Task 163 \n")
+    print(" \n Day 23: Docker Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     

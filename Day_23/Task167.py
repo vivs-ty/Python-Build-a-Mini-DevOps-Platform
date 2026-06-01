@@ -1,4 +1,6 @@
 # Task 167: Save container logs into a file for analysis.
+#
+# Required dependencies: pip install docker
 
 import docker
 from docker.errors import DockerException, NotFound
@@ -25,7 +27,7 @@ def save_container_logs(container_name, log_file):
 if __name__ == "__main__":
     save_container_logs("my_nginx_container", "nginx_logs.txt")
     
-    print("\nPython 30 days Series - Day 23 : Task 167")
-    print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 23 : Task 167 \n")
+    print(" \n Day 23: Docker Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     

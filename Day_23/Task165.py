@@ -1,4 +1,6 @@
 # Task 165: Monitor running containers and report their status.
+#
+# Required dependencies: pip install docker
 
 import docker
 from docker.errors import DockerException
@@ -24,7 +26,7 @@ def monitor_containers():
 if __name__ == "__main__":
     monitor_containers()
     
-    print("\nPython 30 days Series - Day 23 : Task 165")
-    print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 23 : Task 165 \n")
+    print(" \n Day 23: Docker Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     

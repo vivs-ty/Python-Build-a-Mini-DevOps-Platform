@@ -1,11 +1,13 @@
 # Task 179: Start and stop compute instances programmatically.
+#
+# Required dependencies: pip install boto3
 
 import boto3
 from botocore.exceptions import ClientError
 
-def toggle_ec2_instances():
+def toggle_ec2_instances(region_name='us-east-1'):
     try:
-        ec2 = boto3.client('ec2')
+        ec2 = boto3.client('ec2', region_name=region_name)
         response = ec2.describe_instances()
         
         processed_count = 0
@@ -17,12 +19,16 @@ def toggle_ec2_instances():
                 # Start the instance if it's stopped, stop it if it's running
                 if state == 'stopped':
                     print(f"Starting instance {instance_id}...")
-                    ec2.start_instances(InstanceIds=[instance_id])
-                    processed_count += 1
+                    start_response = ec2.start_instances(InstanceIds=[instance_id])
+                    if start_response['ResponseMetadata']['HTTPStatusCode'] == 200:
+                        print(f"Successfully started instance {instance_id}")
+                        processed_count += 1
                 elif state == 'running':
                     print(f"Stopping instance {instance_id}...")
-                    ec2.stop_instances(InstanceIds=[instance_id])
-                    processed_count += 1
+                    stop_response = ec2.stop_instances(InstanceIds=[instance_id])
+                    if stop_response['ResponseMetadata']['HTTPStatusCode'] == 200:
+                        print(f"Successfully stopped instance {instance_id}")
+                        processed_count += 1
                     
         print(f"Total instances processed: {processed_count}")
         
@@ -32,6 +38,6 @@ def toggle_ec2_instances():
 if __name__ == "__main__":
     toggle_ec2_instances()
     
-    print("\nPython 30 days Series - Day 26 : Task 179")
-    print("Day 26 : Cloud Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 26 : Task 179 \n")
+    print(" \n Day 26: Cloud Automation \n")
+    print(" \n Have a good one! " + "-"*40)

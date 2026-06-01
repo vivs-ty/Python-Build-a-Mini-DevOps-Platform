@@ -1,11 +1,13 @@
 # Task 182: Delete unused cloud resources to optimize cost.
+#
+# Required dependencies: pip install boto3
 
 import boto3
 from botocore.exceptions import ClientError
 
-def terminate_stopped_instances():
+def terminate_stopped_instances(region_name='us-east-1'):
     try:
-        ec2 = boto3.client('ec2')
+        ec2 = boto3.client('ec2', region_name=region_name)
         response = ec2.describe_instances()
         
         terminated_count = 0
@@ -17,8 +19,10 @@ def terminate_stopped_instances():
                 # Terminate the instance if it is currently stopped
                 if state == 'stopped':
                     print(f"Terminating stopped instance {instance_id}...")
-                    ec2.terminate_instances(InstanceIds=[instance_id])
-                    terminated_count += 1
+                    term_response = ec2.terminate_instances(InstanceIds=[instance_id])
+                    if term_response['ResponseMetadata']['HTTPStatusCode'] == 200:
+                        print(f"Successfully terminated instance {instance_id}")
+                        terminated_count += 1
                     
         print(f"Total stopped instances terminated: {terminated_count}")
         
@@ -28,6 +32,6 @@ def terminate_stopped_instances():
 if __name__ == "__main__":
     terminate_stopped_instances()
     
-    print("\nPython 30 days Series - Day 26 : Task 182")
-    print("Day 26 : Cloud Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 26 : Task 182 \n")
+    print(" \n Day 26: Cloud Automation \n")
+    print(" \n Have a good one! " + "-"*40)

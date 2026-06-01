@@ -49,3 +49,4 @@ if __name__ == "__main__":
     print("\nPython 30 days Series - Day 27 : Task 184")
     print("Day 27 : Cloud Tagging and CI/CD Basics")
     print("Have a good one!\n" + "-"*40)
+    

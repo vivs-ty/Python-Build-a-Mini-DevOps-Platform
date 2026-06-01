@@ -1,4 +1,6 @@
 # Task 164: Pull a Docker image and run it with specified parameters.
+#
+# Required dependencies: pip install docker
 
 import docker
 from docker.errors import DockerException
@@ -36,7 +38,7 @@ if __name__ == "__main__":
     
     pull_and_run_docker_image(image_name, container_name, ports_mapping)
     
-    print("\nPython 30 days Series - Day 23 : Task 164")
-    print("Day 23 : Docker Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 23 : Task 164 \n")
+    print(" \n Day 23: Docker Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     
