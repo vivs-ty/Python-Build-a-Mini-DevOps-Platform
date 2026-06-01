@@ -18,6 +18,9 @@ def run_docker_container(image_name):
     except FileNotFoundError:
         print("Error: Docker is not installed or not added to your system PATH.")
         return None
+    except subprocess.TimeoutExpired:
+        print("Error: Docker command timed out.")
+        return None
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
@@ -26,7 +29,7 @@ if __name__ == "__main__":
     image_name = 'nginx:alpine'
     run_docker_container(image_name)
     
-    print("\nPython 30 days Series - Day 22 : Task 161")
-    print("Day 22 : Logs, Reports, and Container Basics")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 22 : Task 161 \n")
+    print(" \n Day 22: Logs, Reports, and Container Basics \n")
+    print(" \n Have a good one! " + "-"*40)
     

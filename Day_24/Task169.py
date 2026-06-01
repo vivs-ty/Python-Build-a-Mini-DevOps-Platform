@@ -13,12 +13,15 @@ def get_pod_status():
         print("Pod Status:")
         print(result.stdout)
     except subprocess.CalledProcessError as e:
-        print(f"Error retrieving pod status: {e.stderr}")
+        stderr = e.stderr if e.stderr else "Unknown error"
+        print(f"Error retrieving pod status: {stderr}")
+    except FileNotFoundError:
+        print("Error: kubectl is not installed or not in your system PATH.")
 
 if __name__ == "__main__":
     get_pod_status()
     
-    print("\nPython 30 days Series - Day 24 : Task 169")
-    print("Day 24 : Deployment and Kubernetes Basics")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 24 : Task 169 \n")
+    print(" \n Day 24: Deployment and Kubernetes Basics \n")
+    print(" \n Have a good one! " + "-"*40)
     

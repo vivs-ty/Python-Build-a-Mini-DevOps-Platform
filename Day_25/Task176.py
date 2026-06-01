@@ -4,6 +4,11 @@ import subprocess
 import time
 
 def watch_cluster_health(interval=10):
+    """Watch cluster health continuously and report anomalies.
+    
+    Args:
+        interval: Time in seconds between health checks (default: 10)
+    """
     print(f"Watching cluster health every {interval} seconds. Press Ctrl+C to stop.")
     try:
         while True:
@@ -26,6 +31,6 @@ def watch_cluster_health(interval=10):
 if __name__ == "__main__":
     watch_cluster_health()
     
-    print("\nPython 30 days Series - Day 25 : Task 176")
-    print("Day 25 : Kubernetes Operations and Cloud Basics")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 25 : Task 176 \n")
+    print(" \n Day 25: Kubernetes Operations and Cloud Basics \n")
+    print(" \n Have a good one! " + "-"*40)

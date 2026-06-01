@@ -2,9 +2,12 @@
 
 import os
 
-def aggregate_logs(log_files):
-    # Pre-define the keys we want to track
-    log_summary = {'ERROR': 0, 'FAILED': 0}
+def aggregate_logs(log_files, keywords=None):
+    if keywords is None:
+        keywords = ['ERROR', 'FAILED']
+    
+    # Dynamically create the summary dictionary based on provided keywords
+    log_summary = {keyword: 0 for keyword in keywords}
     
     for log_file in log_files:
         if not os.path.exists(log_file):
@@ -12,10 +15,9 @@ def aggregate_logs(log_files):
             
         with open(log_file, 'r') as f:
             for line in f:
-                if 'ERROR' in line:
-                    log_summary['ERROR'] += 1
-                elif 'FAILED' in line:
-                    log_summary['FAILED'] += 1
+                for keyword in keywords:
+                    if keyword in line:
+                        log_summary[keyword] += 1
                     
     return log_summary
 
@@ -28,7 +30,7 @@ if __name__ == "__main__":
     for key, count in summary.items():
         print(f"{key}: {count}")
         
-    print("\nPython 30 days Series - Day 22 : Task 158")
-    print("Day 22 : Logs, Reports, and Container Basics")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 22 : Task 158 \n")
+    print(" \n Day 22: Logs, Reports, and Container Basics \n")
+    print(" \n Have a good one! " + "-"*40)
     

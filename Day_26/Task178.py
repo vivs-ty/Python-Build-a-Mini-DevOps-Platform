@@ -1,11 +1,13 @@
 # Task 178: List all instances or resources in a cloud environment.
+#
+# Required dependencies: pip install boto3
 
 import boto3
 from botocore.exceptions import ClientError
 
-def list_ec2_instances():
+def list_ec2_instances(region_name='us-east-1'):
     try:
-        ec2 = boto3.client('ec2')
+        ec2 = boto3.client('ec2', region_name=region_name)
         response = ec2.describe_instances()
         
         count = 0
@@ -24,7 +26,7 @@ def list_ec2_instances():
 if __name__ == "__main__":
     list_ec2_instances()
     
-    print("\nPython 30 days Series - Day 26 : Task 178")
-    print("Day 26 : Cloud Automation")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 26 : Task 178 \n")
+    print(" \n Day 26: Cloud Automation \n")
+    print(" \n Have a good one! " + "-"*40)
     

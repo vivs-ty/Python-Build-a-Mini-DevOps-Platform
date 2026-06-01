@@ -8,10 +8,10 @@ def monitor_logs(log_file, keywords):
         print(f"Log file {log_file} does not exist.")
         return
 
-    with open(log_file, 'r') as f:
-        f.seek(0, os.SEEK_END)  # Move to the end of the file
-        
-        try:
+    try:
+        with open(log_file, 'r') as f:
+            f.seek(0, os.SEEK_END)  # Move to the end of the file
+            
             while True:
                 line = f.readline()
                 if not line:
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print(f"Monitoring {log_file} for keywords: {keywords}. Press Ctrl+C to stop.")
     monitor_logs(log_file, keywords)
     
-    print("\nPython 30 days Series - Day 22 : Task 159")
-    print("Day 22 : Logs, Reports, and Container Basics")
-    print("Have a good one!\n" + "-"*40)
+    print(" \n Python 30 days Series - Day 22 : Task 159 \n")
+    print(" \n Day 22: Logs, Reports, and Container Basics \n")
+    print(" \n Have a good one! " + "-"*40)
     
